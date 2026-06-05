@@ -45,6 +45,7 @@ def parse_judge_page(url):
     """個別ページから 読み/生年/略歴 を取得"""
     r = requests.get(url, headers=HEADERS, timeout=30)
     r.raise_for_status()
+    r.encoding = r.apparent_encoding  # 文字コードを正しく判定（文字化け対策）
     soup = BeautifulSoup(r.text, "html.parser")
     text = soup.get_text("\n", strip=True)
 
@@ -81,6 +82,7 @@ def parse_judge_page(url):
 def crawl_judges(fetch_detail=True, sleep=1.5):
     r = requests.get(LIST_URL, headers=HEADERS, timeout=30)
     r.raise_for_status()
+    r.encoding = r.apparent_encoding  # 文字コードを正しく判定（文字化け対策）
     soup = BeautifulSoup(r.text, "html.parser")
 
     judges = []
