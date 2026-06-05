@@ -1,182 +1,1338 @@
 [
   {
     "judgeId": "imasaki",
-    "name": "ä»å´ å¹¸å½¦",
-    "nameNormalized": "ä»å´å¹¸å½¦",
-    "role": null,
-    "division": null,
+    "name": "今崎 幸彦",
+    "nameNormalized": "今崎幸彦",
+    "role": "長官",
+    "division": "第二小法廷",
     "status": "現職",
     "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/imasaki/index.html",
-    "reading": null,
-    "birth": null,
-    "career": []
+    "reading": "いまさきゆきひこ",
+    "birth": {
+      "gengo": "昭和",
+      "year": 32,
+      "month": 11,
+      "day": 10,
+      "seireki": 1957,
+      "raw": "昭和32年11月10日生"
+    },
+    "career": [
+      {
+        "date": "昭和56年",
+        "event": "京都大学法学部卒業"
+      },
+      {
+        "date": "昭和56年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和58年",
+        "event": "判事補任官 その後、東京地裁、最高裁刑事局、外務省アジア局南東アジア第二課、在フィリピン日本国大使館、京都地裁、最高裁（裁判所調査官）において勤務"
+      },
+      {
+        "date": "平成 7年",
+        "event": "判事 最高裁裁判所調査官"
+      },
+      {
+        "date": "平成 10年",
+        "event": "東京地裁判事"
+      },
+      {
+        "date": "平成 12年",
+        "event": "最高裁刑事局第二課長"
+      },
+      {
+        "date": "平成14年",
+        "event": "最高裁刑事局第一課長兼第三課長"
+      },
+      {
+        "date": "平成16年",
+        "event": "東京高裁判事"
+      },
+      {
+        "date": "平成16年",
+        "event": "司法研修所教官"
+      },
+      {
+        "date": "平成20年",
+        "event": "最高裁秘書課長兼広報課長"
+      },
+      {
+        "date": "平成22年",
+        "event": "東京地裁判事部総括"
+      },
+      {
+        "date": "平成25年",
+        "event": "最高裁刑事局長兼図書館長"
+      },
+      {
+        "date": "平成27年",
+        "event": "水戸地裁所長"
+      },
+      {
+        "date": "平成28年",
+        "event": "最高裁事務総長"
+      },
+      {
+        "date": "令和元年",
+        "event": "東京高裁長官"
+      },
+      {
+        "date": "令和4年6月24日",
+        "event": "最高裁判所判事"
+      },
+      {
+        "date": "令和6年8月16日",
+        "event": "最高裁判所長官 この度最高裁判所長官に任命されました。就任に際しての私の思いについては、 「就任談話（令和6年8月16日）」 として述べたとおりです。"
+      }
+    ]
   },
   {
     "judgeId": "miura",
-    "name": "ä¸æµ¦ å®",
-    "nameNormalized": "ä¸æµ¦å®",
-    "role": null,
-    "division": null,
+    "name": "三浦 守",
+    "nameNormalized": "三浦守",
+    "role": "判事",
+    "division": "第二小法廷",
     "status": "現職",
     "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/miura/index.html",
-    "reading": null,
-    "birth": null,
-    "career": []
+    "reading": "みうらまもる",
+    "birth": {
+      "gengo": "昭和",
+      "year": 31,
+      "month": 10,
+      "day": 23,
+      "seireki": 1956,
+      "raw": "昭和31年10月23日生"
+    },
+    "career": [
+      {
+        "date": "昭和55年",
+        "event": "東京大学法学部卒業"
+      },
+      {
+        "date": "昭和55年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和57年",
+        "event": "検事任官 その後，東京，宇都宮，福岡，名古屋各地検，長野地検上田支部，法務省刑事局等に勤務"
+      },
+      {
+        "date": "平成10年",
+        "event": "法務省刑事局参事官"
+      },
+      {
+        "date": "平成12年",
+        "event": "法務省大臣官房参事官"
+      },
+      {
+        "date": "平成13年",
+        "event": "法務省刑事局刑事法制課長"
+      },
+      {
+        "date": "平成17年",
+        "event": "法務省大臣官房審議官"
+      },
+      {
+        "date": "平成21年",
+        "event": "最高検検事"
+      },
+      {
+        "date": "平成21年",
+        "event": "那覇地検検事正"
+      },
+      {
+        "date": "平成22年",
+        "event": "最高検検事"
+      },
+      {
+        "date": "平成22年",
+        "event": "法務省矯正局長"
+      },
+      {
+        "date": "平成25年",
+        "event": "最高検監察指導部長"
+      },
+      {
+        "date": "平成26年",
+        "event": "最高検公判部長"
+      },
+      {
+        "date": "平成27年",
+        "event": "札幌高検検事長"
+      },
+      {
+        "date": "平成29年",
+        "event": "大阪高検検事長"
+      },
+      {
+        "date": "平成30年2月26日",
+        "event": "最高裁判所判事"
+      }
+    ]
   },
   {
     "judgeId": "hayashi_m",
-    "name": "æ éæ´",
-    "nameNormalized": "æéæ´",
-    "role": null,
-    "division": null,
+    "name": "林 道晴",
+    "nameNormalized": "林道晴",
+    "role": "判事",
+    "division": "第三小法廷",
     "status": "現職",
     "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/hayashi_m/index.html",
-    "reading": null,
-    "birth": null,
-    "career": []
+    "reading": "はやしみちはる",
+    "birth": {
+      "gengo": "昭和",
+      "year": 32,
+      "month": 8,
+      "day": 31,
+      "seireki": 1957,
+      "raw": "昭和32年8月31日生"
+    },
+    "career": [
+      {
+        "date": "昭和55年",
+        "event": "東京大学法学部卒業"
+      },
+      {
+        "date": "昭和55年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和57年",
+        "event": "判事補任官 その後，東京地裁，最高裁民事局，厚生省年金局企業年金課，札幌地家裁，東京地裁において勤務"
+      },
+      {
+        "date": "平成4年",
+        "event": "東京地裁判事"
+      },
+      {
+        "date": "平成5年",
+        "event": "最高裁民事局参事官"
+      },
+      {
+        "date": "平成8年",
+        "event": "最高裁民事局第二課長"
+      },
+      {
+        "date": "平成11年",
+        "event": "最高裁民事局第一課長兼第三課長"
+      },
+      {
+        "date": "平成14年",
+        "event": "東京高裁判事"
+      },
+      {
+        "date": "平成15年",
+        "event": "東京地裁判事部総括"
+      },
+      {
+        "date": "平成17年",
+        "event": "司法研修所教官"
+      },
+      {
+        "date": "平成17年",
+        "event": "司法研修所事務局長"
+      },
+      {
+        "date": "平成21年",
+        "event": "最高裁民事局長兼行政局長"
+      },
+      {
+        "date": "平成22年",
+        "event": "最高裁経理局長"
+      },
+      {
+        "date": "平成25年",
+        "event": "静岡地裁所長"
+      },
+      {
+        "date": "平成26年",
+        "event": "東京高裁判事部総括"
+      },
+      {
+        "date": "平成26年",
+        "event": "最高裁首席調査官"
+      },
+      {
+        "date": "平成30年",
+        "event": "東京高裁長官"
+      },
+      {
+        "date": "令和元年9月2日",
+        "event": "最高裁判所判事"
+      }
+    ]
   },
   {
     "judgeId": "Okamura",
-    "name": "å²¡æ åç¾",
-    "nameNormalized": "å²¡æåç¾",
-    "role": null,
-    "division": null,
+    "name": "岡村 和美",
+    "nameNormalized": "岡村和美",
+    "role": "判事",
+    "division": "第二小法廷",
     "status": "現職",
     "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/Okamura/index.html",
-    "reading": null,
-    "birth": null,
-    "career": []
+    "reading": "おかむらかずみ",
+    "birth": {
+      "gengo": "昭和",
+      "year": 32,
+      "month": 12,
+      "day": 23,
+      "seireki": 1957,
+      "raw": "昭和32年12月23日生"
+    },
+    "career": [
+      {
+        "date": "昭和55年",
+        "event": "早稲田大学法学部卒業"
+      },
+      {
+        "date": "昭和56年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和58年",
+        "event": "弁護士登録(第一東京弁護士会)"
+      },
+      {
+        "date": "昭和63年",
+        "event": "ハーバード･ロー･スクール修了(LL.M.)"
+      },
+      {
+        "date": "平成元年",
+        "event": "米国ニューヨーク州弁護士登録"
+      },
+      {
+        "date": "平成2年",
+        "event": "外資系金融機関法務部所属"
+      },
+      {
+        "date": "平成12年",
+        "event": "東京地検検事"
+      },
+      {
+        "date": "平成13年",
+        "event": "法務省刑事局国際課国際刑事企画官"
+      },
+      {
+        "date": "平成15年",
+        "event": "法務省刑事局国際課長"
+      },
+      {
+        "date": "平成17年",
+        "event": "東京高検検事"
+      },
+      {
+        "date": "平成19年",
+        "event": "法務省大臣官房参事官"
+      },
+      {
+        "date": "平成19年",
+        "event": "金融庁証券取引等監視委員会事務局国際･情報総括官"
+      },
+      {
+        "date": "平成26年",
+        "event": "最高検検事"
+      },
+      {
+        "date": "平成26年",
+        "event": "法務省人権擁護局長"
+      },
+      {
+        "date": "平成28年",
+        "event": "消費者庁長官"
+      },
+      {
+        "date": "令和元年10月2日",
+        "event": "最高裁判所判事"
+      }
+    ]
   },
   {
     "judgeId": "yasunami",
-    "name": "å®æµª äº®ä»",
-    "nameNormalized": "å®æµªäº®ä»",
-    "role": null,
-    "division": null,
+    "name": "安浪 亮介",
+    "nameNormalized": "安浪亮介",
+    "role": "判事",
+    "division": "第一小法廷",
     "status": "現職",
     "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/yasunami/index.html",
-    "reading": null,
-    "birth": null,
-    "career": []
+    "reading": "やすなみりょうすけ",
+    "birth": {
+      "gengo": "昭和",
+      "year": 32,
+      "month": 4,
+      "day": 19,
+      "seireki": 1957,
+      "raw": "昭和32年4月19日生"
+    },
+    "career": [
+      {
+        "date": "昭和56年",
+        "event": "東京大学法学部卒業"
+      },
+      {
+        "date": "昭和56年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和58年",
+        "event": "判事補任官 その後，東京地裁，広島地裁，最高裁行政局，最高裁広報課兼秘書課，神戸地裁において勤務"
+      },
+      {
+        "date": "平成5年",
+        "event": "神戸地裁判事"
+      },
+      {
+        "date": "平成7年",
+        "event": "東京地裁判事"
+      },
+      {
+        "date": "平成10年",
+        "event": "最高裁行政局第二課長"
+      },
+      {
+        "date": "平成11年",
+        "event": "最高裁行政局第一課長兼第三課長"
+      },
+      {
+        "date": "平成13年",
+        "event": "最高裁人事局給与課長"
+      },
+      {
+        "date": "平成17年",
+        "event": "東京地裁部総括"
+      },
+      {
+        "date": "平成19年",
+        "event": "東京高裁事務局長"
+      },
+      {
+        "date": "平成22年",
+        "event": "東京地裁部総括"
+      },
+      {
+        "date": "平成23年",
+        "event": "最高裁人事局長"
+      },
+      {
+        "date": "平成26年",
+        "event": "静岡地裁所長"
+      },
+      {
+        "date": "平成28年",
+        "event": "東京高裁部総括"
+      },
+      {
+        "date": "平成30年",
+        "event": "東京地裁所長"
+      },
+      {
+        "date": "平成30年",
+        "event": "大阪高裁長官"
+      },
+      {
+        "date": "令和3年7月16日",
+        "event": "最高裁判所判事"
+      }
+    ]
   },
   {
     "judgeId": "watanabe",
-    "name": "æ¸¡é æ çå­",
-    "nameNormalized": "æ¸¡éæ çå­",
-    "role": null,
-    "division": null,
+    "name": "渡邉 惠理子",
+    "nameNormalized": "渡邉惠理子",
+    "role": "判事",
+    "division": "第三小法廷",
     "status": "現職",
     "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/watanabe/index.html",
-    "reading": null,
-    "birth": null,
-    "career": []
+    "reading": "わたなべえりこ",
+    "birth": {
+      "gengo": "昭和",
+      "year": 33,
+      "month": 12,
+      "day": 27,
+      "seireki": 1958,
+      "raw": "昭和33年12月27日生"
+    },
+    "career": [
+      {
+        "date": "昭和58年",
+        "event": "東北大学法学部卒業"
+      },
+      {
+        "date": "昭和61年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和63年",
+        "event": "弁護士名簿登録（第一東京弁護士会）"
+      },
+      {
+        "date": "平成6年",
+        "event": "University of Washington (LL.M.) School of Law 修了"
+      },
+      {
+        "date": "平成7年",
+        "event": "弁護士登録取消"
+      },
+      {
+        "date": "平成7年",
+        "event": "公正取引委員会事務総局勤務"
+      },
+      {
+        "date": "平成10年",
+        "event": "弁護士名簿登録（第一東京弁護士会）"
+      },
+      {
+        "date": "平成15年",
+        "event": "経済産業省競争政策研究会（企業結合）委員"
+      },
+      {
+        "date": "平成16年",
+        "event": "慶應義塾大学法科大学院教授"
+      },
+      {
+        "date": "平成17年",
+        "event": "経済産業省産業構造審議会臨時委員（新成長政策部会競争環境整備小委員会委員）"
+      },
+      {
+        "date": "平成19年",
+        "event": "内閣府官民競争入札等監理委員会委員"
+      },
+      {
+        "date": "平成20年",
+        "event": "経済産業省競争法の国際的な執行に関する研究会委員"
+      },
+      {
+        "date": "平成21年",
+        "event": "経済産業省産業構造審議会臨時委員（新成長政策部会競争環境整備小委員会委員）"
+      },
+      {
+        "date": "平成22年",
+        "event": "中小企業庁下請法等の社内整備体制に関する委員会委員"
+      },
+      {
+        "date": "平成24年",
+        "event": "日本放送協会経営委員会委員・監査委員"
+      },
+      {
+        "date": "令和元年",
+        "event": "司法試験考査委員（経済法）"
+      },
+      {
+        "date": "令和2年",
+        "event": "国立大学法人お茶の水女子大学監事"
+      },
+      {
+        "date": "令和3年7月16日",
+        "event": "最高裁判所判事"
+      }
+    ]
   },
   {
     "judgeId": "sakai",
-    "name": "å º å¾¹",
-    "nameNormalized": "å ºå¾¹",
-    "role": null,
-    "division": null,
+    "name": "堺 徹",
+    "nameNormalized": "堺徹",
+    "role": "判事",
+    "division": "第一小法廷",
     "status": "現職",
     "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/sakai/index.html",
-    "reading": null,
-    "birth": null,
-    "career": []
+    "reading": "さかいとおる",
+    "birth": {
+      "gengo": "昭和",
+      "year": 33,
+      "month": 7,
+      "day": 17,
+      "seireki": 1958,
+      "raw": "昭和33年7月17日生"
+    },
+    "career": [
+      {
+        "date": "昭和57年",
+        "event": "東京大学法学部卒業"
+      },
+      {
+        "date": "昭和57年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和59年",
+        "event": "検事任官 その後，札幌，札幌地検室蘭支部，大阪，大津地検において勤務"
+      },
+      {
+        "date": "平成4年",
+        "event": "法務大臣官房司法法制調査部付"
+      },
+      {
+        "date": "平成7年",
+        "event": "東京地検八王子支部検事"
+      },
+      {
+        "date": "平成8年",
+        "event": "東京地検検事"
+      },
+      {
+        "date": "平成10年",
+        "event": "旭川地検次席検事"
+      },
+      {
+        "date": "平成12年",
+        "event": "東京地検検事"
+      },
+      {
+        "date": "平成17年",
+        "event": "大阪地検検事"
+      },
+      {
+        "date": "平成17年",
+        "event": "大阪高検検事"
+      },
+      {
+        "date": "平成18年",
+        "event": "東京高検検事"
+      },
+      {
+        "date": "平成20年",
+        "event": "東京地検交通部長"
+      },
+      {
+        "date": "平成22年",
+        "event": "東京地検公安部長"
+      },
+      {
+        "date": "平成22年",
+        "event": "東京地検特別捜査部長"
+      },
+      {
+        "date": "平成24年",
+        "event": "福島地検検事正"
+      },
+      {
+        "date": "平成25年",
+        "event": "東京地検次席検事"
+      },
+      {
+        "date": "平成26年",
+        "event": "東京高検次席検事"
+      },
+      {
+        "date": "平成28年",
+        "event": "東京地検検事正"
+      },
+      {
+        "date": "平成29年",
+        "event": "仙台高検検事長"
+      },
+      {
+        "date": "平成30年",
+        "event": "次長検事"
+      },
+      {
+        "date": "令和2年",
+        "event": "東京高検検事長"
+      },
+      {
+        "date": "令和3年",
+        "event": "退官"
+      },
+      {
+        "date": "令和3年9月3日",
+        "event": "最高裁判所判事"
+      }
+    ]
   },
   {
     "judgeId": "ojima",
-    "name": "å°¾å³¶ æ",
-    "nameNormalized": "å°¾å³¶æ",
-    "role": null,
-    "division": null,
+    "name": "尾島 明",
+    "nameNormalized": "尾島明",
+    "role": "判事",
+    "division": "第二小法廷",
     "status": "現職",
     "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/ojima/index.html",
-    "reading": null,
-    "birth": null,
-    "career": []
+    "reading": "おじまあきら",
+    "birth": {
+      "gengo": "昭和",
+      "year": 33,
+      "month": 9,
+      "day": 1,
+      "seireki": 1958,
+      "raw": "昭和33年9月1日生"
+    },
+    "career": [
+      {
+        "date": "昭和58年",
+        "event": "東京大学法学部卒業"
+      },
+      {
+        "date": "昭和58年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和60年",
+        "event": "判事補任官 その後、東京地裁、甲府家地裁、最高裁総務局、通商産業省通商政策局、東京地裁、横浜地裁において勤務"
+      },
+      {
+        "date": "平成7年",
+        "event": "横浜地裁判事"
+      },
+      {
+        "date": "平成10年",
+        "event": "最高裁裁判所調査官"
+      },
+      {
+        "date": "平成15年",
+        "event": "東京高裁判事"
+      },
+      {
+        "date": "平成15年",
+        "event": "内閣法制局参事官（第二部）"
+      },
+      {
+        "date": "平成20年",
+        "event": "東京高裁判事"
+      },
+      {
+        "date": "平成21年",
+        "event": "東京地裁判事部総括"
+      },
+      {
+        "date": "平成24年",
+        "event": "最高裁上席調査官"
+      },
+      {
+        "date": "平成28年",
+        "event": "静岡地裁所長"
+      },
+      {
+        "date": "平成29年",
+        "event": "東京高裁判事部総括"
+      },
+      {
+        "date": "平成30年",
+        "event": "最高裁首席調査官"
+      },
+      {
+        "date": "令和3年",
+        "event": "大阪高裁長官"
+      },
+      {
+        "date": "令和4年7月5日",
+        "event": "最高裁判所判事"
+      }
+    ]
   },
   {
     "judgeId": "miyagawa",
-    "name": "å®®å· ç¾æ´¥å­",
-    "nameNormalized": "å®®å·ç¾æ´¥å­",
-    "role": null,
-    "division": null,
+    "name": "宮川 美津子",
+    "nameNormalized": "宮川美津子",
+    "role": "判事",
+    "division": "第一小法廷",
     "status": "現職",
     "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/miyagawa/index.html",
-    "reading": null,
-    "birth": null,
-    "career": []
+    "reading": "みやがわみつこ",
+    "birth": {
+      "gengo": "昭和",
+      "year": 35,
+      "month": 2,
+      "day": 13,
+      "seireki": 1960,
+      "raw": "昭和35年2月13日生"
+    },
+    "career": [
+      {
+        "date": "昭和59年",
+        "event": "東京大学法学部卒業"
+      },
+      {
+        "date": "昭和59年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和61年",
+        "event": "弁護士名簿登録（第一東京弁護士会）"
+      },
+      {
+        "date": "平成5年",
+        "event": "ハーバードロースクール修了（LL.M.）"
+      },
+      {
+        "date": "平成7年",
+        "event": "TMI総合法律事務所パートナー"
+      },
+      {
+        "date": "平成14年",
+        "event": "日本弁護士連合会知的財産政策推進本部（現　日弁連知的財産センター）委員"
+      },
+      {
+        "date": "平成14年",
+        "event": "経済産業省産業構造審議会臨時委員・同知的財産政策部会（現　知的財産分科会）委員"
+      },
+      {
+        "date": "平成17年",
+        "event": "慶應義塾大学法科大学院講師"
+      },
+      {
+        "date": "平成19年",
+        "event": "文部科学省文化審議会著作権分科会委員"
+      },
+      {
+        "date": "平成25年",
+        "event": "内閣府知的財産戦略本部有識者本部員"
+      },
+      {
+        "date": "平成27年",
+        "event": "エステー株式会社社外取締役"
+      },
+      {
+        "date": "平成28年",
+        "event": "パナソニック株式会社社外監査役"
+      },
+      {
+        "date": "平成29年",
+        "event": "財務省関税等不服審査会関税・知的財産分科会委員"
+      },
+      {
+        "date": "平成30年",
+        "event": "公益社団法人日本仲裁人協会理事"
+      },
+      {
+        "date": "平成31年",
+        "event": "内閣官房サイバーセキュリティ戦略本部普及啓発・人材育成専門調査会サイバーセキュリティ関係法令の調査検討等を目的としたサブワーキンググループ委員"
+      },
+      {
+        "date": "令和元年",
+        "event": "三菱自動車工業株式会社社外取締役"
+      },
+      {
+        "date": "令和元年",
+        "event": "日弁連知的財産センター委員長"
+      },
+      {
+        "date": "令和2年",
+        "event": "一般社団法人日本国際紛争解決センター理事"
+      },
+      {
+        "date": "令和4年",
+        "event": "経済産業省産業構造審議会知的財産分科会商標制度小委員会委員"
+      },
+      {
+        "date": "令和5年11月6日",
+        "event": "最高裁判所判事"
+      }
+    ]
   },
   {
     "judgeId": "ishikane",
-    "name": "ç³å¼ å¬å",
-    "nameNormalized": "ç³å¼å¬å",
-    "role": null,
-    "division": null,
+    "name": "石兼 公博",
+    "nameNormalized": "石兼公博",
+    "role": "判事",
+    "division": "第三小法廷",
     "status": "現職",
     "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/ishikane/index.html",
-    "reading": null,
-    "birth": null,
-    "career": []
+    "reading": "いしかねきみひろ",
+    "birth": {
+      "gengo": "昭和",
+      "year": 33,
+      "month": 1,
+      "day": 4,
+      "seireki": 1958,
+      "raw": "昭和33年1月4日生"
+    },
+    "career": [
+      {
+        "date": "昭和56年",
+        "event": "東京大学法学部卒業 外務省入省"
+      },
+      {
+        "date": "平成 8年",
+        "event": "在フランス日本国大使館　一等書記官"
+      },
+      {
+        "date": "平成10年",
+        "event": "同参事官 総合外交政策局科学原子力課国際科学協力室長"
+      },
+      {
+        "date": "平成11年",
+        "event": "中近東アフリカ局アフリカ第一課長"
+      },
+      {
+        "date": "平成15年",
+        "event": "経済協力局有償資金協力課長"
+      },
+      {
+        "date": "平成16年",
+        "event": "在アメリカ合衆国日本国大使館　参事官"
+      },
+      {
+        "date": "平成17年",
+        "event": "同公使"
+      },
+      {
+        "date": "平成19年",
+        "event": "国際協力局政策課長 内閣総理大臣秘書官"
+      },
+      {
+        "date": "平成20年",
+        "event": "大臣官房総務課長"
+      },
+      {
+        "date": "平成21年",
+        "event": "大臣官房参事官"
+      },
+      {
+        "date": "平成23年",
+        "event": "大臣官房審議官"
+      },
+      {
+        "date": "平成24年",
+        "event": "特命全権大使　東南アジア諸国連合日本政府代表部在勤"
+      },
+      {
+        "date": "平成26年",
+        "event": "国際協力局長"
+      },
+      {
+        "date": "平成27年",
+        "event": "アジア大洋州局長"
+      },
+      {
+        "date": "平成28年",
+        "event": "総合外交政策局長"
+      },
+      {
+        "date": "平成29年",
+        "event": "特命全権大使　カナダ国駐箚兼国際民間航空機関日本政府代表部在勤"
+      },
+      {
+        "date": "令和元年",
+        "event": "特命全権大使　国際連合日本政府代表部在勤"
+      },
+      {
+        "date": "令和5年",
+        "event": "退官"
+      },
+      {
+        "date": "令和6年4月17日",
+        "event": "最高裁判所判事"
+      }
+    ]
   },
   {
     "judgeId": "hiraki",
-    "name": "å¹³æ¨ æ­£æ´",
-    "nameNormalized": "å¹³æ¨æ­£æ´",
-    "role": null,
-    "division": null,
+    "name": "平木 正洋",
+    "nameNormalized": "平木正洋",
+    "role": "判事",
+    "division": "第三小法廷",
     "status": "現職",
     "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/hiraki/index.html",
-    "reading": null,
-    "birth": null,
-    "career": []
+    "reading": "ひらきまさひろ",
+    "birth": {
+      "gengo": "昭和",
+      "year": 36,
+      "month": 4,
+      "day": 3,
+      "seireki": 1961,
+      "raw": "昭和36年4月3日生"
+    },
+    "career": [
+      {
+        "date": "昭和60年",
+        "event": "東京大学法学部卒業"
+      },
+      {
+        "date": "昭和60年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和62年",
+        "event": "判事補任官 その後、東京地裁、外務省北米局北米第二課、在アメリカ合衆国日本国大使館、東京地裁、佐賀地家裁において勤務"
+      },
+      {
+        "date": "平成11年",
+        "event": "佐賀地家裁判事"
+      },
+      {
+        "date": "平成12年",
+        "event": "最高裁裁判所調査官"
+      },
+      {
+        "date": "平成17年",
+        "event": "東京地裁判事"
+      },
+      {
+        "date": "平成19年",
+        "event": "最高裁刑事局参事官"
+      },
+      {
+        "date": "平成22年",
+        "event": "東京地裁判事"
+      },
+      {
+        "date": "平成23年",
+        "event": "最高裁情報政策課長"
+      },
+      {
+        "date": "平成25年",
+        "event": "東京地裁判事部総括"
+      },
+      {
+        "date": "平成27年",
+        "event": "最高裁刑事局長兼図書館長"
+      },
+      {
+        "date": "平成30年",
+        "event": "前橋地裁所長"
+      },
+      {
+        "date": "平成31年",
+        "event": "東京高裁判事部総括"
+      },
+      {
+        "date": "令和3年",
+        "event": "東京地裁所長"
+      },
+      {
+        "date": "令和5年",
+        "event": "大阪高裁長官"
+      },
+      {
+        "date": "令和6年8月16日",
+        "event": "最高裁判所判事"
+      }
+    ]
   },
   {
     "judgeId": "nakamura",
-    "name": "ä¸­æ æ¼",
-    "nameNormalized": "ä¸­ææ¼",
-    "role": null,
-    "division": null,
+    "name": "中村 愼",
+    "nameNormalized": "中村愼",
+    "role": "判事",
+    "division": "第一小法廷",
     "status": "現職",
     "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/nakamura/index.html",
-    "reading": null,
-    "birth": null,
-    "career": []
+    "reading": "なかむらまこと",
+    "birth": {
+      "gengo": "昭和",
+      "year": 36,
+      "month": 9,
+      "day": 12,
+      "seireki": 1961,
+      "raw": "昭和36年9月12日生"
+    },
+    "career": [
+      {
+        "date": "昭和61年",
+        "event": "京都大学法学部卒業"
+      },
+      {
+        "date": "昭和61年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和63年",
+        "event": "判事補任官 その後、東京地裁、最高裁人事局、外務省条約局、外務省総合外交政策局国連政策課国際平和協力室、国際連合日本政府代表部、大阪地裁で勤務"
+      },
+      {
+        "date": "平成12年",
+        "event": "最高裁裁判所調査官"
+      },
+      {
+        "date": "平成13年",
+        "event": "最高裁総務局第二課長兼第三課長"
+      },
+      {
+        "date": "平成15年",
+        "event": "最高裁総務局第一課長"
+      },
+      {
+        "date": "平成19年",
+        "event": "東京高裁判事"
+      },
+      {
+        "date": "平成21年",
+        "event": "東京地裁判事"
+      },
+      {
+        "date": "平成22年",
+        "event": "最高裁秘書課長兼広報課長"
+      },
+      {
+        "date": "平成24年",
+        "event": "東京地裁判事（部総括）"
+      },
+      {
+        "date": "平成25年",
+        "event": "最高裁総務局長"
+      },
+      {
+        "date": "平成30年",
+        "event": "水戸地裁所長"
+      },
+      {
+        "date": "令和元年",
+        "event": "最高裁事務総長"
+      },
+      {
+        "date": "令和4年",
+        "event": "東京高裁長官"
+      },
+      {
+        "date": "令和6年9月11日",
+        "event": "最高裁判所判事"
+      }
+    ]
   },
   {
     "judgeId": "takasu",
-    "name": "é«é  é ä¸",
-    "nameNormalized": "é«é é ä¸",
-    "role": null,
-    "division": null,
+    "name": "高須 順一",
+    "nameNormalized": "高須順一",
+    "role": "判事",
+    "division": "第二小法廷",
     "status": "現職",
     "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/takasu/index.html",
-    "reading": null,
-    "birth": null,
-    "career": []
+    "reading": "たかすじゅんいち",
+    "birth": {
+      "gengo": "昭和",
+      "year": 34,
+      "month": 10,
+      "day": 9,
+      "seireki": 1959,
+      "raw": "昭和34年10月9日生"
+    },
+    "career": [
+      {
+        "date": "昭和57年",
+        "event": "法政大学法学部卒業"
+      },
+      {
+        "date": "昭和61年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和63年",
+        "event": "弁護士名簿登録（東京弁護士会）"
+      },
+      {
+        "date": "平成2年",
+        "event": "法政大学法学部非常勤講師"
+      },
+      {
+        "date": "平成16年",
+        "event": "法政大学大学院法務研究科教授"
+      },
+      {
+        "date": "平成21年",
+        "event": "法務省法制審議会民法（債権関係）部会幹事"
+      },
+      {
+        "date": "平成28年",
+        "event": "公益財団法人日弁連法務研究財団常務理事"
+      },
+      {
+        "date": "平成30年",
+        "event": "東京弁護士会法制委員会委員長"
+      },
+      {
+        "date": "平成30年",
+        "event": "法政大学大学院法務研究科長"
+      },
+      {
+        "date": "平成30年",
+        "event": "東京弁護士会民事司法改革実現本部委員"
+      },
+      {
+        "date": "令和元年",
+        "event": "日本弁護士連合会司法制度調査会委員長"
+      },
+      {
+        "date": "令和2年",
+        "event": "京都大学大学院法学研究科法政理論専攻博士課程修了・京都大学博士（法学）"
+      },
+      {
+        "date": "令和2年",
+        "event": "日本弁護士連合会民事裁判手続に関する委員会幹事"
+      },
+      {
+        "date": "令和2年",
+        "event": "日本弁護士連合会民事裁判手続のIT化に関するワーキンググループ委員"
+      },
+      {
+        "date": "令和2年",
+        "event": "最高裁判所民事規則制定諮問委員会委員"
+      },
+      {
+        "date": "令和6年",
+        "event": "公益財団法人大学基準協会法務系専門職大学院認証評価委員会委員"
+      },
+      {
+        "date": "令和7年3月27日",
+        "event": "最高裁判所判事"
+      }
+    ]
   },
   {
     "judgeId": "okino",
-    "name": "æ²é çå·²",
-    "nameNormalized": "æ²éçå·²",
-    "role": null,
-    "division": null,
+    "name": "沖野 眞已",
+    "nameNormalized": "沖野眞已",
+    "role": "判事",
+    "division": "第三小法廷",
     "status": "現職",
     "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/okino/index.html",
-    "reading": null,
-    "birth": null,
-    "career": []
+    "reading": "おきのまさみ",
+    "birth": {
+      "gengo": "昭和",
+      "year": 39,
+      "month": 1,
+      "day": 12,
+      "seireki": 1964,
+      "raw": "昭和39年1月12日生"
+    },
+    "career": [
+      {
+        "date": "昭和61年",
+        "event": "司法試験合格"
+      },
+      {
+        "date": "昭和62年",
+        "event": "東京大学法学部卒業"
+      },
+      {
+        "date": "昭和62年",
+        "event": "東京大学法学部助手"
+      },
+      {
+        "date": "平成2年",
+        "event": "筑波大学社会科学系専任講師"
+      },
+      {
+        "date": "平成5年",
+        "event": "学習院大学法学部助教授"
+      },
+      {
+        "date": "平成8年",
+        "event": "米国・ヴァージニア大学ロースクール修了（LL.M.）"
+      },
+      {
+        "date": "平成11年",
+        "event": "学習院大学法学部教授"
+      },
+      {
+        "date": "平成14年",
+        "event": "法務事務官（法務省民事局総務課法務専門職（法務専門官））・法務省民事局付"
+      },
+      {
+        "date": "平成16年",
+        "event": "学習院大学専門職大学院法務研究科（法科大学院）教授（兼法学部教授）"
+      },
+      {
+        "date": "平成19年",
+        "event": "一橋大学大学院法学研究科教授"
+      },
+      {
+        "date": "平成22年",
+        "event": "東京大学大学院法学政治学研究科教授"
+      },
+      {
+        "date": "令和7年",
+        "event": "東京大学大学院法学政治学研究科長、法学部長"
+      },
+      {
+        "date": "令和7年7月24日",
+        "event": "最高裁判所判事"
+      }
+    ]
   },
   {
     "judgeId": "ata",
-    "name": "é¿å¤ åæ",
-    "nameNormalized": "é¿å¤åæ",
-    "role": null,
-    "division": null,
+    "name": "阿多 博文",
+    "nameNormalized": "阿多博文",
+    "role": "判事",
+    "division": "第一小法廷",
     "status": "現職",
     "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/ata/index.html",
-    "reading": null,
-    "birth": null,
-    "career": []
+    "reading": "あたひろふみ",
+    "birth": {
+      "gengo": "昭和",
+      "year": 35,
+      "month": 5,
+      "day": 14,
+      "seireki": 1960,
+      "raw": "昭和35年5月14日生"
+    },
+    "career": [
+      {
+        "date": "昭和59年",
+        "event": "同志社大学法学部卒業"
+      },
+      {
+        "date": "昭和61年",
+        "event": "司法試験合格"
+      },
+      {
+        "date": "昭和63年",
+        "event": "京都大学大学院法学研究科修士課程修了"
+      },
+      {
+        "date": "昭和63年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "平成2年",
+        "event": "弁護士名簿登録（大阪弁護士会）"
+      },
+      {
+        "date": "平成13年",
+        "event": "大阪市情報公開審査会委員"
+      },
+      {
+        "date": "平成13年",
+        "event": "大阪市出資等法人情報公開審査会委員"
+      },
+      {
+        "date": "平成14年",
+        "event": "法務省法制審議会会社法（株券の不発行等関係）部会委員"
+      },
+      {
+        "date": "平成16年",
+        "event": "同志社大学法科大学院専任教授"
+      },
+      {
+        "date": "平成17年",
+        "event": "大阪市監理団体評価委員会専門委員（平成19年4月以降、大阪市外郭団体等評価委員会に組織変更）"
+      },
+      {
+        "date": "平成22年",
+        "event": "大阪市特定団体経営監視委員会委員"
+      },
+      {
+        "date": "平成22年",
+        "event": "法務省司法試験（新司法試験）考査委員（商法）"
+      },
+      {
+        "date": "平成22年",
+        "event": "大阪市会情報公開審査委員会委員"
+      },
+      {
+        "date": "平成25年",
+        "event": "大阪市外郭団体評価委員会委員"
+      },
+      {
+        "date": "平成28年",
+        "event": "法務省法制審議会民事執行法部会委員"
+      },
+      {
+        "date": "平成29年",
+        "event": "大阪市大規模事業リスク管理会議委員"
+      },
+      {
+        "date": "平成30年",
+        "event": "同志社大学法科大学院客員教授"
+      },
+      {
+        "date": "令和2年",
+        "event": "法務省法制審議会民事訴訟法（IT化関係）部会委員"
+      },
+      {
+        "date": "令和8年2月2日",
+        "event": "最高裁判所判事"
+      }
+    ]
   }
 ]
