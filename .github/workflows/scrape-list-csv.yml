@@ -1,0 +1,89 @@
+name: scrape-list-csv
+
+# 第1段クローラを実行し、JSONとCSVを生成してコミットする。
+# 手動実行時に期間を指定可能（空欄なら全期間 昭和1/1/1〜令和8/5/31 = 29437件想定）。
+on:
+  workflow_dispatch:
+    inputs:
+      gengo_from:
+        description: "開始 元号（昭和/平成/令和）"
+        required: false
+        default: "昭和"
+      year_from:
+        description: "開始 年"
+        required: false
+        default: "1"
+      month_from:
+        description: "開始 月"
+        required: false
+        default: "1"
+      day_from:
+        description: "開始 日"
+        required: false
+        default: "1"
+      gengo_to:
+        description: "終了 元号"
+        required: false
+        default: "令和"
+      year_to:
+        description: "終了 年"
+        required: false
+        default: "8"
+      month_to:
+        description: "終了 月"
+        required: false
+        default: "5"
+      day_to:
+        description: "終了 日"
+        required: false
+        default: "31"
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350   # 全期間は時間がかかるため上限を上げる（GitHub上限は360分）
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run stage1 crawler
+        env:
+          GENGO_FROM: ${{ inputs.gengo_from }}
+          YEAR_FROM:  ${{ inputs.year_from }}
+          MONTH_FROM: ${{ inputs.month_from }}
+          DAY_FROM:   ${{ inputs.day_from }}
+          GENGO_TO:   ${{ inputs.gengo_to }}
+          YEAR_TO:    ${{ inputs.year_to }}
+          MONTH_TO:   ${{ inputs.month_to }}
+          DAY_TO:     ${{ inputs.day_to }}
+          OUT_JSON:   "public/data/opinions_list_stage1.json"
+        run: |
+          mkdir -p public/data
+          python scripts/scraper_stage1.py
+
+      - name: Make CSV
+        run: |
+          python scripts/make_csv.py public/data/opinions_list_stage1.json public/data/opinions_list_stage1.csv
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/opinions_list_stage1.json public/data/opinions_list_stage1.csv
+          if git diff --staged --quiet; then
+            echo "変更なし。コミットしません。"
+          else
+            git commit -m "chore: update opinions list (json+csv) [skip ci]"
+            git push
+          fi
