@@ -84,10 +84,10 @@ def crawl_judges(fetch_detail=True, sleep=1.5):
     soup = BeautifulSoup(r.text, "html.parser")
 
     judges = []
-    # 一覧の各リンク: <a href=".../saibankan/{slug}/index.html">氏名</a> + 直後に小法廷
-    # 「最高裁判所長官」「最高裁判所判事」見出しで役職を区別
+    # 実構造: <h3>役職</h3> の後に <dl><dt><a href="./{slug}/index.html">氏名</a></dt><dd>小法廷</dd></dl>
+    # h3とdlを文書順にたどり、直近のh3で役職を判定する
     role = None
-    for el in soup.select("h3, a"):
+    for el in soup.find_all(["h3", "dl"]):
         if el.name == "h3":
             t = el.get_text(strip=True)
             if "長官" in t:
@@ -95,19 +95,22 @@ def crawl_judges(fetch_detail=True, sleep=1.5):
             elif "判事" in t:
                 role = "判事"
             continue
-        href = el.get("href", "")
-        m = re.search(r"/saibankan/([^/]+)/index\.html$", href)
+        # el is <dl>
+        a = el.select_one("dt a")
+        if not a:
+            continue
+        href = a.get("href", "")
+        m = re.search(r"\./?([^/]+)/index\.html$", href)
         if not m:
             continue
         slug = m.group(1)
         if slug in ("hanzi_itiran",):  # 一覧表リンクは除外
             continue
-        name = el.get_text(strip=True)
-        # 所属小法廷はリンク直後のテキストにある（"第二小法廷" 等）
+        name = a.get_text(strip=True)
+        dd = el.select_one("dd")
         court = None
-        nxt = el.find_next(string=re.compile(r"(大法廷|第[一二三]小法廷)"))
-        if nxt:
-            cm = re.search(r"(大法廷|第[一二三]小法廷)", nxt)
+        if dd:
+            cm = re.search(r"(大法廷|第[一二三]小法廷)", dd.get_text())
             court = cm.group(1) if cm else None
         judges.append({
             "judgeId": slug,
