@@ -177,8 +177,19 @@ def crawl(g_from, y_from, m_from, d_from, g_to, y_to, m_to, d_to, sleep=1.5):
 
 
 if __name__ == "__main__":
-    # 例: 令和1年4月1日 〜 令和2年3月31日
-    data = crawl("令和", 1, 4, 1, "令和", 2, 3, 31)
-    with open("opinions_list_stage1.json", "w", encoding="utf-8") as f:
+    import os
+    # 期間は環境変数で指定（未指定なら全期間 昭和1/1/1〜令和8/5/31）
+    g_from = os.environ.get("GENGO_FROM", "昭和")
+    y_from = int(os.environ.get("YEAR_FROM", "1"))
+    m_from = int(os.environ.get("MONTH_FROM", "1"))
+    d_from = int(os.environ.get("DAY_FROM", "1"))
+    g_to = os.environ.get("GENGO_TO", "令和")
+    y_to = int(os.environ.get("YEAR_TO", "8"))
+    m_to = int(os.environ.get("MONTH_TO", "5"))
+    d_to = int(os.environ.get("DAY_TO", "31"))
+    out = os.environ.get("OUT_JSON", "opinions_list_stage1.json")
+    print(f"期間: {g_from}{y_from}/{m_from}/{d_from} 〜 {g_to}{y_to}/{m_to}/{d_to}", file=sys.stderr)
+    data = crawl(g_from, y_from, m_from, d_from, g_to, y_to, m_to, d_to)
+    with open(out, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"{len(data)} 件を opinions_list_stage1.json に保存しました")
+    print(f"{len(data)} 件を {out} に保存しました")
