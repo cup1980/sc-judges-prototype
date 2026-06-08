@@ -1,0 +1,4053 @@
+[
+  {
+    "judgeId": "imasaki",
+    "name": "今崎 幸彦",
+    "nameNormalized": "今崎幸彦",
+    "role": "長官",
+    "division": "第二小法廷",
+    "status": "現職",
+    "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/imasaki/index.html",
+    "reading": "いまさきゆきひこ",
+    "birth": {
+      "gengo": "昭和",
+      "year": 32,
+      "month": 11,
+      "day": 10,
+      "seireki": 1957,
+      "raw": "昭和32年11月10日生"
+    },
+    "career": [
+      {
+        "date": "昭和56年",
+        "event": "京都大学法学部卒業"
+      },
+      {
+        "date": "昭和56年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和58年",
+        "event": "判事補任官 その後、東京地裁、最高裁刑事局、外務省アジア局南東アジア第二課、在フィリピン日本国大使館、京都地裁、最高裁（裁判所調査官）において勤務"
+      },
+      {
+        "date": "平成 7年",
+        "event": "判事 最高裁裁判所調査官"
+      },
+      {
+        "date": "平成 10年",
+        "event": "東京地裁判事"
+      },
+      {
+        "date": "平成 12年",
+        "event": "最高裁刑事局第二課長"
+      },
+      {
+        "date": "平成14年",
+        "event": "最高裁刑事局第一課長兼第三課長"
+      },
+      {
+        "date": "平成16年",
+        "event": "東京高裁判事"
+      },
+      {
+        "date": "平成16年",
+        "event": "司法研修所教官"
+      },
+      {
+        "date": "平成20年",
+        "event": "最高裁秘書課長兼広報課長"
+      },
+      {
+        "date": "平成22年",
+        "event": "東京地裁判事部総括"
+      },
+      {
+        "date": "平成25年",
+        "event": "最高裁刑事局長兼図書館長"
+      },
+      {
+        "date": "平成27年",
+        "event": "水戸地裁所長"
+      },
+      {
+        "date": "平成28年",
+        "event": "最高裁事務総長"
+      },
+      {
+        "date": "令和元年",
+        "event": "東京高裁長官"
+      },
+      {
+        "date": "令和4年6月24日",
+        "event": "最高裁判所判事"
+      },
+      {
+        "date": "令和6年8月16日",
+        "event": "最高裁判所長官 この度最高裁判所長官に任命されました。就任に際しての私の思いについては、 「就任談話（令和6年8月16日）」 として述べたとおりです。"
+      }
+    ]
+  },
+  {
+    "judgeId": "miura",
+    "name": "三浦 守",
+    "nameNormalized": "三浦守",
+    "role": "判事",
+    "division": "第二小法廷",
+    "status": "現職",
+    "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/miura/index.html",
+    "reading": "みうらまもる",
+    "birth": {
+      "gengo": "昭和",
+      "year": 31,
+      "month": 10,
+      "day": 23,
+      "seireki": 1956,
+      "raw": "昭和31年10月23日生"
+    },
+    "career": [
+      {
+        "date": "昭和55年",
+        "event": "東京大学法学部卒業"
+      },
+      {
+        "date": "昭和55年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和57年",
+        "event": "検事任官 その後，東京，宇都宮，福岡，名古屋各地検，長野地検上田支部，法務省刑事局等に勤務"
+      },
+      {
+        "date": "平成10年",
+        "event": "法務省刑事局参事官"
+      },
+      {
+        "date": "平成12年",
+        "event": "法務省大臣官房参事官"
+      },
+      {
+        "date": "平成13年",
+        "event": "法務省刑事局刑事法制課長"
+      },
+      {
+        "date": "平成17年",
+        "event": "法務省大臣官房審議官"
+      },
+      {
+        "date": "平成21年",
+        "event": "最高検検事"
+      },
+      {
+        "date": "平成21年",
+        "event": "那覇地検検事正"
+      },
+      {
+        "date": "平成22年",
+        "event": "最高検検事"
+      },
+      {
+        "date": "平成22年",
+        "event": "法務省矯正局長"
+      },
+      {
+        "date": "平成25年",
+        "event": "最高検監察指導部長"
+      },
+      {
+        "date": "平成26年",
+        "event": "最高検公判部長"
+      },
+      {
+        "date": "平成27年",
+        "event": "札幌高検検事長"
+      },
+      {
+        "date": "平成29年",
+        "event": "大阪高検検事長"
+      },
+      {
+        "date": "平成30年2月26日",
+        "event": "最高裁判所判事"
+      }
+    ]
+  },
+  {
+    "judgeId": "hayashi_m",
+    "name": "林 道晴",
+    "nameNormalized": "林道晴",
+    "role": "判事",
+    "division": "第三小法廷",
+    "status": "現職",
+    "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/hayashi_m/index.html",
+    "reading": "はやしみちはる",
+    "birth": {
+      "gengo": "昭和",
+      "year": 32,
+      "month": 8,
+      "day": 31,
+      "seireki": 1957,
+      "raw": "昭和32年8月31日生"
+    },
+    "career": [
+      {
+        "date": "昭和55年",
+        "event": "東京大学法学部卒業"
+      },
+      {
+        "date": "昭和55年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和57年",
+        "event": "判事補任官 その後，東京地裁，最高裁民事局，厚生省年金局企業年金課，札幌地家裁，東京地裁において勤務"
+      },
+      {
+        "date": "平成4年",
+        "event": "東京地裁判事"
+      },
+      {
+        "date": "平成5年",
+        "event": "最高裁民事局参事官"
+      },
+      {
+        "date": "平成8年",
+        "event": "最高裁民事局第二課長"
+      },
+      {
+        "date": "平成11年",
+        "event": "最高裁民事局第一課長兼第三課長"
+      },
+      {
+        "date": "平成14年",
+        "event": "東京高裁判事"
+      },
+      {
+        "date": "平成15年",
+        "event": "東京地裁判事部総括"
+      },
+      {
+        "date": "平成17年",
+        "event": "司法研修所教官"
+      },
+      {
+        "date": "平成17年",
+        "event": "司法研修所事務局長"
+      },
+      {
+        "date": "平成21年",
+        "event": "最高裁民事局長兼行政局長"
+      },
+      {
+        "date": "平成22年",
+        "event": "最高裁経理局長"
+      },
+      {
+        "date": "平成25年",
+        "event": "静岡地裁所長"
+      },
+      {
+        "date": "平成26年",
+        "event": "東京高裁判事部総括"
+      },
+      {
+        "date": "平成26年",
+        "event": "最高裁首席調査官"
+      },
+      {
+        "date": "平成30年",
+        "event": "東京高裁長官"
+      },
+      {
+        "date": "令和元年9月2日",
+        "event": "最高裁判所判事"
+      }
+    ]
+  },
+  {
+    "judgeId": "Okamura",
+    "name": "岡村 和美",
+    "nameNormalized": "岡村和美",
+    "role": "判事",
+    "division": "第二小法廷",
+    "status": "現職",
+    "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/Okamura/index.html",
+    "reading": "おかむらかずみ",
+    "birth": {
+      "gengo": "昭和",
+      "year": 32,
+      "month": 12,
+      "day": 23,
+      "seireki": 1957,
+      "raw": "昭和32年12月23日生"
+    },
+    "career": [
+      {
+        "date": "昭和55年",
+        "event": "早稲田大学法学部卒業"
+      },
+      {
+        "date": "昭和56年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和58年",
+        "event": "弁護士登録(第一東京弁護士会)"
+      },
+      {
+        "date": "昭和63年",
+        "event": "ハーバード･ロー･スクール修了(LL.M.)"
+      },
+      {
+        "date": "平成元年",
+        "event": "米国ニューヨーク州弁護士登録"
+      },
+      {
+        "date": "平成2年",
+        "event": "外資系金融機関法務部所属"
+      },
+      {
+        "date": "平成12年",
+        "event": "東京地検検事"
+      },
+      {
+        "date": "平成13年",
+        "event": "法務省刑事局国際課国際刑事企画官"
+      },
+      {
+        "date": "平成15年",
+        "event": "法務省刑事局国際課長"
+      },
+      {
+        "date": "平成17年",
+        "event": "東京高検検事"
+      },
+      {
+        "date": "平成19年",
+        "event": "法務省大臣官房参事官"
+      },
+      {
+        "date": "平成19年",
+        "event": "金融庁証券取引等監視委員会事務局国際･情報総括官"
+      },
+      {
+        "date": "平成26年",
+        "event": "最高検検事"
+      },
+      {
+        "date": "平成26年",
+        "event": "法務省人権擁護局長"
+      },
+      {
+        "date": "平成28年",
+        "event": "消費者庁長官"
+      },
+      {
+        "date": "令和元年10月2日",
+        "event": "最高裁判所判事"
+      }
+    ]
+  },
+  {
+    "judgeId": "yasunami",
+    "name": "安浪 亮介",
+    "nameNormalized": "安浪亮介",
+    "role": "判事",
+    "division": "第一小法廷",
+    "status": "現職",
+    "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/yasunami/index.html",
+    "reading": "やすなみりょうすけ",
+    "birth": {
+      "gengo": "昭和",
+      "year": 32,
+      "month": 4,
+      "day": 19,
+      "seireki": 1957,
+      "raw": "昭和32年4月19日生"
+    },
+    "career": [
+      {
+        "date": "昭和56年",
+        "event": "東京大学法学部卒業"
+      },
+      {
+        "date": "昭和56年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和58年",
+        "event": "判事補任官 その後，東京地裁，広島地裁，最高裁行政局，最高裁広報課兼秘書課，神戸地裁において勤務"
+      },
+      {
+        "date": "平成5年",
+        "event": "神戸地裁判事"
+      },
+      {
+        "date": "平成7年",
+        "event": "東京地裁判事"
+      },
+      {
+        "date": "平成10年",
+        "event": "最高裁行政局第二課長"
+      },
+      {
+        "date": "平成11年",
+        "event": "最高裁行政局第一課長兼第三課長"
+      },
+      {
+        "date": "平成13年",
+        "event": "最高裁人事局給与課長"
+      },
+      {
+        "date": "平成17年",
+        "event": "東京地裁部総括"
+      },
+      {
+        "date": "平成19年",
+        "event": "東京高裁事務局長"
+      },
+      {
+        "date": "平成22年",
+        "event": "東京地裁部総括"
+      },
+      {
+        "date": "平成23年",
+        "event": "最高裁人事局長"
+      },
+      {
+        "date": "平成26年",
+        "event": "静岡地裁所長"
+      },
+      {
+        "date": "平成28年",
+        "event": "東京高裁部総括"
+      },
+      {
+        "date": "平成30年",
+        "event": "東京地裁所長"
+      },
+      {
+        "date": "平成30年",
+        "event": "大阪高裁長官"
+      },
+      {
+        "date": "令和3年7月16日",
+        "event": "最高裁判所判事"
+      }
+    ]
+  },
+  {
+    "judgeId": "watanabe",
+    "name": "渡邉 惠理子",
+    "nameNormalized": "渡辺恵理子",
+    "role": "判事",
+    "division": "第三小法廷",
+    "status": "現職",
+    "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/watanabe/index.html",
+    "reading": "わたなべえりこ",
+    "birth": {
+      "gengo": "昭和",
+      "year": 33,
+      "month": 12,
+      "day": 27,
+      "seireki": 1958,
+      "raw": "昭和33年12月27日生"
+    },
+    "career": [
+      {
+        "date": "昭和58年",
+        "event": "東北大学法学部卒業"
+      },
+      {
+        "date": "昭和61年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和63年",
+        "event": "弁護士名簿登録（第一東京弁護士会）"
+      },
+      {
+        "date": "平成6年",
+        "event": "University of Washington (LL.M.) School of Law 修了"
+      },
+      {
+        "date": "平成7年",
+        "event": "弁護士登録取消"
+      },
+      {
+        "date": "平成7年",
+        "event": "公正取引委員会事務総局勤務"
+      },
+      {
+        "date": "平成10年",
+        "event": "弁護士名簿登録（第一東京弁護士会）"
+      },
+      {
+        "date": "平成15年",
+        "event": "経済産業省競争政策研究会（企業結合）委員"
+      },
+      {
+        "date": "平成16年",
+        "event": "慶應義塾大学法科大学院教授"
+      },
+      {
+        "date": "平成17年",
+        "event": "経済産業省産業構造審議会臨時委員（新成長政策部会競争環境整備小委員会委員）"
+      },
+      {
+        "date": "平成19年",
+        "event": "内閣府官民競争入札等監理委員会委員"
+      },
+      {
+        "date": "平成20年",
+        "event": "経済産業省競争法の国際的な執行に関する研究会委員"
+      },
+      {
+        "date": "平成21年",
+        "event": "経済産業省産業構造審議会臨時委員（新成長政策部会競争環境整備小委員会委員）"
+      },
+      {
+        "date": "平成22年",
+        "event": "中小企業庁下請法等の社内整備体制に関する委員会委員"
+      },
+      {
+        "date": "平成24年",
+        "event": "日本放送協会経営委員会委員・監査委員"
+      },
+      {
+        "date": "令和元年",
+        "event": "司法試験考査委員（経済法）"
+      },
+      {
+        "date": "令和2年",
+        "event": "国立大学法人お茶の水女子大学監事"
+      },
+      {
+        "date": "令和3年7月16日",
+        "event": "最高裁判所判事"
+      }
+    ]
+  },
+  {
+    "judgeId": "sakai",
+    "name": "堺 徹",
+    "nameNormalized": "堺徹",
+    "role": "判事",
+    "division": "第一小法廷",
+    "status": "現職",
+    "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/sakai/index.html",
+    "reading": "さかいとおる",
+    "birth": {
+      "gengo": "昭和",
+      "year": 33,
+      "month": 7,
+      "day": 17,
+      "seireki": 1958,
+      "raw": "昭和33年7月17日生"
+    },
+    "career": [
+      {
+        "date": "昭和57年",
+        "event": "東京大学法学部卒業"
+      },
+      {
+        "date": "昭和57年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和59年",
+        "event": "検事任官 その後，札幌，札幌地検室蘭支部，大阪，大津地検において勤務"
+      },
+      {
+        "date": "平成4年",
+        "event": "法務大臣官房司法法制調査部付"
+      },
+      {
+        "date": "平成7年",
+        "event": "東京地検八王子支部検事"
+      },
+      {
+        "date": "平成8年",
+        "event": "東京地検検事"
+      },
+      {
+        "date": "平成10年",
+        "event": "旭川地検次席検事"
+      },
+      {
+        "date": "平成12年",
+        "event": "東京地検検事"
+      },
+      {
+        "date": "平成17年",
+        "event": "大阪地検検事"
+      },
+      {
+        "date": "平成17年",
+        "event": "大阪高検検事"
+      },
+      {
+        "date": "平成18年",
+        "event": "東京高検検事"
+      },
+      {
+        "date": "平成20年",
+        "event": "東京地検交通部長"
+      },
+      {
+        "date": "平成22年",
+        "event": "東京地検公安部長"
+      },
+      {
+        "date": "平成22年",
+        "event": "東京地検特別捜査部長"
+      },
+      {
+        "date": "平成24年",
+        "event": "福島地検検事正"
+      },
+      {
+        "date": "平成25年",
+        "event": "東京地検次席検事"
+      },
+      {
+        "date": "平成26年",
+        "event": "東京高検次席検事"
+      },
+      {
+        "date": "平成28年",
+        "event": "東京地検検事正"
+      },
+      {
+        "date": "平成29年",
+        "event": "仙台高検検事長"
+      },
+      {
+        "date": "平成30年",
+        "event": "次長検事"
+      },
+      {
+        "date": "令和2年",
+        "event": "東京高検検事長"
+      },
+      {
+        "date": "令和3年",
+        "event": "退官"
+      },
+      {
+        "date": "令和3年9月3日",
+        "event": "最高裁判所判事"
+      }
+    ]
+  },
+  {
+    "judgeId": "ojima",
+    "name": "尾島 明",
+    "nameNormalized": "尾島明",
+    "role": "判事",
+    "division": "第二小法廷",
+    "status": "現職",
+    "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/ojima/index.html",
+    "reading": "おじまあきら",
+    "birth": {
+      "gengo": "昭和",
+      "year": 33,
+      "month": 9,
+      "day": 1,
+      "seireki": 1958,
+      "raw": "昭和33年9月1日生"
+    },
+    "career": [
+      {
+        "date": "昭和58年",
+        "event": "東京大学法学部卒業"
+      },
+      {
+        "date": "昭和58年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和60年",
+        "event": "判事補任官 その後、東京地裁、甲府家地裁、最高裁総務局、通商産業省通商政策局、東京地裁、横浜地裁において勤務"
+      },
+      {
+        "date": "平成7年",
+        "event": "横浜地裁判事"
+      },
+      {
+        "date": "平成10年",
+        "event": "最高裁裁判所調査官"
+      },
+      {
+        "date": "平成15年",
+        "event": "東京高裁判事"
+      },
+      {
+        "date": "平成15年",
+        "event": "内閣法制局参事官（第二部）"
+      },
+      {
+        "date": "平成20年",
+        "event": "東京高裁判事"
+      },
+      {
+        "date": "平成21年",
+        "event": "東京地裁判事部総括"
+      },
+      {
+        "date": "平成24年",
+        "event": "最高裁上席調査官"
+      },
+      {
+        "date": "平成28年",
+        "event": "静岡地裁所長"
+      },
+      {
+        "date": "平成29年",
+        "event": "東京高裁判事部総括"
+      },
+      {
+        "date": "平成30年",
+        "event": "最高裁首席調査官"
+      },
+      {
+        "date": "令和3年",
+        "event": "大阪高裁長官"
+      },
+      {
+        "date": "令和4年7月5日",
+        "event": "最高裁判所判事"
+      }
+    ]
+  },
+  {
+    "judgeId": "miyagawa",
+    "name": "宮川 美津子",
+    "nameNormalized": "宮川美津子",
+    "role": "判事",
+    "division": "第一小法廷",
+    "status": "現職",
+    "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/miyagawa/index.html",
+    "reading": "みやがわみつこ",
+    "birth": {
+      "gengo": "昭和",
+      "year": 35,
+      "month": 2,
+      "day": 13,
+      "seireki": 1960,
+      "raw": "昭和35年2月13日生"
+    },
+    "career": [
+      {
+        "date": "昭和59年",
+        "event": "東京大学法学部卒業"
+      },
+      {
+        "date": "昭和59年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和61年",
+        "event": "弁護士名簿登録（第一東京弁護士会）"
+      },
+      {
+        "date": "平成5年",
+        "event": "ハーバードロースクール修了（LL.M.）"
+      },
+      {
+        "date": "平成7年",
+        "event": "TMI総合法律事務所パートナー"
+      },
+      {
+        "date": "平成14年",
+        "event": "日本弁護士連合会知的財産政策推進本部（現　日弁連知的財産センター）委員"
+      },
+      {
+        "date": "平成14年",
+        "event": "経済産業省産業構造審議会臨時委員・同知的財産政策部会（現　知的財産分科会）委員"
+      },
+      {
+        "date": "平成17年",
+        "event": "慶應義塾大学法科大学院講師"
+      },
+      {
+        "date": "平成19年",
+        "event": "文部科学省文化審議会著作権分科会委員"
+      },
+      {
+        "date": "平成25年",
+        "event": "内閣府知的財産戦略本部有識者本部員"
+      },
+      {
+        "date": "平成27年",
+        "event": "エステー株式会社社外取締役"
+      },
+      {
+        "date": "平成28年",
+        "event": "パナソニック株式会社社外監査役"
+      },
+      {
+        "date": "平成29年",
+        "event": "財務省関税等不服審査会関税・知的財産分科会委員"
+      },
+      {
+        "date": "平成30年",
+        "event": "公益社団法人日本仲裁人協会理事"
+      },
+      {
+        "date": "平成31年",
+        "event": "内閣官房サイバーセキュリティ戦略本部普及啓発・人材育成専門調査会サイバーセキュリティ関係法令の調査検討等を目的としたサブワーキンググループ委員"
+      },
+      {
+        "date": "令和元年",
+        "event": "三菱自動車工業株式会社社外取締役"
+      },
+      {
+        "date": "令和元年",
+        "event": "日弁連知的財産センター委員長"
+      },
+      {
+        "date": "令和2年",
+        "event": "一般社団法人日本国際紛争解決センター理事"
+      },
+      {
+        "date": "令和4年",
+        "event": "経済産業省産業構造審議会知的財産分科会商標制度小委員会委員"
+      },
+      {
+        "date": "令和5年11月6日",
+        "event": "最高裁判所判事"
+      }
+    ]
+  },
+  {
+    "judgeId": "ishikane",
+    "name": "石兼 公博",
+    "nameNormalized": "石兼公博",
+    "role": "判事",
+    "division": "第三小法廷",
+    "status": "現職",
+    "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/ishikane/index.html",
+    "reading": "いしかねきみひろ",
+    "birth": {
+      "gengo": "昭和",
+      "year": 33,
+      "month": 1,
+      "day": 4,
+      "seireki": 1958,
+      "raw": "昭和33年1月4日生"
+    },
+    "career": [
+      {
+        "date": "昭和56年",
+        "event": "東京大学法学部卒業 外務省入省"
+      },
+      {
+        "date": "平成 8年",
+        "event": "在フランス日本国大使館　一等書記官"
+      },
+      {
+        "date": "平成10年",
+        "event": "同参事官 総合外交政策局科学原子力課国際科学協力室長"
+      },
+      {
+        "date": "平成11年",
+        "event": "中近東アフリカ局アフリカ第一課長"
+      },
+      {
+        "date": "平成15年",
+        "event": "経済協力局有償資金協力課長"
+      },
+      {
+        "date": "平成16年",
+        "event": "在アメリカ合衆国日本国大使館　参事官"
+      },
+      {
+        "date": "平成17年",
+        "event": "同公使"
+      },
+      {
+        "date": "平成19年",
+        "event": "国際協力局政策課長 内閣総理大臣秘書官"
+      },
+      {
+        "date": "平成20年",
+        "event": "大臣官房総務課長"
+      },
+      {
+        "date": "平成21年",
+        "event": "大臣官房参事官"
+      },
+      {
+        "date": "平成23年",
+        "event": "大臣官房審議官"
+      },
+      {
+        "date": "平成24年",
+        "event": "特命全権大使　東南アジア諸国連合日本政府代表部在勤"
+      },
+      {
+        "date": "平成26年",
+        "event": "国際協力局長"
+      },
+      {
+        "date": "平成27年",
+        "event": "アジア大洋州局長"
+      },
+      {
+        "date": "平成28年",
+        "event": "総合外交政策局長"
+      },
+      {
+        "date": "平成29年",
+        "event": "特命全権大使　カナダ国駐箚兼国際民間航空機関日本政府代表部在勤"
+      },
+      {
+        "date": "令和元年",
+        "event": "特命全権大使　国際連合日本政府代表部在勤"
+      },
+      {
+        "date": "令和5年",
+        "event": "退官"
+      },
+      {
+        "date": "令和6年4月17日",
+        "event": "最高裁判所判事"
+      }
+    ]
+  },
+  {
+    "judgeId": "hiraki",
+    "name": "平木 正洋",
+    "nameNormalized": "平木正洋",
+    "role": "判事",
+    "division": "第三小法廷",
+    "status": "現職",
+    "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/hiraki/index.html",
+    "reading": "ひらきまさひろ",
+    "birth": {
+      "gengo": "昭和",
+      "year": 36,
+      "month": 4,
+      "day": 3,
+      "seireki": 1961,
+      "raw": "昭和36年4月3日生"
+    },
+    "career": [
+      {
+        "date": "昭和60年",
+        "event": "東京大学法学部卒業"
+      },
+      {
+        "date": "昭和60年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和62年",
+        "event": "判事補任官 その後、東京地裁、外務省北米局北米第二課、在アメリカ合衆国日本国大使館、東京地裁、佐賀地家裁において勤務"
+      },
+      {
+        "date": "平成11年",
+        "event": "佐賀地家裁判事"
+      },
+      {
+        "date": "平成12年",
+        "event": "最高裁裁判所調査官"
+      },
+      {
+        "date": "平成17年",
+        "event": "東京地裁判事"
+      },
+      {
+        "date": "平成19年",
+        "event": "最高裁刑事局参事官"
+      },
+      {
+        "date": "平成22年",
+        "event": "東京地裁判事"
+      },
+      {
+        "date": "平成23年",
+        "event": "最高裁情報政策課長"
+      },
+      {
+        "date": "平成25年",
+        "event": "東京地裁判事部総括"
+      },
+      {
+        "date": "平成27年",
+        "event": "最高裁刑事局長兼図書館長"
+      },
+      {
+        "date": "平成30年",
+        "event": "前橋地裁所長"
+      },
+      {
+        "date": "平成31年",
+        "event": "東京高裁判事部総括"
+      },
+      {
+        "date": "令和3年",
+        "event": "東京地裁所長"
+      },
+      {
+        "date": "令和5年",
+        "event": "大阪高裁長官"
+      },
+      {
+        "date": "令和6年8月16日",
+        "event": "最高裁判所判事"
+      }
+    ]
+  },
+  {
+    "judgeId": "nakamura",
+    "name": "中村 愼",
+    "nameNormalized": "中村愼",
+    "role": "判事",
+    "division": "第一小法廷",
+    "status": "現職",
+    "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/nakamura/index.html",
+    "reading": "なかむらまこと",
+    "birth": {
+      "gengo": "昭和",
+      "year": 36,
+      "month": 9,
+      "day": 12,
+      "seireki": 1961,
+      "raw": "昭和36年9月12日生"
+    },
+    "career": [
+      {
+        "date": "昭和61年",
+        "event": "京都大学法学部卒業"
+      },
+      {
+        "date": "昭和61年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和63年",
+        "event": "判事補任官 その後、東京地裁、最高裁人事局、外務省条約局、外務省総合外交政策局国連政策課国際平和協力室、国際連合日本政府代表部、大阪地裁で勤務"
+      },
+      {
+        "date": "平成12年",
+        "event": "最高裁裁判所調査官"
+      },
+      {
+        "date": "平成13年",
+        "event": "最高裁総務局第二課長兼第三課長"
+      },
+      {
+        "date": "平成15年",
+        "event": "最高裁総務局第一課長"
+      },
+      {
+        "date": "平成19年",
+        "event": "東京高裁判事"
+      },
+      {
+        "date": "平成21年",
+        "event": "東京地裁判事"
+      },
+      {
+        "date": "平成22年",
+        "event": "最高裁秘書課長兼広報課長"
+      },
+      {
+        "date": "平成24年",
+        "event": "東京地裁判事（部総括）"
+      },
+      {
+        "date": "平成25年",
+        "event": "最高裁総務局長"
+      },
+      {
+        "date": "平成30年",
+        "event": "水戸地裁所長"
+      },
+      {
+        "date": "令和元年",
+        "event": "最高裁事務総長"
+      },
+      {
+        "date": "令和4年",
+        "event": "東京高裁長官"
+      },
+      {
+        "date": "令和6年9月11日",
+        "event": "最高裁判所判事"
+      }
+    ]
+  },
+  {
+    "judgeId": "takasu",
+    "name": "高須 順一",
+    "nameNormalized": "高須順一",
+    "role": "判事",
+    "division": "第二小法廷",
+    "status": "現職",
+    "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/takasu/index.html",
+    "reading": "たかすじゅんいち",
+    "birth": {
+      "gengo": "昭和",
+      "year": 34,
+      "month": 10,
+      "day": 9,
+      "seireki": 1959,
+      "raw": "昭和34年10月9日生"
+    },
+    "career": [
+      {
+        "date": "昭和57年",
+        "event": "法政大学法学部卒業"
+      },
+      {
+        "date": "昭和61年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "昭和63年",
+        "event": "弁護士名簿登録（東京弁護士会）"
+      },
+      {
+        "date": "平成2年",
+        "event": "法政大学法学部非常勤講師"
+      },
+      {
+        "date": "平成16年",
+        "event": "法政大学大学院法務研究科教授"
+      },
+      {
+        "date": "平成21年",
+        "event": "法務省法制審議会民法（債権関係）部会幹事"
+      },
+      {
+        "date": "平成28年",
+        "event": "公益財団法人日弁連法務研究財団常務理事"
+      },
+      {
+        "date": "平成30年",
+        "event": "東京弁護士会法制委員会委員長"
+      },
+      {
+        "date": "平成30年",
+        "event": "法政大学大学院法務研究科長"
+      },
+      {
+        "date": "平成30年",
+        "event": "東京弁護士会民事司法改革実現本部委員"
+      },
+      {
+        "date": "令和元年",
+        "event": "日本弁護士連合会司法制度調査会委員長"
+      },
+      {
+        "date": "令和2年",
+        "event": "京都大学大学院法学研究科法政理論専攻博士課程修了・京都大学博士（法学）"
+      },
+      {
+        "date": "令和2年",
+        "event": "日本弁護士連合会民事裁判手続に関する委員会幹事"
+      },
+      {
+        "date": "令和2年",
+        "event": "日本弁護士連合会民事裁判手続のIT化に関するワーキンググループ委員"
+      },
+      {
+        "date": "令和2年",
+        "event": "最高裁判所民事規則制定諮問委員会委員"
+      },
+      {
+        "date": "令和6年",
+        "event": "公益財団法人大学基準協会法務系専門職大学院認証評価委員会委員"
+      },
+      {
+        "date": "令和7年3月27日",
+        "event": "最高裁判所判事"
+      }
+    ]
+  },
+  {
+    "judgeId": "okino",
+    "name": "沖野 眞已",
+    "nameNormalized": "沖野真已",
+    "role": "判事",
+    "division": "第三小法廷",
+    "status": "現職",
+    "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/okino/index.html",
+    "reading": "おきのまさみ",
+    "birth": {
+      "gengo": "昭和",
+      "year": 39,
+      "month": 1,
+      "day": 12,
+      "seireki": 1964,
+      "raw": "昭和39年1月12日生"
+    },
+    "career": [
+      {
+        "date": "昭和61年",
+        "event": "司法試験合格"
+      },
+      {
+        "date": "昭和62年",
+        "event": "東京大学法学部卒業"
+      },
+      {
+        "date": "昭和62年",
+        "event": "東京大学法学部助手"
+      },
+      {
+        "date": "平成2年",
+        "event": "筑波大学社会科学系専任講師"
+      },
+      {
+        "date": "平成5年",
+        "event": "学習院大学法学部助教授"
+      },
+      {
+        "date": "平成8年",
+        "event": "米国・ヴァージニア大学ロースクール修了（LL.M.）"
+      },
+      {
+        "date": "平成11年",
+        "event": "学習院大学法学部教授"
+      },
+      {
+        "date": "平成14年",
+        "event": "法務事務官（法務省民事局総務課法務専門職（法務専門官））・法務省民事局付"
+      },
+      {
+        "date": "平成16年",
+        "event": "学習院大学専門職大学院法務研究科（法科大学院）教授（兼法学部教授）"
+      },
+      {
+        "date": "平成19年",
+        "event": "一橋大学大学院法学研究科教授"
+      },
+      {
+        "date": "平成22年",
+        "event": "東京大学大学院法学政治学研究科教授"
+      },
+      {
+        "date": "令和7年",
+        "event": "東京大学大学院法学政治学研究科長、法学部長"
+      },
+      {
+        "date": "令和7年7月24日",
+        "event": "最高裁判所判事"
+      }
+    ]
+  },
+  {
+    "judgeId": "ata",
+    "name": "阿多 博文",
+    "nameNormalized": "阿多博文",
+    "role": "判事",
+    "division": "第一小法廷",
+    "status": "現職",
+    "detailUrl": "https://www.courts.go.jp/saikosai/about/saibankan/ata/index.html",
+    "reading": "あたひろふみ",
+    "birth": {
+      "gengo": "昭和",
+      "year": 35,
+      "month": 5,
+      "day": 14,
+      "seireki": 1960,
+      "raw": "昭和35年5月14日生"
+    },
+    "career": [
+      {
+        "date": "昭和59年",
+        "event": "同志社大学法学部卒業"
+      },
+      {
+        "date": "昭和61年",
+        "event": "司法試験合格"
+      },
+      {
+        "date": "昭和63年",
+        "event": "京都大学大学院法学研究科修士課程修了"
+      },
+      {
+        "date": "昭和63年",
+        "event": "司法修習生"
+      },
+      {
+        "date": "平成2年",
+        "event": "弁護士名簿登録（大阪弁護士会）"
+      },
+      {
+        "date": "平成13年",
+        "event": "大阪市情報公開審査会委員"
+      },
+      {
+        "date": "平成13年",
+        "event": "大阪市出資等法人情報公開審査会委員"
+      },
+      {
+        "date": "平成14年",
+        "event": "法務省法制審議会会社法（株券の不発行等関係）部会委員"
+      },
+      {
+        "date": "平成16年",
+        "event": "同志社大学法科大学院専任教授"
+      },
+      {
+        "date": "平成17年",
+        "event": "大阪市監理団体評価委員会専門委員（平成19年4月以降、大阪市外郭団体等評価委員会に組織変更）"
+      },
+      {
+        "date": "平成22年",
+        "event": "大阪市特定団体経営監視委員会委員"
+      },
+      {
+        "date": "平成22年",
+        "event": "法務省司法試験（新司法試験）考査委員（商法）"
+      },
+      {
+        "date": "平成22年",
+        "event": "大阪市会情報公開審査委員会委員"
+      },
+      {
+        "date": "平成25年",
+        "event": "大阪市外郭団体評価委員会委員"
+      },
+      {
+        "date": "平成28年",
+        "event": "法務省法制審議会民事執行法部会委員"
+      },
+      {
+        "date": "平成29年",
+        "event": "大阪市大規模事業リスク管理会議委員"
+      },
+      {
+        "date": "平成30年",
+        "event": "同志社大学法科大学院客員教授"
+      },
+      {
+        "date": "令和2年",
+        "event": "法務省法制審議会民事訴訟法（IT化関係）部会委員"
+      },
+      {
+        "date": "令和8年2月2日",
+        "event": "最高裁判所判事"
+      }
+    ]
+  },
+  {
+    "judgeId": "ret_三淵忠彦",
+    "name": "三淵忠彦",
+    "nameNormalized": "三淵忠彦",
+    "role": "長官",
+    "division": null,
+    "status": "退官",
+    "reading": "みぶち ただひこ",
+    "appointed": "1947/08/04",
+    "retired": "1950/03/02",
+    "previousPost": "慶応大学講師",
+    "note": "初代長官",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_塚崎直義",
+    "name": "塚崎直義",
+    "nameNormalized": "塚崎直義",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "つかさき なおよし",
+    "appointed": "1947/08/04",
+    "retired": "1951/02/14",
+    "previousPost": "東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_長谷川太一郎",
+    "name": "長谷川太一郎",
+    "nameNormalized": "長谷川太一郎",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "はせがわ たいちろう",
+    "appointed": "1947/08/04",
+    "retired": "1951/11/30",
+    "previousPost": "第一東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_澤田竹治郎",
+    "name": "澤田竹治郎",
+    "nameNormalized": "澤田竹治郎",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "さわだ たけじろう",
+    "appointed": "1947/08/04",
+    "retired": "1952/08/01",
+    "previousPost": "行政裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_霜山精一",
+    "name": "霜山精一",
+    "nameNormalized": "霜山精一",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "しもやま せいいち",
+    "appointed": "1947/08/04",
+    "retired": "1954/10/14",
+    "previousPost": "大審院長，貴族院議員",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_井上登",
+    "name": "井上登",
+    "nameNormalized": "井上登",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "いのうえ のぼり",
+    "appointed": "1947/08/04",
+    "retired": "1955/04/09",
+    "previousPost": "大審院部長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_栗山茂",
+    "name": "栗山茂",
+    "nameNormalized": "栗山茂",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "くりやま しげる",
+    "appointed": "1947/08/04",
+    "retired": "1956/10/05",
+    "previousPost": "外交官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_真野毅",
+    "name": "真野毅",
+    "nameNormalized": "真野毅",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "まの つよし",
+    "appointed": "1947/08/04",
+    "retired": "1958/06/08",
+    "previousPost": "第二東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_庄野理一",
+    "name": "庄野理一",
+    "nameNormalized": "庄野理一",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "しょうの りいち",
+    "appointed": "1947/08/04",
+    "retired": "1948/06/28",
+    "previousPost": "東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_小谷勝重",
+    "name": "小谷勝重",
+    "nameNormalized": "小谷勝重",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "こたに かつしげ",
+    "appointed": "1947/08/04",
+    "retired": "1960/12/23",
+    "previousPost": "大阪弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_島保",
+    "name": "島保",
+    "nameNormalized": "島保",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "しま たもつ",
+    "appointed": "1947/08/04",
+    "retired": "1961/08/24",
+    "previousPost": "大審院部長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_齋藤悠輔",
+    "name": "齋藤悠輔",
+    "nameNormalized": "齋藤悠輔",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "さいとう ゆうすけ",
+    "appointed": "1947/08/04",
+    "retired": "1962/05/20",
+    "previousPost": "大阪控訴院検事長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_藤田八郎",
+    "name": "藤田八郎",
+    "nameNormalized": "藤田八郎",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "ふじた はちろう",
+    "appointed": "1947/08/04",
+    "retired": "1962/08/04",
+    "previousPost": "大阪控訴院長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_岩松三郎",
+    "name": "岩松三郎",
+    "nameNormalized": "岩松三郎",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "いわまつ さぶろう",
+    "appointed": "1947/08/04",
+    "retired": "1956/11/10",
+    "previousPost": "福岡控訴院長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_河村又介",
+    "name": "河村又介",
+    "nameNormalized": "河村又介",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "かわむら またすけ",
+    "appointed": "1947/08/04",
+    "retired": "1963/12/31",
+    "previousPost": "九州大学教授",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_穂積重遠",
+    "name": "穂積重遠",
+    "nameNormalized": "穂積重遠",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "ほづみ しげとお",
+    "appointed": "1949/02/26",
+    "retired": "1951/07/29",
+    "previousPost": "東京大学教授,東宮侍従長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_田中耕太郎",
+    "name": "田中耕太郎",
+    "nameNormalized": "田中耕太郎",
+    "role": "長官",
+    "division": null,
+    "status": "退官",
+    "reading": "たなか こうたろう",
+    "appointed": "1950/03/03",
+    "retired": "1960/10/24",
+    "previousPost": "参議院議員，学習院大学教授",
+    "note": "2代長官",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_谷村唯一郎",
+    "name": "谷村唯一郎",
+    "nameNormalized": "谷村唯一郎",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "たにむら ただいちろう",
+    "appointed": "1951/04/12",
+    "retired": "1956/11/10",
+    "previousPost": "東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_小林俊三",
+    "name": "小林俊三",
+    "nameNormalized": "小林俊三",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "こばやし しゅんぞう",
+    "appointed": "1951/10/05",
+    "retired": "1958/06/02",
+    "previousPost": "東京高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_本村善太郎",
+    "name": "本村善太郎",
+    "nameNormalized": "本村善太郎",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "もとむら ぜんたろう",
+    "appointed": "1952/01/21",
+    "retired": "1957/01/14",
+    "previousPost": "第一東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_入江俊郎",
+    "name": "入江俊郎",
+    "nameNormalized": "入江俊郎",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "いりえ としお",
+    "appointed": "1952/08/30",
+    "retired": "1971/01/09",
+    "previousPost": "貴族院議員，衆議院法制局長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_池田克",
+    "name": "池田克",
+    "nameNormalized": "池田克",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "いけだ かつ",
+    "appointed": "1954/11/02",
+    "retired": "1963/05/22",
+    "previousPost": "大審院次長検事",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_垂水克己",
+    "name": "垂水克己",
+    "nameNormalized": "垂水克己",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "たるみ かつみ",
+    "appointed": "1955/05/26",
+    "retired": "1963/11/14",
+    "previousPost": "東京高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_河村大助",
+    "name": "河村大助",
+    "nameNormalized": "河村大助",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "かわむら だいすけ",
+    "appointed": "1956/11/22",
+    "retired": "1963/06/01",
+    "previousPost": "東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_下飯坂潤夫",
+    "name": "下飯坂潤夫",
+    "nameNormalized": "下飯坂潤夫",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "しもいいざか ますお",
+    "appointed": "1956/11/22",
+    "retired": "1964/01/28",
+    "previousPost": "大阪高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_奥野健一",
+    "name": "奥野健一",
+    "nameNormalized": "奥野健一",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おくの けんいち",
+    "appointed": "1956/11/22",
+    "retired": "1968/11/17",
+    "previousPost": "参議院法制局長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_高橋潔",
+    "name": "高橋潔",
+    "nameNormalized": "高橋潔",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "たかはし きよし",
+    "appointed": "1957/01/30",
+    "retired": "1961/12/29",
+    "previousPost": "第一東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_高木常七",
+    "name": "高木常七",
+    "nameNormalized": "高木常七",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "たかぎ つねしち",
+    "appointed": "1958/06/28",
+    "retired": "1963/03/14",
+    "previousPost": "名古屋高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_石坂修一",
+    "name": "石坂修一",
+    "nameNormalized": "石坂修一",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "いしさか しゅういち",
+    "appointed": "1958/06/28",
+    "retired": "1965/09/13",
+    "previousPost": "大阪高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_横田喜三郎",
+    "name": "横田喜三郎",
+    "nameNormalized": "横田喜三郎",
+    "role": "長官",
+    "division": null,
+    "status": "退官",
+    "reading": "よこた きさぶろう",
+    "appointed": "1960/10/25",
+    "retired": "1966/08/05",
+    "previousPost": "東京大学教授",
+    "note": "3代長官",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_山田作之助",
+    "name": "山田作之助",
+    "nameNormalized": "山田作之助",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "やまだ さくのすけ",
+    "appointed": "1960/12/27",
+    "retired": "1966/04/21",
+    "previousPost": "神戸弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_五鬼上堅磐",
+    "name": "五鬼上堅磐",
+    "nameNormalized": "五鬼上堅磐",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "ごきじょう かきわ",
+    "appointed": "1961/08/26",
+    "retired": "1966/12/31",
+    "previousPost": "大阪高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_横田正俊",
+    "name": "横田正俊",
+    "nameNormalized": "横田正俊",
+    "role": "長官",
+    "division": null,
+    "status": "退官",
+    "reading": "よこた まさとし",
+    "appointed": "1962/02/28",
+    "retired": "1969/01/10",
+    "previousPost": "東京高等裁判所長官",
+    "note": "4代長官",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_齋藤朔郎",
+    "name": "齋藤朔郎",
+    "nameNormalized": "齋藤朔郎",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "さいとう きたろう",
+    "appointed": "1962/05/29",
+    "retired": "1964/08/09",
+    "previousPost": "参議院法制局長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_草鹿淺之介",
+    "name": "草鹿淺之介",
+    "nameNormalized": "草鹿淺之介",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "くさか あさのすけ",
+    "appointed": "1962/08/12",
+    "retired": "1970/10/24",
+    "previousPost": "大阪高等検察庁検事長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_長部謹吾",
+    "name": "長部謹吾",
+    "nameNormalized": "長部謹吾",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おさべ きんご",
+    "appointed": "1963/04/05",
+    "retired": "1971/03/31",
+    "previousPost": "最高検察庁次長検事",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_石田和外",
+    "name": "石田和外",
+    "nameNormalized": "石田和外",
+    "role": "長官",
+    "division": null,
+    "status": "退官",
+    "reading": "いしだ かずと",
+    "appointed": "1963/06/06",
+    "retired": "1973/05/19",
+    "previousPost": "東京高等裁判所長官",
+    "note": "5代長官",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_城戸芳彦",
+    "name": "城戸芳彦",
+    "nameNormalized": "城戸芳彦",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "きど よしひこ",
+    "appointed": "1963/06/06",
+    "retired": "1970/12/19",
+    "previousPost": "東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_柏原語六",
+    "name": "柏原語六",
+    "nameNormalized": "柏原語六",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "かしはら ごろく",
+    "appointed": "1963/12/13",
+    "retired": "1967/09/19",
+    "previousPost": "東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_田中二郎",
+    "name": "田中二郎",
+    "nameNormalized": "田中二郎",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "たなか じろう",
+    "appointed": "1964/01/16",
+    "retired": "1973/03/31",
+    "previousPost": "東京大学教授",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_松田二郎",
+    "name": "松田二郎",
+    "nameNormalized": "松田二郎",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "まつだ じろう",
+    "appointed": "1964/01/31",
+    "retired": "1970/07/29",
+    "previousPost": "大阪高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_岩田誠",
+    "name": "岩田誠",
+    "nameNormalized": "岩田誠",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "いわた まこと",
+    "appointed": "1964/08/31",
+    "retired": "1972/11/25",
+    "previousPost": "東京高等裁判所判事部総括",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_下村三郎",
+    "name": "下村三郎",
+    "nameNormalized": "下村三郎",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "しもむら かずお",
+    "appointed": "1965/09/14",
+    "retired": "1973/01/01",
+    "previousPost": "東京高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_色川幸太郎",
+    "name": "色川幸太郎",
+    "nameNormalized": "色川幸太郎",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "いろかわ こうたろう",
+    "appointed": "1966/05/10",
+    "retired": "1973/01/29",
+    "previousPost": "大阪弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_大隅健一郎",
+    "name": "大隅健一郎",
+    "nameNormalized": "大隅健一郎",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おおすみ けんいちろう",
+    "appointed": "1966/09/09",
+    "retired": "1974/10/01",
+    "previousPost": "京都大学教授",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_松本正雄",
+    "name": "松本正雄",
+    "nameNormalized": "松本正雄",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "まつもと まさお",
+    "appointed": "1967/01/17",
+    "retired": "1971/12/05",
+    "previousPost": "第二東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_飯村義美",
+    "name": "飯村義美",
+    "nameNormalized": "飯村義美",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "いいむら よしみ",
+    "appointed": "1967/09/20",
+    "retired": "1971/04/26",
+    "previousPost": "東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_村上朝一",
+    "name": "村上朝一",
+    "nameNormalized": "村上朝一",
+    "role": "長官",
+    "division": null,
+    "status": "退官",
+    "reading": "むらかみ ともかず",
+    "appointed": "1968/11/19",
+    "retired": "1976/05/24",
+    "previousPost": "東京高等裁判所長官",
+    "note": "6代長官",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_関根小郷",
+    "name": "関根小郷",
+    "nameNormalized": "関根小郷",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "せきね こさと",
+    "appointed": "1969/01/17",
+    "retired": "1975/12/02",
+    "previousPost": "大阪高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_藤林益三",
+    "name": "藤林益三",
+    "nameNormalized": "藤林益三",
+    "role": "長官",
+    "division": null,
+    "status": "退官",
+    "reading": "ふじばやし えきぞう",
+    "appointed": "1970/07/31",
+    "retired": "1977/08/25",
+    "previousPost": "第一東京弁護士会所属弁護士",
+    "note": "7代長官",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_岡原昌男",
+    "name": "岡原昌男",
+    "nameNormalized": "岡原昌男",
+    "role": "長官",
+    "division": null,
+    "status": "退官",
+    "reading": "おかはら まさお",
+    "appointed": "1970/10/28",
+    "retired": "1979/03/31",
+    "previousPost": "大阪高等検察庁検事長",
+    "note": "8代長官",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_小川信雄",
+    "name": "小川信雄",
+    "nameNormalized": "小川信雄",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おがわ のぶお",
+    "appointed": "1970/12/22",
+    "retired": "1975/08/06",
+    "previousPost": "東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_下田武三",
+    "name": "下田武三",
+    "nameNormalized": "下田武三",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "しもだ たけそう",
+    "appointed": "1971/01/12",
+    "retired": "1977/04/02",
+    "previousPost": "外交官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_岸盛一",
+    "name": "岸盛一",
+    "nameNormalized": "岸盛一",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "きし せいいち",
+    "appointed": "1971/04/02",
+    "retired": "1978/07/13",
+    "previousPost": "東京高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_天野武一",
+    "name": "天野武一",
+    "nameNormalized": "天野武一",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "あまの ぶいち",
+    "appointed": "1971/05/21",
+    "retired": "1978/09/20",
+    "previousPost": "大阪高等検察庁検事長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_坂本吉勝",
+    "name": "坂本吉勝",
+    "nameNormalized": "坂本吉勝",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "さかもと よしかつ",
+    "appointed": "1971/12/07",
+    "retired": "1976/03/26",
+    "previousPost": "第二東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_岸上康夫",
+    "name": "岸上康夫",
+    "nameNormalized": "岸上康夫",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "きしがみ やすお",
+    "appointed": "1972/11/28",
+    "retired": "1978/09/21",
+    "previousPost": "東京高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_江里口清雄",
+    "name": "江里口清雄",
+    "nameNormalized": "江里口清雄",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "えりくち きよお",
+    "appointed": "1973/01/09",
+    "retired": "1980/03/19",
+    "previousPost": "福岡高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_大塚喜一郎",
+    "name": "大塚喜一郎",
+    "nameNormalized": "大塚喜一郎",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おおつか きいちろう",
+    "appointed": "1973/02/02",
+    "retired": "1980/02/04",
+    "previousPost": "第一東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_高辻正己",
+    "name": "高辻正己",
+    "nameNormalized": "高辻正己",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "たかつじ まさみ",
+    "appointed": "1973/04/04",
+    "retired": "1980/01/18",
+    "previousPost": "内閣法制局長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_吉田豊",
+    "name": "吉田豊",
+    "nameNormalized": "吉田豊",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "よしだ ゆたか",
+    "appointed": "1973/05/21",
+    "retired": "1979/02/28",
+    "previousPost": "大阪高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_團藤重光",
+    "name": "團藤重光",
+    "nameNormalized": "團藤重光",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "だんどう しげみつ",
+    "appointed": "1974/10/04",
+    "retired": "1983/11/07",
+    "previousPost": "東京大学教授",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_本林譲",
+    "name": "本林譲",
+    "nameNormalized": "本林譲",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "もとばやし ゆずる",
+    "appointed": "1975/08/08",
+    "retired": "1979/03/30",
+    "previousPost": "東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_服部高顯",
+    "name": "服部高顯",
+    "nameNormalized": "服部高顯",
+    "role": "長官",
+    "division": null,
+    "status": "退官",
+    "reading": "はっとり たかあき",
+    "appointed": "1975/12/03",
+    "retired": "1982/09/30",
+    "previousPost": "大阪高等裁判所長官",
+    "note": "9代長官",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_環昌一",
+    "name": "環昌一",
+    "nameNormalized": "環昌一",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "たまき しょういち",
+    "appointed": "1976/03/27",
+    "retired": "1982/04/11",
+    "previousPost": "第二東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_栗本一夫",
+    "name": "栗本一夫",
+    "nameNormalized": "栗本一夫",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "くりもと かずお",
+    "appointed": "1976/05/25",
+    "retired": "1982/05/26",
+    "previousPost": "名古屋高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_藤崎萬里",
+    "name": "藤崎萬里",
+    "nameNormalized": "藤崎萬里",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "ふじさき まさと",
+    "appointed": "1977/04/05",
+    "retired": "1984/12/15",
+    "previousPost": "外交官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_本山亨",
+    "name": "本山亨",
+    "nameNormalized": "本山亨",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "もとやま とおる",
+    "appointed": "1977/08/26",
+    "retired": "1982/08/10",
+    "previousPost": "名古屋弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_戸田弘",
+    "name": "戸田弘",
+    "nameNormalized": "戸田弘",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "とだ ひろむ",
+    "appointed": "1978/07/14",
+    "retired": "1980/03/25",
+    "previousPost": "東京高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_中村治朗",
+    "name": "中村治朗",
+    "nameNormalized": "中村治朗",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "なかむら じろう",
+    "appointed": "1978/09/22",
+    "retired": "1984/02/19",
+    "previousPost": "東京高等裁判所判事部総括",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_横井大三",
+    "name": "横井大三",
+    "nameNormalized": "横井大三",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "よこい だいぞう",
+    "appointed": "1978/09/22",
+    "retired": "1984/06/10",
+    "previousPost": "名古屋高等検察庁検事長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_木下忠良",
+    "name": "木下忠良",
+    "nameNormalized": "木下忠良",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "きのした ただよし",
+    "appointed": "1979/03/01",
+    "retired": "1986/01/14",
+    "previousPost": "大阪高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_塚本重頼",
+    "name": "塚本重頼",
+    "nameNormalized": "塚本重頼",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "つかもと しげより",
+    "appointed": "1979/04/02",
+    "retired": "1981/10/17",
+    "previousPost": "東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_鹽野宜慶",
+    "name": "鹽野宜慶",
+    "nameNormalized": "鹽野宜慶",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "しおの やすよし",
+    "appointed": "1979/04/02",
+    "retired": "1985/05/22",
+    "previousPost": "東京高等検察庁検事長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_伊藤正己",
+    "name": "伊藤正己",
+    "nameNormalized": "伊藤正己",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "いとう まさみ",
+    "appointed": "1980/01/19",
+    "retired": "1989/09/20",
+    "previousPost": "東京大学教授",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_宮崎梧一",
+    "name": "宮崎梧一",
+    "nameNormalized": "宮崎梧一",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "みやざき ごいち",
+    "appointed": "1980/02/06",
+    "retired": "1984/05/04",
+    "previousPost": "第一東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_寺田治郎",
+    "name": "寺田治郎",
+    "nameNormalized": "寺田治郎",
+    "role": "長官",
+    "division": null,
+    "status": "退官",
+    "reading": "てらだ じろう",
+    "appointed": "1980/03/22",
+    "retired": "1985/11/03",
+    "previousPost": "東京高等裁判所長官",
+    "note": "10代長官",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_谷口正孝",
+    "name": "谷口正孝",
+    "nameNormalized": "谷口正孝",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "たにぐち まさたか",
+    "appointed": "1980/04/16",
+    "retired": "1987/01/27",
+    "previousPost": "東京地方裁判所長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_大橋進",
+    "name": "大橋進",
+    "nameNormalized": "大橋進",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おおはし すすむ",
+    "appointed": "1981/11/02",
+    "retired": "1986/06/12",
+    "previousPost": "東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_木戸口久治",
+    "name": "木戸口久治",
+    "nameNormalized": "木戸口久治",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "きどぐち ひさはる",
+    "appointed": "1982/04/12",
+    "retired": "1986/01/08",
+    "previousPost": "第二東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_牧圭次",
+    "name": "牧圭次",
+    "nameNormalized": "牧圭次",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "まき けいじ",
+    "appointed": "1982/05/28",
+    "retired": "1989/11/24",
+    "previousPost": "名古屋高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_和田誠一",
+    "name": "和田誠一",
+    "nameNormalized": "和田誠一",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "わだ せいいち",
+    "appointed": "1982/08/16",
+    "retired": "1986/04/23",
+    "previousPost": "大阪弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_安岡満彦",
+    "name": "安岡満彦",
+    "nameNormalized": "安岡満彦",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "やすおか みつひこ",
+    "appointed": "1982/10/01",
+    "retired": "1990/05/04",
+    "previousPost": "大阪高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_角田礼次郎",
+    "name": "角田礼次郎",
+    "nameNormalized": "角田礼次郎",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "つのだ れいじろう",
+    "appointed": "1983/11/08",
+    "retired": "1990/12/03",
+    "previousPost": "内閣法制局長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_矢口洪一",
+    "name": "矢口洪一",
+    "nameNormalized": "矢口洪一",
+    "role": "長官",
+    "division": null,
+    "status": "退官",
+    "reading": "やぐち こういち",
+    "appointed": "1984/02/20",
+    "retired": "1990/02/19",
+    "previousPost": "東京高等裁判所長官",
+    "note": "11代長官",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_島谷六郎",
+    "name": "島谷六郎",
+    "nameNormalized": "島谷六郎",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "しまたに ろくろう",
+    "appointed": "1984/05/08",
+    "retired": "1990/01/23",
+    "previousPost": "第一東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_長島敦",
+    "name": "長島敦",
+    "nameNormalized": "長島敦",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "ながしま あつし",
+    "appointed": "1984/06/12",
+    "retired": "1988/03/16",
+    "previousPost": "名古屋高等検察庁検事長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_高島益郎",
+    "name": "高島益郎",
+    "nameNormalized": "高島益郎",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "たかしま ますお",
+    "appointed": "1984/12/17",
+    "retired": "1988/05/02",
+    "previousPost": "外交官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_藤島昭",
+    "name": "藤島昭",
+    "nameNormalized": "藤島昭",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "ふじしま あきら",
+    "appointed": "1985/05/23",
+    "retired": "1994/01/01",
+    "previousPost": "最高検察庁次長検事",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_大内恒夫",
+    "name": "大内恒夫",
+    "nameNormalized": "大内恒夫",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おおうち つねお",
+    "appointed": "1985/11/05",
+    "retired": "1992/03/23",
+    "previousPost": "東京高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_香川保一",
+    "name": "香川保一",
+    "nameNormalized": "香川保一",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "かがわ やすかず",
+    "appointed": "1986/01/17",
+    "retired": "1991/05/04",
+    "previousPost": "名古屋高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_坂上壽夫",
+    "name": "坂上壽夫",
+    "nameNormalized": "坂上壽夫",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "さかうえ としお",
+    "appointed": "1986/01/17",
+    "retired": "1993/03/31",
+    "previousPost": "第二東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_佐藤哲郎",
+    "name": "佐藤哲郎",
+    "nameNormalized": "佐藤哲郎",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "さとう てつろう",
+    "appointed": "1986/05/21",
+    "retired": "1990/01/04",
+    "previousPost": "東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_林藤之輔",
+    "name": "林藤之輔",
+    "nameNormalized": "林藤之輔",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "はやし とうのすけ",
+    "appointed": "1986/06/13",
+    "retired": "1987/08/06",
+    "previousPost": "大阪弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_四ッ谷巖",
+    "name": "四ッ谷巖",
+    "nameNormalized": "四ッ谷巖",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "よつや いわお",
+    "appointed": "1987/01/28",
+    "retired": "1992/02/08",
+    "previousPost": "東京高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_奧野久之",
+    "name": "奧野久之",
+    "nameNormalized": "奧野久之",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おくの ひさゆき",
+    "appointed": "1987/09/05",
+    "retired": "1990/08/26",
+    "previousPost": "神戸弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_貞家克己",
+    "name": "貞家克己",
+    "nameNormalized": "貞家克己",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "ていか かつみ",
+    "appointed": "1988/03/17",
+    "retired": "1993/09/12",
+    "previousPost": "大阪高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_大堀誠一",
+    "name": "大堀誠一",
+    "nameNormalized": "大堀誠一",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おおほり せいいち",
+    "appointed": "1988/06/17",
+    "retired": "1995/08/10",
+    "previousPost": "東京高等検察庁検事長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_園部逸夫",
+    "name": "園部逸夫",
+    "nameNormalized": "園部逸夫",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "そのべ いつお",
+    "appointed": "1989/09/21",
+    "retired": "1999/03/31",
+    "previousPost": "成蹊大学教授",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_草場良八",
+    "name": "草場良八",
+    "nameNormalized": "草場良八",
+    "role": "長官",
+    "division": null,
+    "status": "退官",
+    "reading": "くさば りょうはち",
+    "appointed": "1989/11/27",
+    "retired": "1995/11/07",
+    "previousPost": "東京高等裁判所長官",
+    "note": "12代長官",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_橋元四郎平",
+    "name": "橋元四郎平",
+    "nameNormalized": "橋元四郎平",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "はしもと しろうへい",
+    "appointed": "1990/01/11",
+    "retired": "1993/04/12",
+    "previousPost": "東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_中島敏次郎",
+    "name": "中島敏次郎",
+    "nameNormalized": "中島敏次郎",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "なかじま としじろう",
+    "appointed": "1990/01/24",
+    "retired": "1995/09/01",
+    "previousPost": "外交官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_佐藤庄市郎",
+    "name": "佐藤庄市郎",
+    "nameNormalized": "佐藤庄市郎",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "さとう しょういちろう",
+    "appointed": "1990/02/20",
+    "retired": "1994/02/15",
+    "previousPost": "第一東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_可部恒雄",
+    "name": "可部恒雄",
+    "nameNormalized": "可部恒雄",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "かべ つねお",
+    "appointed": "1990/05/10",
+    "retired": "1997/03/08",
+    "previousPost": "福岡高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_木崎良平",
+    "name": "木崎良平",
+    "nameNormalized": "木崎良平",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "きざき りょうへい",
+    "appointed": "1990/09/03",
+    "retired": "1994/07/24",
+    "previousPost": "大阪弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_味村治",
+    "name": "味村治",
+    "nameNormalized": "味村治",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "みむら おさむ",
+    "appointed": "1990/12/10",
+    "retired": "1994/02/06",
+    "previousPost": "内閣法制局長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_大西勝也",
+    "name": "大西勝也",
+    "nameNormalized": "大西勝也",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おおにし かつや",
+    "appointed": "1991/05/13",
+    "retired": "1998/09/09",
+    "previousPost": "東京高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_小野幹雄",
+    "name": "小野幹雄",
+    "nameNormalized": "小野幹雄",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おの もとお",
+    "appointed": "1992/02/13",
+    "retired": "2000/03/15",
+    "previousPost": "大阪高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_三好達",
+    "name": "三好達",
+    "nameNormalized": "三好達",
+    "role": "長官",
+    "division": null,
+    "status": "退官",
+    "reading": "みよし とおる",
+    "appointed": "1992/03/25",
+    "retired": "1997/10/30",
+    "previousPost": "東京高等裁判所長官",
+    "note": "13代長官",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_大野正男",
+    "name": "大野正男",
+    "nameNormalized": "大野正男",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おおの まさお",
+    "appointed": "1993/04/01",
+    "retired": "1997/09/02",
+    "previousPost": "第二東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_大白勝",
+    "name": "大白勝",
+    "nameNormalized": "大白勝",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おおしろ まさる",
+    "appointed": "1993/04/13",
+    "retired": "1995/02/13",
+    "previousPost": "神戸弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_千種秀夫",
+    "name": "千種秀夫",
+    "nameNormalized": "千種秀夫",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "ちくさ ひでお",
+    "appointed": "1993/09/13",
+    "retired": "2002/02/20",
+    "previousPost": "最高裁判所事務総長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_根岸重治",
+    "name": "根岸重治",
+    "nameNormalized": "根岸重治",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "ねぎし しげはる",
+    "appointed": "1994/01/11",
+    "retired": "1998/12/03",
+    "previousPost": "東京高等検察庁検事長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_高橋久子",
+    "name": "高橋久子",
+    "nameNormalized": "高橋久子",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "たかはし ひさこ",
+    "appointed": "1994/02/09",
+    "retired": "1997/09/20",
+    "previousPost": "労働省婦人少年局長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_尾崎行信",
+    "name": "尾崎行信",
+    "nameNormalized": "尾崎行信",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おざき ゆきのぶ",
+    "appointed": "1994/02/16",
+    "retired": "1999/04/18",
+    "previousPost": "第一東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_河合伸一",
+    "name": "河合伸一",
+    "nameNormalized": "河合伸一",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "かわい しんいち",
+    "appointed": "1994/07/25",
+    "retired": "2002/06/10",
+    "previousPost": "大阪弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_遠藤光男",
+    "name": "遠藤光男",
+    "nameNormalized": "遠藤光男",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "えんどう みつお",
+    "appointed": "1995/02/13",
+    "retired": "2000/09/12",
+    "previousPost": "東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_井嶋一友",
+    "name": "井嶋一友",
+    "nameNormalized": "井嶋一友",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "いじま かずとも",
+    "appointed": "1995/08/11",
+    "retired": "2002/10/06",
+    "previousPost": "最高検察庁次長検事",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_福田博",
+    "name": "福田博",
+    "nameNormalized": "福田博",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "ふくだ ひろし",
+    "appointed": "1995/09/04",
+    "retired": "2005/08/01",
+    "previousPost": "外交官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_藤井正雄",
+    "name": "藤井正雄",
+    "nameNormalized": "藤井正雄",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "ふじい まさお",
+    "appointed": "1995/11/07",
+    "retired": "2002/11/06",
+    "previousPost": "大阪高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_山口繁",
+    "name": "山口繁",
+    "nameNormalized": "山口繁",
+    "role": "長官",
+    "division": null,
+    "status": "退官",
+    "reading": "やまぐち しげる",
+    "appointed": "1997/03/10",
+    "retired": "2002/11/03",
+    "previousPost": "福岡高等裁判所長官",
+    "note": "14代長官",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_元原利文",
+    "name": "元原利文",
+    "nameNormalized": "元原利文",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "もとはら としふみ",
+    "appointed": "1997/09/08",
+    "retired": "2001/04/21",
+    "previousPost": "神戸弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_大出峻郎",
+    "name": "大出峻郎",
+    "nameNormalized": "大出峻郎",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おおで たかお",
+    "appointed": "1997/09/24",
+    "retired": "2001/12/19",
+    "previousPost": "内閣法制局長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_金谷利広",
+    "name": "金谷利広",
+    "nameNormalized": "金谷利広",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "かなたに としひろ",
+    "appointed": "1997/10/31",
+    "retired": "2005/05/16",
+    "previousPost": "東京高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_北川弘治",
+    "name": "北川弘治",
+    "nameNormalized": "北川弘治",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "きたがわ ひろはる",
+    "appointed": "1998/09/10",
+    "retired": "2004/12/26",
+    "previousPost": "福岡高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_亀山継夫",
+    "name": "亀山継夫",
+    "nameNormalized": "亀山継夫",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "かめやま つぎお",
+    "appointed": "1998/12/04",
+    "retired": "2004/02/25",
+    "previousPost": "名古屋高等検察庁検事長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_奥田昌道",
+    "name": "奥田昌道",
+    "nameNormalized": "奥田昌道",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おくだ まさみち",
+    "appointed": "1999/04/01",
+    "retired": "2002/09/27",
+    "previousPost": "京都大学教授",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_梶谷玄",
+    "name": "梶谷玄",
+    "nameNormalized": "梶谷玄",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "かじたに げん",
+    "appointed": "1999/04/21",
+    "retired": "2005/01/14",
+    "previousPost": "第一東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_町田顯",
+    "name": "町田顯",
+    "nameNormalized": "町田顯",
+    "role": "長官",
+    "division": null,
+    "status": "退官",
+    "reading": "まちだ あきら",
+    "appointed": "2000/03/22",
+    "retired": "2006/10/15",
+    "previousPost": "東京高等裁判所長官",
+    "note": "15代長官",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_深澤武久",
+    "name": "深澤武久",
+    "nameNormalized": "深澤武久",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "ふかざわ たけひさ",
+    "appointed": "2000/09/14",
+    "retired": "2004/01/04",
+    "previousPost": "東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_濱田邦夫",
+    "name": "濱田邦夫",
+    "nameNormalized": "濱田邦夫",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "はまだ くにお",
+    "appointed": "2001/05/01",
+    "retired": "2006/05/23",
+    "previousPost": "第二東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_横尾和子",
+    "name": "横尾和子",
+    "nameNormalized": "横尾和子",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "よこお かずこ",
+    "appointed": "2001/12/19",
+    "retired": "2008/09/11",
+    "previousPost": "駐アイルランド国大使",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_上田豊三",
+    "name": "上田豊三",
+    "nameNormalized": "上田豊三",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "うえだ とよぞう",
+    "appointed": "2002/02/21",
+    "retired": "2007/05/22",
+    "previousPost": "大阪高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_滝井繁男",
+    "name": "滝井繁男",
+    "nameNormalized": "滝井繁男",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "たきい しげお",
+    "appointed": "2002/06/11",
+    "retired": "2006/10/30",
+    "previousPost": "大阪弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_藤田宙靖",
+    "name": "藤田宙靖",
+    "nameNormalized": "藤田宙靖",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "ふじた ときやす",
+    "appointed": "2002/09/30",
+    "retired": "2010/04/05",
+    "previousPost": "東北大学教授",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_甲斐中辰夫",
+    "name": "甲斐中辰夫",
+    "nameNormalized": "甲斐中辰夫",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "かいなか たつお",
+    "appointed": "2002/10/07",
+    "retired": "2010/01/01",
+    "previousPost": "東京高等検察庁検事長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_泉徳治",
+    "name": "泉徳治",
+    "nameNormalized": "泉徳治",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "いずみ とくじ",
+    "appointed": "2002/11/06",
+    "retired": "2009/01/24",
+    "previousPost": "東京高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_島田仁郎",
+    "name": "島田仁郎",
+    "nameNormalized": "島田仁郎",
+    "role": "長官",
+    "division": null,
+    "status": "退官",
+    "reading": "しまだ にろう",
+    "appointed": "2002/11/07",
+    "retired": "2008/11/21",
+    "previousPost": "大阪高等裁判所長官",
+    "note": "16代長官",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_才口千晴",
+    "name": "才口千晴",
+    "nameNormalized": "才口千晴",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "さいぐち ちはる",
+    "appointed": "2004/01/06",
+    "retired": "2008/09/02",
+    "previousPost": "東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_津野修",
+    "name": "津野修",
+    "nameNormalized": "津野修",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "つの おさむ",
+    "appointed": "2004/02/26",
+    "retired": "2008/10/19",
+    "previousPost": "内閣法制局長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_今井功",
+    "name": "今井功",
+    "nameNormalized": "今井功",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "いまい いさお",
+    "appointed": "2004/12/27",
+    "retired": "2009/12/25",
+    "previousPost": "東京高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_中川了滋",
+    "name": "中川了滋",
+    "nameNormalized": "中川了滋",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "なかがわ りょうじ",
+    "appointed": "2005/01/19",
+    "retired": "2009/12/22",
+    "previousPost": "第一東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_堀籠幸男",
+    "name": "堀籠幸男",
+    "nameNormalized": "堀籠幸男",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "ほりごめ ゆきお",
+    "appointed": "2005/05/17",
+    "retired": "2010/06/15",
+    "previousPost": "大阪高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_古田佑紀",
+    "name": "古田佑紀",
+    "nameNormalized": "古田佑紀",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "ふるた ゆうき",
+    "appointed": "2005/08/02",
+    "retired": "2012/04/07",
+    "previousPost": "最高検察庁次長検事",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_那須弘平",
+    "name": "那須弘平",
+    "nameNormalized": "那須弘平",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "なす こうへい",
+    "appointed": "2006/05/25",
+    "retired": "2012/02/10",
+    "previousPost": "第二東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_涌井紀夫",
+    "name": "涌井紀夫",
+    "nameNormalized": "涌井紀夫",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "わくい のりお",
+    "appointed": "2006/10/16",
+    "retired": "2009/12/17",
+    "previousPost": "大阪高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_田原睦夫",
+    "name": "田原睦夫",
+    "nameNormalized": "田原睦夫",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "たはら むつお",
+    "appointed": "2006/11/01",
+    "retired": "2013/04/22",
+    "previousPost": "大阪弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_近藤崇晴",
+    "name": "近藤崇晴",
+    "nameNormalized": "近藤崇晴",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "こんどう たかはる",
+    "appointed": "2007/05/23",
+    "retired": "2010/11/21",
+    "previousPost": "仙台高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_宮川光治",
+    "name": "宮川光治",
+    "nameNormalized": "宮川光治",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "みやかわ こうじ",
+    "appointed": "2008/09/03",
+    "retired": "2012/02/27",
+    "previousPost": "東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_櫻井龍子",
+    "name": "櫻井龍子",
+    "nameNormalized": "櫻井龍子",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "さくらい りゅうこ",
+    "appointed": "2008/09/11",
+    "retired": "2017/01/15",
+    "previousPost": "労働省女性局長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_竹内行夫",
+    "name": "竹内行夫",
+    "nameNormalized": "竹内行夫",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "たけうち ゆきお",
+    "appointed": "2008/10/21",
+    "retired": "2013/07/19",
+    "previousPost": "外務事務次官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_竹﨑博允",
+    "name": "竹﨑博允",
+    "nameNormalized": "竹﨑博允",
+    "role": "長官",
+    "division": null,
+    "status": "退官",
+    "reading": "たけさき ひろのぶ",
+    "appointed": "2008/11/25",
+    "retired": "2014/03/31",
+    "previousPost": "東京高等裁判所長官",
+    "note": "17代長官",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_金築誠志",
+    "name": "金築誠志",
+    "nameNormalized": "金築誠志",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "かねつき せいし",
+    "appointed": "2009/01/26",
+    "retired": "2015/03/31",
+    "previousPost": "大阪高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_須藤正彦",
+    "name": "須藤正彦",
+    "nameNormalized": "須藤正彦",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "すどう まさひこ",
+    "appointed": "2009/12/28",
+    "retired": "2012/12/26",
+    "previousPost": "東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_千葉勝美",
+    "name": "千葉勝美",
+    "nameNormalized": "千葉勝美",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "ちば かつみ",
+    "appointed": "2009/12/28",
+    "retired": "2016/08/24",
+    "previousPost": "仙台高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_横田尤孝",
+    "name": "横田尤孝",
+    "nameNormalized": "横田尤孝",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "よこた ともゆき",
+    "appointed": "2010/01/06",
+    "retired": "2014/10/01",
+    "previousPost": "最高検察庁次長検事",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_白木勇",
+    "name": "白木勇",
+    "nameNormalized": "白木勇",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "しらき ゆう",
+    "appointed": "2010/01/15",
+    "retired": "2015/02/14",
+    "previousPost": "東京高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_岡部喜代子",
+    "name": "岡部喜代子",
+    "nameNormalized": "岡部喜代子",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おかべ きよこ",
+    "appointed": "2010/04/12",
+    "retired": "2019/03/19",
+    "previousPost": "慶應義塾大学大学院法務研究科教授",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_大谷剛彦",
+    "name": "大谷剛彦",
+    "nameNormalized": "大谷剛彦",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おおたに たけひこ",
+    "appointed": "2010/06/17",
+    "retired": "2017/03/09",
+    "previousPost": "大阪高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_寺田逸郎",
+    "name": "寺田逸郎",
+    "nameNormalized": "寺田逸郎",
+    "role": "長官",
+    "division": null,
+    "status": "退官",
+    "reading": "てらだ いつろう",
+    "appointed": "2010/12/27",
+    "retired": "2018/01/08",
+    "previousPost": "広島高等裁判所長官",
+    "note": "18代長官",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_大橋正春",
+    "name": "大橋正春",
+    "nameNormalized": "大橋正春",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おおはし まさはる",
+    "appointed": "2012/02/13",
+    "retired": "2017/03/30",
+    "previousPost": "第一東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_山浦善樹",
+    "name": "山浦善樹",
+    "nameNormalized": "山浦善樹",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "やまうら よしき",
+    "appointed": "2012/03/01",
+    "retired": "2016/07/03",
+    "previousPost": "東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_小貫芳信",
+    "name": "小貫芳信",
+    "nameNormalized": "小貫芳信",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おぬき よしのぶ",
+    "appointed": "2012/04/11",
+    "retired": "2018/01/16",
+    "previousPost": "東京高等検察庁検事長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_鬼丸かおる",
+    "name": "鬼丸かおる",
+    "nameNormalized": "鬼丸かおる",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おにまる かおる",
+    "appointed": "2013/02/06",
+    "retired": "2019/02/06",
+    "previousPost": "東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_木内道祥",
+    "name": "木内道祥",
+    "nameNormalized": "木内道祥",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "きうち みちよし",
+    "appointed": "2013/04/25",
+    "retired": "2018/01/01",
+    "previousPost": "大阪弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_山本庸幸",
+    "name": "山本庸幸",
+    "nameNormalized": "山本庸幸",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "やまもと つねゆき",
+    "appointed": "2013/08/20",
+    "retired": "2019/09/25",
+    "previousPost": "内閣法制局長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_山﨑敏充",
+    "name": "山﨑敏充",
+    "nameNormalized": "山﨑敏充",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "やまさき としみつ",
+    "appointed": "2014/04/01",
+    "retired": "2019/08/30",
+    "previousPost": "東京高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_池上政幸",
+    "name": "池上政幸",
+    "nameNormalized": "池上政幸",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "いけがみ まさゆき",
+    "appointed": "2014/10/02",
+    "retired": "2021/08/28",
+    "previousPost": "大阪高等検察庁検事長",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_大谷直人",
+    "name": "大谷直人",
+    "nameNormalized": "大谷直人",
+    "role": "長官",
+    "division": null,
+    "status": "退官",
+    "reading": "おおたに なおと",
+    "appointed": "2015/02/17",
+    "retired": "2022/06/22",
+    "previousPost": "大阪高等裁判所長官",
+    "note": "19代長官",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_小池裕",
+    "name": "小池裕",
+    "nameNormalized": "小池裕",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "こいけ ひろし",
+    "appointed": "2015/04/02",
+    "retired": "2021/07/02",
+    "previousPost": "東京高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_木澤克之",
+    "name": "木澤克之",
+    "nameNormalized": "木澤克之",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "きざわ かつゆき",
+    "appointed": "2016/07/19",
+    "retired": "2021/08/26",
+    "previousPost": "東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_菅野博之",
+    "name": "菅野博之",
+    "nameNormalized": "菅野博之",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "かんの ひろゆき",
+    "appointed": "2016/09/05",
+    "retired": "2022/07/02",
+    "previousPost": "大阪高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_山口厚",
+    "name": "山口厚",
+    "nameNormalized": "山口厚",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "やまぐち あつし",
+    "appointed": "2017/02/06",
+    "retired": "2023/11/05",
+    "previousPost": "第一東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_戸倉三郎",
+    "name": "戸倉三郎",
+    "nameNormalized": "戸倉三郎",
+    "role": "長官",
+    "division": null,
+    "status": "退官",
+    "reading": "とくら さぶろう",
+    "appointed": "2017/03/14",
+    "retired": "2024/08/10",
+    "previousPost": "東京高等裁判所長官",
+    "note": "20代長官",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_林景一",
+    "name": "林景一",
+    "nameNormalized": "林景一",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "はやし けいいち",
+    "appointed": "2017/04/10",
+    "retired": "2021/02/07",
+    "previousPost": "外交官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_宮崎裕子",
+    "name": "宮崎裕子",
+    "nameNormalized": "宮崎裕子",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "みやざき ゆうこ",
+    "appointed": "2018/01/09",
+    "retired": "2021/07/08",
+    "previousPost": "第一東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_深山卓也",
+    "name": "深山卓也",
+    "nameNormalized": "深山卓也",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "みやま たくや",
+    "appointed": "2018/01/09",
+    "retired": "2024/09/01",
+    "previousPost": "東京高等裁判所長官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_草野耕一",
+    "name": "草野耕一",
+    "nameNormalized": "草野耕一",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "くさの こういち",
+    "appointed": "2019/02/13",
+    "retired": "2025/03/21",
+    "previousPost": "第一東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_宇賀克也",
+    "name": "宇賀克也",
+    "nameNormalized": "宇賀克也",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "うが かつや",
+    "appointed": "2019/03/20",
+    "retired": "2025/07/20",
+    "previousPost": "東京大学大学院法学政治学研究科教授",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_長嶺安政",
+    "name": "長嶺安政",
+    "nameNormalized": "長嶺安政",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "ながみね やすまさ",
+    "appointed": "2021/02/08",
+    "retired": "2024/04/15",
+    "previousPost": "外交官",
+    "note": "",
+    "birth": null,
+    "career": []
+  },
+  {
+    "judgeId": "ret_岡正晶",
+    "name": "岡正晶",
+    "nameNormalized": "岡正晶",
+    "role": "判事",
+    "division": null,
+    "status": "退官",
+    "reading": "おか まさあき",
+    "appointed": "2021/09/03",
+    "retired": "2026/02/01",
+    "previousPost": "第一東京弁護士会所属弁護士",
+    "note": "",
+    "birth": null,
+    "career": []
+  }
+]
