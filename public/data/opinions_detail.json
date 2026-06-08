@@ -1,0 +1,5000 @@
+[
+  {
+    "hanreiId": "93176",
+    "detailType": "2",
+    "caseNumber": "令和4(受)1780",
+    "caseName": "退職慰労金等請求事件",
+    "date": "令和6年7月8日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93176.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93176/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "深山卓也",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "岡正晶",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 5970
+  },
+  {
+    "hanreiId": "93177",
+    "detailType": "2",
+    "caseNumber": "令和4(マ)246",
+    "caseName": "閲覧等制限の申立て事件",
+    "date": "令和6年7月8日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "決定",
+    "outcome": "却下",
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93177.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93177/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "深山卓也",
+        "opinionType": "補足意見",
+        "bodyLength": 1633,
+        "judgeId": null
+      }
+    ],
+    "panel": [
+      {
+        "name": "深山卓也",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "岡正晶",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 2068
+  },
+  {
+    "hanreiId": "93196",
+    "detailType": "2",
+    "caseNumber": "令和4(受)2281",
+    "caseName": "損害賠償請求事件",
+    "date": "令和6年7月11日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄差戻",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和3(ネ)2792",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93196.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93196/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "堺徹",
+        "presiding": true,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "深山卓也",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "岡正晶",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 7175
+  },
+  {
+    "hanreiId": "93213",
+    "detailType": "2",
+    "caseNumber": "令和4(あ)1460",
+    "caseName": "組織的な犯罪の処罰及び犯罪収益の規制等に関する法律違反被告事件",
+    "date": "令和6年7月16日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和4(う)752",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93213.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93213/detail2/index.html",
+    "needsReview": true,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "今崎幸彦",
+        "opinionType": "補足意見",
+        "bodyLength": 1767,
+        "judgeId": "imasaki"
+      }
+    ],
+    "panel": [
+      {
+        "name": "林道晴",
+        "presiding": true,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "宇賀克也",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "渡惠理子",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "今崎幸彦",
+        "presiding": false,
+        "judgeId": "imasaki"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 3721
+  },
+  {
+    "hanreiId": "93220",
+    "detailType": "2",
+    "caseNumber": "令和4(行ヒ)373",
+    "caseName": "法人税更正処分等取消請求事件",
+    "date": "令和6年7月18日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和4(行コ)36",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93220.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93220/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "岡正晶",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "深山卓也",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 5716
+  },
+  {
+    "hanreiId": "93227",
+    "detailType": "2",
+    "caseNumber": "令和6(し)462",
+    "caseName": "逮捕状発付の裁判に対する特別抗告事件",
+    "date": "令和6年7月17日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "社簡易裁判所",
+    "genshinCaseNumber": "令和6(る)166",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93227.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93227/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "宮川美津子",
+        "presiding": true,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "深山卓也",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "岡正晶",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 386
+  },
+  {
+    "hanreiId": "93343",
+    "detailType": "2",
+    "caseNumber": "令和4(行ヒ)352",
+    "caseName": "退職共済年金及び老齢厚生年金減額処分無効確認乃至取り消し等請求事件",
+    "date": "令和6年9月13日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和2(行コ)213",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93343.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93343/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "岡村和美",
+        "presiding": true,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "草野耕一",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 5622
+  },
+  {
+    "hanreiId": "93401",
+    "detailType": "2",
+    "caseNumber": "令和4(あ)1059",
+    "caseName": "組織的な犯罪の処罰及び犯罪収益の規制等に関する法律違反被告事件",
+    "date": "令和6年10月7日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和3(う)922",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93401.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93401/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "石兼公博",
+        "presiding": true,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "宇賀克也",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 2135
+  },
+  {
+    "hanreiId": "93424",
+    "detailType": "2",
+    "caseNumber": "令和6(許)5",
+    "caseName": "文書提出命令に対する抗告審の変更決定に対する許可抗告事件",
+    "date": "令和6年10月16日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "決定",
+    "outcome": "破棄自判",
+    "genshinCourt": "大阪高等裁判所",
+    "genshinCaseNumber": "令和5(ラ)1152",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93424.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93424/detail2/index.html",
+    "needsReview": true,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "三浦守",
+        "opinionType": "補足意見",
+        "bodyLength": 1042,
+        "judgeId": "miura"
+      },
+      {
+        "judge": "草野耕一",
+        "opinionType": "補足意見",
+        "bodyLength": 2655,
+        "judgeId": null
+      }
+    ],
+    "panel": [
+      {
+        "name": "草野耕一",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 10881
+  },
+  {
+    "hanreiId": "93453",
+    "detailType": "2",
+    "caseNumber": "令和6(許)1",
+    "caseName": "仮差押命令認可決定に対する保全抗告審の取消決定に対する許可抗告事件",
+    "date": "令和6年10月23日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "決定",
+    "outcome": "破棄差戻",
+    "genshinCourt": "大阪高等裁判所",
+    "genshinCaseNumber": "令和5(ラ)483",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93453.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93453/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "林道晴",
+        "presiding": true,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "宇賀克也",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 1425
+  },
+  {
+    "hanreiId": "93463",
+    "detailType": "2",
+    "caseNumber": "令和5(受)906",
+    "caseName": "地位確認等請求事件",
+    "date": "令和6年10月31日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄差戻",
+    "genshinCourt": "大阪高等裁判所",
+    "genshinCaseNumber": "令和4(ネ)546",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93463.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93463/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "岡正晶",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 3211
+  },
+  {
+    "hanreiId": "93490",
+    "detailType": "2",
+    "caseNumber": "令和5(行ヒ)165",
+    "caseName": "不動産登記申請却下処分取消請求事件",
+    "date": "令和6年11月12日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和4(行コ)146",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93490.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93490/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "渡辺惠理子",
+        "presiding": true,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "宇賀克也",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 2160
+  },
+  {
+    "hanreiId": "93511",
+    "detailType": "2",
+    "caseNumber": "令和6(し)761",
+    "caseName": "証拠開示に関する裁定請求棄却決定に対する即時抗告棄却決定に対する特別抗告事件",
+    "date": "令和6年11月15日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "決定",
+    "outcome": null,
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93511.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93511/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "林道晴",
+        "presiding": true,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "宇賀克也",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 1284
+  },
+  {
+    "hanreiId": "93522",
+    "detailType": "2",
+    "caseNumber": "令和6(す)739",
+    "caseName": "保釈保証金没取請求事件",
+    "date": "令和6年11月19日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "決定",
+    "outcome": null,
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93522.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93522/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "安浪亮介",
+        "presiding": true,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "岡正晶",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 685
+  },
+  {
+    "hanreiId": "93621",
+    "detailType": "2",
+    "caseNumber": "令和5(行ヒ)430",
+    "caseName": "不作為違法確認等、国家賠償等請求事件",
+    "date": "令和6年12月16日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93621.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93621/detail2/index.html",
+    "needsReview": true,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "三浦守",
+        "opinionType": "意見",
+        "bodyLength": 5519,
+        "judgeId": "miura"
+      }
+    ],
+    "panel": [
+      {
+        "name": "三浦守",
+        "presiding": true,
+        "judgeId": "miura"
+      },
+      {
+        "name": "草野耕一",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 8679
+  },
+  {
+    "hanreiId": "93624",
+    "detailType": "2",
+    "caseNumber": "令和6(あ)536",
+    "caseName": "商標法違反、組織的な犯罪の処罰及び犯罪収益の規制等に関する法律違反、犯罪による収益の移転防止に関する法律違反被告事件",
+    "date": "令和6年12月17日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93624.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93624/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "平木正洋",
+        "presiding": true,
+        "judgeId": "hiraki"
+      },
+      {
+        "name": "宇賀克也",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 1964
+  },
+  {
+    "hanreiId": "93648",
+    "detailType": "2",
+    "caseNumber": "令和5(受)1583",
+    "caseName": "発信者情報開示等請求事件",
+    "date": "令和6年12月23日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": null,
+    "genshinCourt": "大阪高等裁判所",
+    "genshinCaseNumber": "令和4(ネ)2431",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93648.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93648/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "尾島明",
+        "presiding": true,
+        "judgeId": "ojima"
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "草野耕一",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 6782
+  },
+  {
+    "hanreiId": "93704",
+    "detailType": "2",
+    "caseNumber": "令和6(受)275",
+    "caseName": "第二次世界大戦戦没者合祀絶止等請求事件",
+    "date": "令和7年1月17日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和1(ネ)2783",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93704.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93704/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "尾島明",
+        "opinionType": "補足意見",
+        "bodyLength": 2608,
+        "judgeId": "ojima"
+      },
+      {
+        "judge": "三浦守",
+        "opinionType": "反対意見",
+        "bodyLength": 11192,
+        "judgeId": "miura"
+      }
+    ],
+    "panel": [
+      {
+        "name": "岡村和美",
+        "presiding": true,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "草野耕一",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 15157
+  },
+  {
+    "hanreiId": "93735",
+    "detailType": "2",
+    "caseNumber": "令和5(行ツ)404",
+    "caseName": "選挙無効請求事件",
+    "date": "令和7年1月28日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和5(行ケ)16",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93735.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93735/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "渡辺惠理子",
+        "opinionType": "補足意見",
+        "bodyLength": 1859,
+        "judgeId": "watanabe"
+      },
+      {
+        "judge": "宇賀克也",
+        "opinionType": "反対意見",
+        "bodyLength": 5345,
+        "judgeId": null
+      }
+    ],
+    "panel": [
+      {
+        "name": "宇賀克也",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 11478
+  },
+  {
+    "hanreiId": "93744",
+    "detailType": "2",
+    "caseNumber": "令和6(あ)753",
+    "caseName": "監護者性交等、児童買春、児童ポルノに係る行為等の規制及び処罰並びに児童の保護等に関する法律違反被告事件",
+    "date": "令和7年1月27日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93744.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93744/detail2/index.html",
+    "needsReview": false,
+    "unanimous": false,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "堺徹",
+        "presiding": true,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "岡正晶",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 780
+  },
+  {
+    "hanreiId": "93745",
+    "detailType": "2",
+    "caseNumber": "令和5(あ)422",
+    "caseName": "威力業務妨害、恐喝未遂被告事件",
+    "date": "令和7年1月27日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "大阪高等裁判所",
+    "genshinCaseNumber": "令和3(う)949",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93745.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93745/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "岡村和美",
+        "presiding": true,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "草野耕一",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 1342
+  },
+  {
+    "hanreiId": "93774",
+    "detailType": "2",
+    "caseNumber": "令和5(あ)1285",
+    "caseName": "道路交通法違反被告事件",
+    "date": "令和7年2月7日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和5(う)75",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93774.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93774/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "岡村和美",
+        "presiding": true,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "草野耕一",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 3511
+  },
+  {
+    "hanreiId": "93789",
+    "detailType": "2",
+    "caseNumber": "令和5(行ヒ)177",
+    "caseName": "固定資産価格審査決定取消請求事件",
+    "date": "令和7年2月17日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "大阪高等裁判所",
+    "genshinCaseNumber": "令和4(行コ)67",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93789.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93789/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "草野耕一",
+        "opinionType": "反対意見",
+        "bodyLength": 6037,
+        "judgeId": null
+      }
+    ],
+    "panel": [
+      {
+        "name": "尾島明",
+        "presiding": true,
+        "judgeId": "ojima"
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "草野耕一",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 10025
+  },
+  {
+    "hanreiId": "93790",
+    "detailType": "2",
+    "caseNumber": "令和5(行ヒ)142",
+    "caseName": "固定資産価格審査決定取消等請求事件",
+    "date": "令和7年2月17日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": "大阪高等裁判所",
+    "genshinCaseNumber": "令和4(行コ)66",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93790.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93790/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "草野耕一",
+        "opinionType": "反対意見",
+        "bodyLength": 5986,
+        "judgeId": null
+      }
+    ],
+    "panel": [
+      {
+        "name": "尾島明",
+        "presiding": true,
+        "judgeId": "ojima"
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "草野耕一",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 13221
+  },
+  {
+    "hanreiId": "93791",
+    "detailType": "2",
+    "caseNumber": "令和5(行ヒ)207",
+    "caseName": "固定資産価格審査決定取消請求事件",
+    "date": "令和7年2月17日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": "広島高等裁判所",
+    "genshinCaseNumber": "令和3(行コ)17",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93791.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93791/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "草野耕一",
+        "opinionType": "反対意見",
+        "bodyLength": 6010,
+        "judgeId": null
+      }
+    ],
+    "panel": [
+      {
+        "name": "尾島明",
+        "presiding": true,
+        "judgeId": "ojima"
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "草野耕一",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 11902
+  },
+  {
+    "hanreiId": "93820",
+    "detailType": "2",
+    "caseNumber": "令和5(し)412",
+    "caseName": "再審請求棄却決定に対する即時抗告棄却決定に対する特別抗告事件",
+    "date": "令和7年2月25日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93820.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93820/detail2/index.html",
+    "needsReview": true,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "宇賀克也",
+        "opinionType": "反対意見",
+        "bodyLength": 12795,
+        "judgeId": null
+      }
+    ],
+    "panel": [
+      {
+        "name": "石兼公博",
+        "presiding": true,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "宇賀克也",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 20020
+  },
+  {
+    "hanreiId": "93824",
+    "detailType": "2",
+    "caseNumber": "令和5(行ヒ)297",
+    "caseName": "特別地方交付税の額の決定取消請求事件",
+    "date": "令和7年2月27日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄差戻",
+    "genshinCourt": "大阪高等裁判所",
+    "genshinCaseNumber": "令和4(行コ)53",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93824.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93824/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "岡正晶",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 2032
+  },
+  {
+    "hanreiId": "93837",
+    "detailType": "2",
+    "caseNumber": "令和6(行フ)1",
+    "caseName": "仮の差止めの申立て一部認容決定に対する抗告審の一部取消決定に対する許可抗告事件",
+    "date": "令和7年2月26日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "決定",
+    "outcome": "破棄自判",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和5(行ス)13",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93837.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93837/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "宇賀克也",
+        "opinionType": "反対意見",
+        "bodyLength": 2573,
+        "judgeId": null
+      }
+    ],
+    "panel": [
+      {
+        "name": "平木正洋",
+        "presiding": true,
+        "judgeId": "hiraki"
+      },
+      {
+        "name": "宇賀克也",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 7655
+  },
+  {
+    "hanreiId": "93838",
+    "detailType": "2",
+    "caseNumber": "令和5(受)14",
+    "caseName": "特許権侵害差止等請求事件",
+    "date": "令和7年3月3日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "知的財産高等裁判所",
+    "genshinCaseNumber": "平成30(ネ)10077",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93838.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93838/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "草野耕一",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 3581
+  },
+  {
+    "hanreiId": "93839",
+    "detailType": "2",
+    "caseNumber": "令和5(受)2028",
+    "caseName": "特許権侵害差止等請求事件",
+    "date": "令和7年3月3日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "知的財産高等裁判所",
+    "genshinCaseNumber": "令和4(ネ)10046",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93839.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93839/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "草野耕一",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 3664
+  },
+  {
+    "hanreiId": "93861",
+    "detailType": "2",
+    "caseNumber": "令和6(許)31",
+    "caseName": "過料決定に対する抗告棄却決定に対する許可抗告事件",
+    "date": "令和7年3月3日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和6(ラ)968",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93861.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93861/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "中村愼",
+        "presiding": true,
+        "judgeId": "nakamura"
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "岡正晶",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 2867
+  },
+  {
+    "hanreiId": "93864",
+    "detailType": "2",
+    "caseNumber": "令和5(あ)246",
+    "caseName": "業務上過失致死傷被告事件",
+    "date": "令和7年3月5日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和1(う)2057",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93864.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93864/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "草野耕一",
+        "opinionType": "補足意見",
+        "bodyLength": 4739,
+        "judgeId": null
+      }
+    ],
+    "panel": [
+      {
+        "name": "岡村和美",
+        "presiding": true,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "草野耕一",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 11557
+  },
+  {
+    "hanreiId": "93868",
+    "detailType": "2",
+    "caseNumber": "令和5(受)927",
+    "caseName": "損害賠償請求事件",
+    "date": "令和7年3月7日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄差戻",
+    "genshinCourt": "広島高等裁判所",
+    "genshinCaseNumber": "令和4(ネ)265",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93868.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93868/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "三浦守",
+        "opinionType": "補足意見",
+        "bodyLength": 1538,
+        "judgeId": "miura"
+      }
+    ],
+    "panel": [
+      {
+        "name": "三浦守",
+        "presiding": true,
+        "judgeId": "miura"
+      },
+      {
+        "name": "草野耕一",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 7744
+  },
+  {
+    "hanreiId": "93869",
+    "detailType": "2",
+    "caseNumber": "令和5(受)961",
+    "caseName": "損害賠償請求事件",
+    "date": "令和7年3月7日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "広島高等裁判所",
+    "genshinCaseNumber": "令和4(ネ)264",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93869.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93869/detail2/index.html",
+    "needsReview": true,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "三浦守",
+        "opinionType": "補足意見",
+        "bodyLength": 1726,
+        "judgeId": "miura"
+      }
+    ],
+    "panel": [
+      {
+        "name": "三浦守",
+        "presiding": true,
+        "judgeId": "miura"
+      },
+      {
+        "name": "草野耕一",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 7277
+  },
+  {
+    "hanreiId": "93895",
+    "detailType": "2",
+    "caseNumber": "令和7(し)90",
+    "caseName": "少年審判規則7条4項の措置に対する特別抗告事件",
+    "date": "令和7年3月12日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93895.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93895/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "岡正晶",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 280
+  },
+  {
+    "hanreiId": "93901",
+    "detailType": "2",
+    "caseNumber": "令和5(行ツ)261",
+    "caseName": "久米至聖廟撤去を怠る事実の違法確認等請求事件",
+    "date": "令和7年3月17日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": null,
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93901.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93901/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "岡正晶",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 7705
+  },
+  {
+    "hanreiId": "93929",
+    "detailType": "2",
+    "caseNumber": "令和6(許)12",
+    "caseName": "債権差押命令に対する執行抗告審の取消決定等に対する許可抗告事件",
+    "date": "令和7年3月19日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "決定",
+    "outcome": "破棄自判",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和6(ラ)334",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93929.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93929/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "尾島明",
+        "opinionType": "補足意見",
+        "bodyLength": 3925,
+        "judgeId": "ojima"
+      }
+    ],
+    "panel": [
+      {
+        "name": "尾島明",
+        "presiding": true,
+        "judgeId": "ojima"
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "草野耕一",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 6542
+  },
+  {
+    "hanreiId": "93974",
+    "detailType": "2",
+    "caseNumber": "令和7(し)152",
+    "caseName": "刑訴法227条1項に基づく第1回公判期日前の証人尋問に対する特別抗告事件",
+    "date": "令和7年3月31日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93974.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93974/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "三浦守",
+        "presiding": true,
+        "judgeId": "miura"
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 364
+  },
+  {
+    "hanreiId": "93994",
+    "detailType": "2",
+    "caseNumber": "令和5(あ)1434",
+    "caseName": "威力業務妨害、暴行、航空法違反、公務執行妨害、器物損壊被告事件",
+    "date": "令和7年4月8日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "大阪高等裁判所",
+    "genshinCaseNumber": "令和5(う)164",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-93994.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/93994/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "石兼公博",
+        "presiding": true,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "宇賀克也",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 760
+  },
+  {
+    "hanreiId": "94011",
+    "detailType": "2",
+    "caseNumber": "令和6(行ヒ)201",
+    "caseName": "懲戒免職処分取消等請求事件",
+    "date": "令和7年4月17日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": "大阪高等裁判所",
+    "genshinCaseNumber": "令和5(行コ)103",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94011.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94011/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "堺徹",
+        "presiding": true,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "岡正晶",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 3639
+  },
+  {
+    "hanreiId": "94019",
+    "detailType": "2",
+    "caseNumber": "令和5(あ)541",
+    "caseName": "殺人、非現住建造物等放火、有印公文書偽造、同行使、有印私文書偽造、同行使、詐欺、詐欺未遂被告事件",
+    "date": "令和7年2月21日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94019.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94019/detail2/index.html",
+    "needsReview": false,
+    "unanimous": false,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "草野耕一",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 1612
+  },
+  {
+    "hanreiId": "94115",
+    "detailType": "2",
+    "caseNumber": "令和7(し)328",
+    "caseName": "保釈請求却下決定に対する異議申立て棄却決定に対する特別抗告事件",
+    "date": "令和7年5月21日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "決定",
+    "outcome": null,
+    "genshinCourt": "札幌高等裁判所",
+    "genshinCaseNumber": "令和7(け)6",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94115.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94115/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "岡正晶",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 1031
+  },
+  {
+    "hanreiId": "94152",
+    "detailType": "2",
+    "caseNumber": "令和5(行ヒ)335",
+    "caseName": "警察庁保有個人情報管理簿一部不開示決定取消等請求事件",
+    "date": "令和7年6月3日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": null,
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和4(行コ)31",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94152.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94152/detail2/index.html",
+    "needsReview": true,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "林道晴",
+        "opinionType": "補足意見",
+        "bodyLength": 3114,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "judge": "宇賀克也",
+        "opinionType": "意見",
+        "bodyLength": 11122,
+        "judgeId": null
+      }
+    ],
+    "panel": [
+      {
+        "name": "宇賀克也",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 19072
+  },
+  {
+    "hanreiId": "94164",
+    "detailType": "2",
+    "caseNumber": "令和6(行ヒ)94",
+    "caseName": "行政文書不開示処分取消等請求事件",
+    "date": "令和7年6月6日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄差戻",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和4(行コ)295",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94164.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94164/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "宇賀克也",
+        "opinionType": "補足意見",
+        "bodyLength": 2596,
+        "judgeId": null
+      }
+    ],
+    "panel": [
+      {
+        "name": "宇賀克也",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 7390
+  },
+  {
+    "hanreiId": "94176",
+    "detailType": "2",
+    "caseNumber": "令和6(行ツ)54",
+    "caseName": "児童扶養手当支給停止処分取消請求事件",
+    "date": "令和7年6月10日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "大阪高等裁判所",
+    "genshinCaseNumber": "令和3(行コ)53",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94176.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94176/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "宇賀克也",
+        "opinionType": "反対意見",
+        "bodyLength": 3426,
+        "judgeId": null
+      }
+    ],
+    "panel": [
+      {
+        "name": "渡辺惠理子",
+        "presiding": true,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "宇賀克也",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 5348
+  },
+  {
+    "hanreiId": "94179",
+    "detailType": "2",
+    "caseNumber": "令和6(行ツ)21",
+    "caseName": "持続化給付金等支払請求事件",
+    "date": "令和7年6月16日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和4(行コ)198",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94179.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94179/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "安浪亮介",
+        "opinionType": "補足意見",
+        "bodyLength": 1092,
+        "judgeId": "yasunami"
+      },
+      {
+        "judge": "宮川美津子",
+        "opinionType": "反対意見",
+        "bodyLength": 2974,
+        "judgeId": "miyagawa"
+      }
+    ],
+    "panel": [
+      {
+        "name": "宮川美津子",
+        "presiding": true,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "岡正晶",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 8585
+  },
+  {
+    "hanreiId": "94208",
+    "detailType": "2",
+    "caseNumber": "令和7(医へ)16",
+    "caseName": "医療を受けさせるために入院をさせる旨の決定に対する抗告棄却決定に対する再抗告事件",
+    "date": "令和7年6月23日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和7(医ほ)7",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94208.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94208/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "高須順一",
+        "presiding": true,
+        "judgeId": "takasu"
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 503
+  },
+  {
+    "hanreiId": "94225",
+    "detailType": "2",
+    "caseNumber": "令和5(行ヒ)397",
+    "caseName": "生活保護基準引下げ処分取消等請求事件",
+    "date": "令和7年6月27日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": null,
+    "genshinCourt": "大阪高等裁判所",
+    "genshinCaseNumber": "令和3(行コ)38",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94225.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94225/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "林道晴",
+        "opinionType": "補足意見",
+        "bodyLength": 1137,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "judge": "宇賀克也",
+        "opinionType": "反対意見",
+        "bodyLength": 8383,
+        "judgeId": null
+      }
+    ],
+    "panel": [
+      {
+        "name": "宇賀克也",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 23658
+  },
+  {
+    "hanreiId": "94226",
+    "detailType": "2",
+    "caseNumber": "令和6(行ヒ)170",
+    "caseName": "生活保護基準引下げ処分取消等請求事件",
+    "date": "令和7年6月27日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": null,
+    "genshinCourt": "名古屋高等裁判所",
+    "genshinCaseNumber": "令和2(行コ)31",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94226.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94226/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "林道晴",
+        "opinionType": "補足意見",
+        "bodyLength": 124,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "judge": "宇賀克也",
+        "opinionType": "反対意見",
+        "bodyLength": 221,
+        "judgeId": null
+      }
+    ],
+    "panel": [
+      {
+        "name": "宇賀克也",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 15199
+  },
+  {
+    "hanreiId": "94229",
+    "detailType": "2",
+    "caseNumber": "令和6(受)1067",
+    "caseName": "不当利得返還等請求事件",
+    "date": "令和7年6月30日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和5(ネ)4957",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94229.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94229/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "安浪亮介",
+        "presiding": true,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "岡正晶",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 2950
+  },
+  {
+    "hanreiId": "94230",
+    "detailType": "2",
+    "caseNumber": "令和5(受)2461",
+    "caseName": "不当利得返還等請求事件",
+    "date": "令和7年6月30日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和5(ネ)1593",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94230.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94230/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "安浪亮介",
+        "presiding": true,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "岡正晶",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 3026
+  },
+  {
+    "hanreiId": "94240",
+    "detailType": "2",
+    "caseNumber": "令和5(受)1838",
+    "caseName": "損害賠償、求償金請求事件",
+    "date": "令和7年7月4日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "仙台高等裁判所",
+    "genshinCaseNumber": "令和4(ネ)168",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94240.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94240/detail2/index.html",
+    "needsReview": true,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "林道晴",
+        "opinionType": "補足意見",
+        "bodyLength": 500,
+        "judgeId": "hayashi_m"
+      }
+    ],
+    "panel": [
+      {
+        "name": "平木正洋",
+        "presiding": true,
+        "judgeId": "hiraki"
+      },
+      {
+        "name": "宇賀克也",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 4811
+  },
+  {
+    "hanreiId": "94261",
+    "detailType": "2",
+    "caseNumber": "令和6(あ)1161",
+    "caseName": "窃盗、強盗致傷被告事件",
+    "date": "令和7年7月7日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "仙台高等裁判所",
+    "genshinCaseNumber": "令和5(う)149",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94261.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94261/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "渡辺惠理子",
+        "presiding": true,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "宇賀克也",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 1824
+  },
+  {
+    "hanreiId": "94263",
+    "detailType": "2",
+    "caseNumber": "令和6(受)2",
+    "caseName": "遺留分減殺請求事件",
+    "date": "令和7年7月10日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": "名古屋高等裁判所",
+    "genshinCaseNumber": "令和5(ネ)123",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94263.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94263/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "宮川美津子",
+        "presiding": true,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "岡正晶",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 2018
+  },
+  {
+    "hanreiId": "94264",
+    "detailType": "2",
+    "caseNumber": "令和7(行ツ)125",
+    "caseName": "年金額減額処分取消等請求事件",
+    "date": "令和7年7月10日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄差戻",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和4(行コ)256",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94264.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94264/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "岡正晶",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 890
+  },
+  {
+    "hanreiId": "94272",
+    "detailType": "2",
+    "caseNumber": "令和6(あ)264",
+    "caseName": "窃盗、電子計算機使用詐欺、覚醒剤取締法違反被告事件",
+    "date": "令和7年7月11日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": "仙台高等裁判所",
+    "genshinCaseNumber": "令和5(う)60",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94272.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94272/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "平木正洋",
+        "opinionType": "補足意見",
+        "bodyLength": 1459,
+        "judgeId": "hiraki"
+      }
+    ],
+    "panel": [
+      {
+        "name": "平木正洋",
+        "presiding": true,
+        "judgeId": "hiraki"
+      },
+      {
+        "name": "宇賀克也",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 5401
+  },
+  {
+    "hanreiId": "94278",
+    "detailType": "2",
+    "caseNumber": "令和5(受)606",
+    "caseName": "事務管理費用償還等請求事件",
+    "date": "令和7年7月14日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄差戻",
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94278.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94278/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "中村愼",
+        "presiding": true,
+        "judgeId": "nakamura"
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "岡正晶",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 4065
+  },
+  {
+    "hanreiId": "94297",
+    "detailType": "2",
+    "caseNumber": "令和5(行ヒ)276",
+    "caseName": "行政処分取消等請求事件",
+    "date": "令和7年7月17日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄差戻",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和3(行コ)170",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94297.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94297/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "岡正晶",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 6420
+  },
+  {
+    "hanreiId": "94417",
+    "detailType": "2",
+    "caseNumber": "令和7(し)735",
+    "caseName": "勾留状の個人特定事項の通知請求却下の裁判に対する準抗告棄却決定に対する特別抗告事件",
+    "date": "令和7年9月19日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "長崎地方裁判所",
+    "genshinCaseNumber": "令和7(む)197",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94417.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94417/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "中村愼",
+        "presiding": true,
+        "judgeId": "nakamura"
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "岡正晶",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 332
+  },
+  {
+    "hanreiId": "94421",
+    "detailType": "2",
+    "caseNumber": "令和6(受)239",
+    "caseName": "婚姻費用の合意無効確認請求事件",
+    "date": "令和7年9月4日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和5(ネ)1743",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94421.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94421/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "宮川美津子",
+        "presiding": true,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "岡正晶",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 2700
+  },
+  {
+    "hanreiId": "94422",
+    "detailType": "2",
+    "caseNumber": "令和6(行ヒ)214",
+    "caseName": "懲戒処分取消請求事件",
+    "date": "令和7年9月2日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": "福岡高等裁判所",
+    "genshinCaseNumber": "令和4(行コ)48",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94422.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94422/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "石兼公博",
+        "presiding": true,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "宇賀克也",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 3640
+  },
+  {
+    "hanreiId": "94423",
+    "detailType": "2",
+    "caseNumber": "令和6(行ヒ)241",
+    "caseName": "懲戒免職処分取消等、懲戒処分取消請求事件",
+    "date": "令和7年9月2日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": "福岡高等裁判所",
+    "genshinCaseNumber": "令和4(行コ)50",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94423.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94423/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "林道晴",
+        "opinionType": "補足意見",
+        "bodyLength": 1300,
+        "judgeId": "hayashi_m"
+      }
+    ],
+    "panel": [
+      {
+        "name": "石兼公博",
+        "presiding": true,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "宇賀克也",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 10967
+  },
+  {
+    "hanreiId": "94426",
+    "detailType": "2",
+    "caseNumber": "令和5(受)2207",
+    "caseName": "損害賠償請求事件",
+    "date": "令和7年9月9日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄差戻",
+    "genshinCourt": "大阪高等裁判所",
+    "genshinCaseNumber": "令和5(ネ)647",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94426.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94426/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "渡辺惠理子",
+        "presiding": true,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "宇賀克也",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 3048
+  },
+  {
+    "hanreiId": "94427",
+    "detailType": "2",
+    "caseNumber": "令和7(し)672",
+    "caseName": "接見等禁止の裁判に対する準抗告棄却決定に対する特別抗告事件",
+    "date": "令和7年8月14日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "決定",
+    "outcome": null,
+    "genshinCourt": "松山地方裁判所",
+    "genshinCaseNumber": "令和7(む)263",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94427.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94427/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "平木正洋",
+        "presiding": true,
+        "judgeId": "hiraki"
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 1207
+  },
+  {
+    "hanreiId": "94453",
+    "detailType": "2",
+    "caseNumber": "令和7(行ツ)155",
+    "caseName": "選挙無効請求事件",
+    "date": "令和7年9月26日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和6(行ケ)26",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94453.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94453/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "高須順一",
+        "opinionType": "意見",
+        "bodyLength": 5578,
+        "judgeId": "takasu"
+      }
+    ],
+    "panel": [
+      {
+        "name": "尾島明",
+        "presiding": true,
+        "judgeId": "ojima"
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "高須順一",
+        "presiding": false,
+        "judgeId": "takasu"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 10702
+  },
+  {
+    "hanreiId": "94454",
+    "detailType": "2",
+    "caseNumber": "令和7(行ツ)117",
+    "caseName": "選挙無効請求事件",
+    "date": "令和7年9月26日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "広島高等裁判所",
+    "genshinCaseNumber": "令和6(行ケ)4",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94454.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94454/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "高須順一",
+        "opinionType": "意見",
+        "bodyLength": 5579,
+        "judgeId": "takasu"
+      }
+    ],
+    "panel": [
+      {
+        "name": "尾島明",
+        "presiding": true,
+        "judgeId": "ojima"
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "高須順一",
+        "presiding": false,
+        "judgeId": "takasu"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 10507
+  },
+  {
+    "hanreiId": "94456",
+    "detailType": "2",
+    "caseNumber": "令和7(行ツ)128",
+    "caseName": "選挙無効請求事件",
+    "date": "令和7年9月26日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94456.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94456/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "高須順一",
+        "opinionType": "意見",
+        "bodyLength": 5569,
+        "judgeId": "takasu"
+      }
+    ],
+    "panel": [
+      {
+        "name": "尾島明",
+        "presiding": true,
+        "judgeId": "ojima"
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "高須順一",
+        "presiding": false,
+        "judgeId": "takasu"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 11512
+  },
+  {
+    "hanreiId": "94458",
+    "detailType": "2",
+    "caseNumber": "令和7(行ツ)156",
+    "caseName": "選挙無効請求事件",
+    "date": "令和7年9月26日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和6(行ケ)27",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94458.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94458/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "尾島明",
+        "presiding": true,
+        "judgeId": "ojima"
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "高須順一",
+        "presiding": false,
+        "judgeId": "takasu"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 570
+  },
+  {
+    "hanreiId": "94788",
+    "detailType": "2",
+    "caseNumber": "令和6(あ)1506",
+    "caseName": "業務上横領被告事件",
+    "date": "令和7年10月20日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "仙台高等裁判所",
+    "genshinCaseNumber": "令和5(う)138",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94788.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94788/detail2/index.html",
+    "needsReview": false,
+    "unanimous": false,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "平木正洋",
+        "presiding": true,
+        "judgeId": "hiraki"
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "沖野眞已",
+        "presiding": false,
+        "judgeId": "okino"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 2211
+  },
+  {
+    "hanreiId": "94873",
+    "detailType": "2",
+    "caseNumber": "令和6(許)17",
+    "caseName": "破産手続開始決定に対する抗告棄却決定に対する許可抗告事件",
+    "date": "令和7年10月20日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和6(ラ)1119",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94873.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94873/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "堺徹",
+        "presiding": true,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "岡正晶",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 1988
+  },
+  {
+    "hanreiId": "94876",
+    "detailType": "2",
+    "caseNumber": "令和6(あ)585",
+    "caseName": "窃盗、建造物侵入被告事件",
+    "date": "令和7年10月21日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "札幌高等裁判所",
+    "genshinCaseNumber": "令和6(う)12",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94876.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94876/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "渡辺惠理子",
+        "presiding": true,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      },
+      {
+        "name": "沖野眞已",
+        "presiding": false,
+        "judgeId": "okino"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 946
+  },
+  {
+    "hanreiId": "94921",
+    "detailType": "2",
+    "caseNumber": "令和6(受)120",
+    "caseName": "保険金請求事件",
+    "date": "令和7年10月30日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和5(ネ)2026",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-94921.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/94921/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "堺徹",
+        "presiding": true,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "岡正晶",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 5470
+  },
+  {
+    "hanreiId": "95002",
+    "detailType": "2",
+    "caseNumber": "令和7(し)177",
+    "caseName": "司法警察員がした押収物の還付に関する処分に対する準抗告棄却決定に対する特別抗告事件、検察官がした押収物の還付に関する処分に対する準抗告棄却決定に対する特別抗告事件",
+    "date": "令和7年11月10日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "決定",
+    "outcome": null,
+    "genshinCourt": "東京地方裁判所",
+    "genshinCaseNumber": "令和6(む)81929",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95002.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95002/detail2/index.html",
+    "needsReview": false,
+    "unanimous": false,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "平木正洋",
+        "presiding": true,
+        "judgeId": "hiraki"
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "沖野眞已",
+        "presiding": false,
+        "judgeId": "okino"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 3187
+  },
+  {
+    "hanreiId": "95139",
+    "detailType": "2",
+    "caseNumber": "令和7(し)1043",
+    "caseName": "勾留請求却下の裁判に対する準抗告の決定に対する特別抗告事件",
+    "date": "令和7年11月27日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "決定",
+    "outcome": null,
+    "genshinCourt": "東京地方裁判所",
+    "genshinCaseNumber": "令和7(む)86384",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95139.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95139/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "岡正晶",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 1880
+  },
+  {
+    "hanreiId": "95223",
+    "detailType": "2",
+    "caseNumber": "令和5(あ)237",
+    "caseName": "傷害被告事件",
+    "date": "令和7年12月10日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和4(う)509",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95223.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95223/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "林道晴",
+        "presiding": true,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      },
+      {
+        "name": "沖野眞已",
+        "presiding": false,
+        "judgeId": "okino"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 2385
+  },
+  {
+    "hanreiId": "95251",
+    "detailType": "2",
+    "caseNumber": "令和6(オ)234",
+    "caseName": "遺言無効確認等、貸金返還、建物収去土地明渡等請求事件",
+    "date": "令和7年12月18日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95251.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95251/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "岡正晶",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 8106
+  },
+  {
+    "hanreiId": "95260",
+    "detailType": "2",
+    "caseNumber": "令和7(マ)490",
+    "caseName": "裁判所書記官忌避申立て却下決定に対する即時抗告事件",
+    "date": "令和7年12月18日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "決定",
+    "outcome": "却下",
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95260.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95260/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "安浪亮介",
+        "presiding": true,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "岡正晶",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 2793
+  },
+  {
+    "hanreiId": "95264",
+    "detailType": "2",
+    "caseNumber": "令和6(受)1373",
+    "caseName": "設備費用請求事件",
+    "date": "令和7年12月23日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和5(ネ)5371",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95264.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95264/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "林道晴",
+        "presiding": true,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      },
+      {
+        "name": "沖野眞已",
+        "presiding": false,
+        "judgeId": "okino"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 3544
+  },
+  {
+    "hanreiId": "95265",
+    "detailType": "2",
+    "caseNumber": "令和6(受)204",
+    "caseName": "残存費用等請求事件",
+    "date": "令和7年12月23日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和5(ネ)2212",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95265.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95265/detail2/index.html",
+    "needsReview": true,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "林道晴",
+        "opinionType": "補足意見",
+        "bodyLength": 1644,
+        "judgeId": "hayashi_m"
+      }
+    ],
+    "panel": [
+      {
+        "name": "林道晴",
+        "presiding": true,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      },
+      {
+        "name": "沖野眞已",
+        "presiding": false,
+        "judgeId": "okino"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 6402
+  },
+  {
+    "hanreiId": "95271",
+    "detailType": "2",
+    "caseNumber": "令和6(あ)504",
+    "caseName": "児童買春、児童ポルノに係る行為等の規制及び処罰並びに児童の保護等に関する法律違反、大阪府公衆に著しく迷惑をかける暴力的不良行為等の防止に関する条例違反、公衆に著しく迷惑をかける暴力的不良行為等の防止に関する条例(昭和38年兵庫県条例第66号)違反被告事件",
+    "date": "令和7年12月23日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "大阪高等裁判所",
+    "genshinCaseNumber": "令和5(う)1076",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95271.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95271/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "三浦守",
+        "opinionType": "補足意見",
+        "bodyLength": 898,
+        "judgeId": "miura"
+      }
+    ],
+    "panel": [
+      {
+        "name": "三浦守",
+        "presiding": true,
+        "judgeId": "miura"
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      },
+      {
+        "name": "高須順一",
+        "presiding": false,
+        "judgeId": "takasu"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 2754
+  },
+  {
+    "hanreiId": "95340",
+    "detailType": "2",
+    "caseNumber": "令和6(受)1046",
+    "caseName": "建物明渡等請求本訴、損害賠償請求反訴事件",
+    "date": "令和8年1月9日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "仙台高等裁判所",
+    "genshinCaseNumber": "令和5(ネ)44",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95340.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95340/detail2/index.html",
+    "needsReview": false,
+    "unanimous": false,
+    "individualOpinions": [
+      {
+        "judge": "高須順一",
+        "opinionType": "意見",
+        "bodyLength": 4319,
+        "judgeId": "takasu"
+      },
+      {
+        "judge": "三浦守",
+        "opinionType": "反対意見",
+        "bodyLength": 14786,
+        "judgeId": "miura"
+      }
+    ],
+    "panel": [
+      {
+        "name": "三浦守",
+        "presiding": true,
+        "judgeId": "miura"
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      },
+      {
+        "name": "高須順一",
+        "presiding": false,
+        "judgeId": "takasu"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 23371
+  },
+  {
+    "hanreiId": "95373",
+    "detailType": "2",
+    "caseNumber": "令和6(あ)1087",
+    "caseName": "窃盗被告事件",
+    "date": "令和8年1月14日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "名古屋高等裁判所",
+    "genshinCaseNumber": "令和6(う)97",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95373.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95373/detail2/index.html",
+    "needsReview": false,
+    "unanimous": false,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "渡辺惠理子",
+        "presiding": true,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      },
+      {
+        "name": "沖野眞已",
+        "presiding": false,
+        "judgeId": "okino"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 1717
+  },
+  {
+    "hanreiId": "95385",
+    "detailType": "2",
+    "caseNumber": "令和5(受)2245",
+    "caseName": "第三者異議事件",
+    "date": "令和8年1月20日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄差戻",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和5(ネ)2021",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95385.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95385/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "沖野眞已",
+        "opinionType": "意見",
+        "bodyLength": 3191,
+        "judgeId": "okino"
+      }
+    ],
+    "panel": [
+      {
+        "name": "平木正洋",
+        "presiding": true,
+        "judgeId": "hiraki"
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "沖野眞已",
+        "presiding": false,
+        "judgeId": "okino"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 8714
+  },
+  {
+    "hanreiId": "95402",
+    "detailType": "2",
+    "caseNumber": "令和6(受)385",
+    "caseName": "損害賠償等請求事件",
+    "date": "令和8年1月22日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": null,
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和5(ネ)786",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95402.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95402/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "岡正晶",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 2435
+  },
+  {
+    "hanreiId": "95412",
+    "detailType": "2",
+    "caseNumber": "令和5(行ヒ)339",
+    "caseName": "固定資産税及び都市計画税賦課決定処分取消請求事件",
+    "date": "令和8年1月26日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": "大阪高等裁判所",
+    "genshinCaseNumber": "令和4(行コ)164",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95412.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95412/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "三浦守",
+        "opinionType": "補足意見",
+        "bodyLength": 1771,
+        "judgeId": "miura"
+      },
+      {
+        "judge": "高須順一",
+        "opinionType": "反対意見",
+        "bodyLength": 2939,
+        "judgeId": "takasu"
+      }
+    ],
+    "panel": [
+      {
+        "name": "高須順一",
+        "presiding": true,
+        "judgeId": "takasu"
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 7906
+  },
+  {
+    "hanreiId": "95429",
+    "detailType": "2",
+    "caseNumber": "令和7(行ツ)72",
+    "caseName": "行政文書不開示決定取消請求事件",
+    "date": "令和8年1月27日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄差戻",
+    "genshinCourt": "名古屋高等裁判所",
+    "genshinCaseNumber": "令和6(行コ)46",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95429.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95429/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "石兼公博",
+        "presiding": true,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      },
+      {
+        "name": "沖野眞已",
+        "presiding": false,
+        "judgeId": "okino"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 1308
+  },
+  {
+    "hanreiId": "95466",
+    "detailType": "2",
+    "caseNumber": "令和7(マ)244",
+    "caseName": "離婚等請求事件",
+    "date": "令和8年1月28日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "決定",
+    "outcome": "却下",
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95466.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95466/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "堺徹",
+        "presiding": true,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "岡正晶",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 2343
+  },
+  {
+    "hanreiId": "95467",
+    "detailType": "2",
+    "caseNumber": "令和7(許)18",
+    "caseName": "再審却下決定に対する抗告許可申立事件",
+    "date": "令和8年1月28日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "決定",
+    "outcome": "却下",
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95467.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95467/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "安浪亮介",
+        "presiding": true,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "岡正晶",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 1851
+  },
+  {
+    "hanreiId": "95523",
+    "detailType": "2",
+    "caseNumber": "令和6(受)2399",
+    "caseName": "労働契約法20条違反による損害賠償請求事件",
+    "date": "令和8年2月13日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": null,
+    "genshinCourt": "名古屋高等裁判所",
+    "genshinCaseNumber": "令和5(ネ)360",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95523.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95523/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "岡村和美",
+        "presiding": true,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      },
+      {
+        "name": "高須順一",
+        "presiding": false,
+        "judgeId": "takasu"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 2162
+  },
+  {
+    "hanreiId": "95548",
+    "detailType": "2",
+    "caseNumber": "令和5(オ)360",
+    "caseName": "地位確認等請求事件",
+    "date": "令和8年2月18日",
+    "court": "最高裁判所",
+    "division": "大法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": "名古屋高等裁判所",
+    "genshinCaseNumber": "令和3(ネ)833",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95548.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95548/detail2/index.html",
+    "needsReview": true,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "林道晴",
+        "opinionType": "補足意見",
+        "bodyLength": 2423,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "judge": "岡正晶",
+        "opinionType": "補足意見",
+        "bodyLength": 4316,
+        "judgeId": null
+      },
+      {
+        "judge": "石兼公博",
+        "opinionType": "補足意見",
+        "bodyLength": 3256,
+        "judgeId": "ishikane"
+      },
+      {
+        "judge": "安浪亮介",
+        "opinionType": "意見",
+        "bodyLength": 4784,
+        "judgeId": "yasunami"
+      },
+      {
+        "judge": "三浦守",
+        "opinionType": "反対意見",
+        "bodyLength": 17829,
+        "judgeId": "miura"
+      },
+      {
+        "judge": "尾島明",
+        "opinionType": "反対意見",
+        "bodyLength": 9345,
+        "judgeId": "ojima"
+      },
+      {
+        "judge": "宮川美津子",
+        "opinionType": "反対意見",
+        "bodyLength": 12077,
+        "judgeId": "miyagawa"
+      },
+      {
+        "judge": "高須順一",
+        "opinionType": "反対意見",
+        "bodyLength": 7622,
+        "judgeId": "takasu"
+      },
+      {
+        "judge": "沖野眞已",
+        "opinionType": "反対意見",
+        "bodyLength": 11680,
+        "judgeId": "okino"
+      }
+    ],
+    "panel": [
+      {
+        "name": "今崎幸彦",
+        "presiding": true,
+        "judgeId": "imasaki"
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "安浪亮介",
+        "presiding": false,
+        "judgeId": "yasunami"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "岡正晶",
+        "presiding": false,
+        "judgeId": null
+      },
+      {
+        "name": "堺徹",
+        "presiding": false,
+        "judgeId": "sakai"
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      },
+      {
+        "name": "宮川美津子",
+        "presiding": false,
+        "judgeId": "miyagawa"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      },
+      {
+        "name": "中村愼",
+        "presiding": false,
+        "judgeId": "nakamura"
+      },
+      {
+        "name": "高須順一",
+        "presiding": false,
+        "judgeId": "takasu"
+      },
+      {
+        "name": "沖野眞已",
+        "presiding": false,
+        "judgeId": "okino"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 89424
+  },
+  {
+    "hanreiId": "95570",
+    "detailType": "2",
+    "caseNumber": "令和6(行ヒ)362",
+    "caseName": "保有個人情報不開示決定処分取消請求事件",
+    "date": "令和8年2月20日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "大阪高等裁判所",
+    "genshinCaseNumber": "令和6(行コ)17",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95570.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95570/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "石兼公博",
+        "presiding": true,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      },
+      {
+        "name": "沖野眞已",
+        "presiding": false,
+        "judgeId": "okino"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 5306
+  },
+  {
+    "hanreiId": "95593",
+    "detailType": "2",
+    "caseNumber": "令和5(し)155",
+    "caseName": "再審開始決定に対する即時抗告棄却決定に対する特別抗告事件",
+    "date": "令和8年2月24日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "大阪高等裁判所",
+    "genshinCaseNumber": "平成30(く)251",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95593.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95593/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "岡村和美",
+        "presiding": true,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      },
+      {
+        "name": "高須順一",
+        "presiding": false,
+        "judgeId": "takasu"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 428
+  },
+  {
+    "hanreiId": "95768",
+    "detailType": "2",
+    "caseNumber": "令和7(行ヒ)25",
+    "caseName": "行政処分取消請求事件",
+    "date": "令和8年3月27日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": "札幌高等裁判所",
+    "genshinCaseNumber": "令和4(行コ)1",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95768.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95768/detail2/index.html",
+    "needsReview": true,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "林道晴",
+        "opinionType": "補足意見",
+        "bodyLength": 2153,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "judge": "渡辺惠理子",
+        "opinionType": "意見",
+        "bodyLength": 3568,
+        "judgeId": "watanabe"
+      }
+    ],
+    "panel": [
+      {
+        "name": "林道晴",
+        "presiding": true,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      },
+      {
+        "name": "沖野眞已",
+        "presiding": false,
+        "judgeId": "okino"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 13284
+  },
+  {
+    "hanreiId": "95801",
+    "detailType": "2",
+    "caseNumber": "令和8(し)235",
+    "caseName": "勾留の裁判に対する準抗告棄却決定に対する特別抗告事件",
+    "date": "令和8年4月1日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "福岡地方裁判所",
+    "genshinCaseNumber": "令和8(む)50043",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95801.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95801/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "三浦守",
+        "presiding": true,
+        "judgeId": "miura"
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      },
+      {
+        "name": "高須順一",
+        "presiding": false,
+        "judgeId": "takasu"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 1492
+  },
+  {
+    "hanreiId": "95816",
+    "detailType": "2",
+    "caseNumber": "令和6(あ)1479",
+    "caseName": "各廃棄物の処理及び清掃に関する法律違反被告事件",
+    "date": "令和8年4月7日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和5(う)1193",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95816.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95816/detail2/index.html",
+    "needsReview": false,
+    "unanimous": false,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "石兼公博",
+        "presiding": true,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      },
+      {
+        "name": "沖野眞已",
+        "presiding": false,
+        "judgeId": "okino"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 3558
+  },
+  {
+    "hanreiId": "95900",
+    "detailType": "2",
+    "caseNumber": "令和6(あ)1657",
+    "caseName": "入札談合等関与行為の排除及び防止並びに職員による入札等の公正を害すべき行為の処罰に関する法律違反、公契約関係競売入札妨害被告事件",
+    "date": "令和8年4月21日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95900.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95900/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "平木正洋",
+        "presiding": true,
+        "judgeId": "hiraki"
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "沖野眞已",
+        "presiding": false,
+        "judgeId": "okino"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 2481
+  },
+  {
+    "hanreiId": "95904",
+    "detailType": "2",
+    "caseNumber": "令和7(受)356",
+    "caseName": "不正競争行為差止等請求事件",
+    "date": "令和8年4月24日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "知的財産高等裁判所",
+    "genshinCaseNumber": "令和5(ネ)10111",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-95904.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/95904/detail2/index.html",
+    "needsReview": true,
+    "unanimous": true,
+    "individualOpinions": [
+      {
+        "judge": "尾島明",
+        "opinionType": "補足意見",
+        "bodyLength": 2859,
+        "judgeId": "ojima"
+      }
+    ],
+    "panel": [
+      {
+        "name": "岡村和美",
+        "presiding": true,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      },
+      {
+        "name": "高須順一",
+        "presiding": false,
+        "judgeId": "takasu"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 6432
+  },
+  {
+    "hanreiId": "96022",
+    "detailType": "2",
+    "caseNumber": "令和8(し)416",
+    "caseName": "接見等禁止の裁判に対する準抗告棄却決定に対する特別抗告事件",
+    "date": "令和8年5月27日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "東京地方裁判所",
+    "genshinCaseNumber": "令和8(む)95078",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-96022.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/96022/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "高須順一",
+        "presiding": true,
+        "judgeId": "takasu"
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "岡村和美",
+        "presiding": false,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 625
+  },
+  {
+    "hanreiId": "96035",
+    "detailType": "2",
+    "caseNumber": "令和8(し)378",
+    "caseName": "保釈取消し決定及び保釈保証金の全部を没取する決定に対する抗告棄却決定に対する特別抗告事件",
+    "date": "令和8年5月29日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和8(く)261",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-96035.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/96035/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "沖野眞已",
+        "presiding": true,
+        "judgeId": "okino"
+      },
+      {
+        "name": "林道晴",
+        "presiding": false,
+        "judgeId": "hayashi_m"
+      },
+      {
+        "name": "渡辺惠理子",
+        "presiding": false,
+        "judgeId": "watanabe"
+      },
+      {
+        "name": "石兼公博",
+        "presiding": false,
+        "judgeId": "ishikane"
+      },
+      {
+        "name": "平木正洋",
+        "presiding": false,
+        "judgeId": "hiraki"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 894
+  },
+  {
+    "hanreiId": "96050",
+    "detailType": "2",
+    "caseNumber": "令和8(行フ)1",
+    "caseName": "難民審査請求棄却裁決効力停止決定に対する抗告棄却決定に対する許可抗告事件",
+    "date": "令和8年5月27日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "令和7(行ス)99",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-96050.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/96050/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "岡村和美",
+        "presiding": true,
+        "judgeId": "Okamura"
+      },
+      {
+        "name": "三浦守",
+        "presiding": false,
+        "judgeId": "miura"
+      },
+      {
+        "name": "尾島明",
+        "presiding": false,
+        "judgeId": "ojima"
+      },
+      {
+        "name": "高須順一",
+        "presiding": false,
+        "judgeId": "takasu"
+      }
+    ],
+    "hasActiveJudge": true,
+    "pdfTextLength": 749
+  }
+]
