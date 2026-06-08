@@ -1,0 +1,54 @@
+name: stage3-opinions
+
+# 第3段：XserverのPDFから個別意見を抽出。
+# 分割実行: 1回 BATCH 件ずつ。既処理はスキップして続きから。
+# 全件終わるまで手動で複数回 or schedule で回す。
+on:
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: "1回に処理する件数（既定2000）"
+        required: false
+        default: "2000"
+      sleep:
+        description: "各PDF取得の間隔秒（既定0.5）"
+        required: false
+        default: "0.5"
+
+permissions:
+  contents: write
+
+jobs:
+  stage3:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests pdfminer.six
+
+      - name: Run stage3 (extract opinions)
+        env:
+          PDF_BASE: "https://cup1980.xsrv.jp/pdf/"
+          BATCH: ${{ inputs.batch }}
+          SLEEP: ${{ inputs.sleep }}
+        run: python scripts/scraper_stage3_full.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/opinions_detail.json
+          if git diff --staged --quiet; then
+            echo "変更なし。"
+          else
+            git commit -m "chore: stage3 opinions (batch) [skip ci]"
+            git push
+          fi
