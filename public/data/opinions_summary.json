@@ -1176,5 +1176,285 @@
       ]
     },
     "model": "claude-haiku-4-5"
+  },
+  {
+    "hanreiId": "32901",
+    "detailType": "2",
+    "caseNumber": "平成17(許)33",
+    "caseName": "転付命令に対する執行抗告棄却決定に対する許可抗告事件",
+    "date": "平成18年4月14日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "決定",
+    "outcome": "破棄自判",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "平成17(ラ)116",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-32901.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/32901/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "今井功",
+        "presiding": true,
+        "judgeId": "ret_今井功"
+      },
+      {
+        "name": "滝井繁男",
+        "presiding": false,
+        "judgeId": "ret_滝井繁男"
+      },
+      {
+        "name": "津野修",
+        "presiding": false,
+        "judgeId": "ret_津野修"
+      },
+      {
+        "name": "中川了滋",
+        "presiding": false,
+        "judgeId": "ret_中川了滋"
+      },
+      {
+        "name": "古田佑紀",
+        "presiding": false,
+        "judgeId": "ret_古田佑紀"
+      }
+    ],
+    "hasActiveJudge": false,
+    "pdfTextLength": 1662,
+    "aiSummary": {
+      "summary": "弁護士が委任者から受け取った債務整理事務の前払費用の返還請求権について、最高裁は転付命令（給与や預金などを差し押さえて債権を回収する手続き）の対象にはならないと判断した。委任事務が終了していない段階では債権額が確定しないため適格がないという理由である。",
+      "summaryEasy": "弁護士が依頼者から先にもらったお金の返金を求める権利について、裁判所が給与差し押さえの対象にはできないと判断しました。これは、仕事がまだ終わっていないと、実際にいくら返金すべきかが決まらないためです。",
+      "legalPoint": "民事執行法159条1項の転付命令は、券面額を有する確定した債権を対象とするところ、委任事務終了前の前払費用返還請求権は債権額が不確定であり、転付命令の適格がないと解するのが正当である。",
+      "dissent": "",
+      "tags": [
+        "倒産・債権"
+      ]
+    },
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "hanreiId": "32906",
+    "detailType": "2",
+    "caseNumber": "平成16(受)1147",
+    "caseName": "損害賠償請求事件",
+    "date": "平成18年4月18日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄差戻",
+    "genshinCourt": "福岡高等裁判所",
+    "genshinCaseNumber": "平成11(ネ)971",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-32906.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/32906/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "藤田宙靖",
+        "presiding": true,
+        "judgeId": "ret_藤田宙靖"
+      },
+      {
+        "name": "濱田邦夫",
+        "presiding": false,
+        "judgeId": "ret_濱田邦夫"
+      },
+      {
+        "name": "上田豊三",
+        "presiding": false,
+        "judgeId": "ret_上田豊三"
+      },
+      {
+        "name": "堀籠幸男",
+        "presiding": false,
+        "judgeId": "ret_堀籠幸男"
+      }
+    ],
+    "hasActiveJudge": false,
+    "pdfTextLength": 7299,
+    "aiSummary": {
+      "summary": "医師D の医療上の注意義務違反とA の死亡との因果関係の有無について、最高裁は原審の判断に疑問を示し、福岡高裁に審理の再開を命じた。医療過誤と患者の死亡の因果関係認定について、より慎重な検討が必要と判断された。",
+      "summaryEasy": "医者が注意義務を果たさなかったことが患者の死亡に本当につながったのか、その関係性をしっかり調べなおしてください、と最高裁が下級裁判所に差し戻しました。医療事故で患者が亡くなった場合、医者の過失と死亡の関連性を証明することがとても重要だということです。",
+      "legalPoint": "医療上の注意義務違反と患者死亡の因果関係認定において、原審の判断が十分な根拠を備えていなかったため、差戻しによる再審理が必要とされた。医療過誤事件における因果関係の厳密な立証要件が問題となった。",
+      "dissent": "",
+      "tags": [
+        "損害賠償・交通"
+      ]
+    },
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "hanreiId": "32909",
+    "detailType": "2",
+    "caseNumber": "平成15(受)723",
+    "caseName": "賃金支払請求事件",
+    "date": "平成18年4月18日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": "大阪高等裁判所",
+    "genshinCaseNumber": "平成7(ネ)656",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-32909.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/32909/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "濱田邦夫",
+        "presiding": true,
+        "judgeId": "ret_濱田邦夫"
+      },
+      {
+        "name": "上田豊三",
+        "presiding": false,
+        "judgeId": "ret_上田豊三"
+      },
+      {
+        "name": "藤田宙靖",
+        "presiding": false,
+        "judgeId": "ret_藤田宙靖"
+      },
+      {
+        "name": "堀籠幸男",
+        "presiding": false,
+        "judgeId": "ret_堀籠幸男"
+      }
+    ],
+    "hasActiveJudge": false,
+    "pdfTextLength": 6582,
+    "aiSummary": {
+      "summary": "賃金支払請求事件で、最高裁は原判決を部分的に破棄し、上告人の請求を認める自判を行った。被上告人らの控訴は棄却され、控訴費用と上告費用は被上告人らが負担することとなった。",
+      "summaryEasy": "働いた人が会社に対して給料の支払いを求めた裁判です。高等裁判所の判決の一部が間違っていたため、最高裁がそれを直してやり直しました。働いた人の請求が認められることになりました。",
+      "legalPoint": "賃金請求権に関する法的判断について、原審の判断の誤りを指摘し、最高裁が事実認定を改めて行う自判により上告人の請求を認容した。",
+      "dissent": "",
+      "tags": [
+        "労働"
+      ]
+    },
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "hanreiId": "32919",
+    "detailType": "2",
+    "caseNumber": "平成15(行ヒ)217",
+    "caseName": "所得税更正処分等取消請求事件",
+    "date": "平成18年4月20日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄差戻",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "平成14(行コ)312",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-32919.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/32919/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "泉徳治",
+        "presiding": true,
+        "judgeId": "ret_泉徳治"
+      },
+      {
+        "name": "横尾和子",
+        "presiding": false,
+        "judgeId": "ret_横尾和子"
+      },
+      {
+        "name": "甲斐中辰夫",
+        "presiding": false,
+        "judgeId": "ret_甲斐中辰夫"
+      },
+      {
+        "name": "島田仁郎",
+        "presiding": false,
+        "judgeId": "ret_島田仁郎"
+      },
+      {
+        "name": "才口千晴",
+        "presiding": false,
+        "judgeId": "ret_才口千晴"
+      }
+    ],
+    "hasActiveJudge": false,
+    "pdfTextLength": 5422,
+    "aiSummary": {
+      "summary": "所得税の更正処分をめぐる事件で、最高裁は原判決を破棄し東京高裁に差し戻した。全員一致の判断。",
+      "summaryEasy": "税務署が納税者の所得税を修正した処分について、裁判になりました。最高裁はこれまでの判断が正しくないと考えて、もう一度高等裁判所で審理し直すよう決めました。",
+      "legalPoint": "所得税更正処分の適法性に関する判断に誤りがあったため、事件を高等裁判所に差し戻し再審理を命じた。",
+      "dissent": "",
+      "tags": [
+        "税務"
+      ]
+    },
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "hanreiId": "32920",
+    "detailType": "2",
+    "caseNumber": "平成17(受)530",
+    "caseName": "損害賠償請求事件",
+    "date": "平成18年4月20日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "平成16(ネ)2205",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-32920.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/32920/detail2/index.html",
+    "needsReview": true,
+    "unanimous": false,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "泉德治",
+        "presiding": true,
+        "judgeId": null
+      },
+      {
+        "name": "横尾和子",
+        "presiding": false,
+        "judgeId": "ret_横尾和子"
+      },
+      {
+        "name": "甲斐中辰夫",
+        "presiding": false,
+        "judgeId": "ret_甲斐中辰夫"
+      },
+      {
+        "name": "島田仁郎",
+        "presiding": false,
+        "judgeId": "ret_島田仁郎"
+      },
+      {
+        "name": "才口千晴",
+        "presiding": false,
+        "judgeId": "ret_才口千晴"
+      }
+    ],
+    "hasActiveJudge": false,
+    "pdfTextLength": 22227,
+    "aiSummary": {
+      "summary": "損害賠償請求事件について、最高裁判所第一小法廷は上告を棄却した。下級審の判断が維持されることになった。",
+      "summaryEasy": "損害賠償をめぐる裁判で、最高裁は上告人（さらに上の裁判を求めた側）の訴えを認めませんでした。つまり、下の裁判所の判決が正しいと判断したということです。",
+      "legalPoint": "本件は損害賠償請求事件であり、最高裁が上告を棄却することで、原審の判断が確定した。",
+      "dissent": "",
+      "tags": [
+        "損害賠償・交通"
+      ]
+    },
+    "model": "claude-haiku-4-5-20251001"
   }
 ]
