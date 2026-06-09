@@ -22,7 +22,7 @@ PDF_BASE = os.environ.get("PDF_BASE", "https://cup1980.xsrv.jp/pdf/")
 BATCH = int(os.environ.get("BATCH", "500"))
 SLEEP = float(os.environ.get("SLEEP", "0.2"))
 MODEL_ACTIVE = os.environ.get("MODEL_ACTIVE", "claude-sonnet-4-6")
-MODEL_OTHER = os.environ.get("MODEL_OTHER", "claude-haiku-4-5")
+MODEL_OTHER = os.environ.get("MODEL_OTHER", "claude-haiku-4-5-20251001")
 HEADERS = {"User-Agent": "Mozilla/5.0 (SupremeCourtWatch; +github-actions)"}
 
 DETAIL_JSON = "public/data/opinions_detail.json"
@@ -93,7 +93,16 @@ def summarize(client, model, rec, gist):
         messages=[{"role":"user","content":prompt}])
     text = msg.content[0].text.strip()
     text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text).strip()
-    data = json.loads(text)
+    if not text:
+        raise ValueError("空応答（モデル名/残高/権限を確認）")
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError:
+        # JSON以外が返った場合、最初の{...}を救出
+        m = re.search(r"\{.*\}", text, re.S)
+        if not m:
+            raise ValueError(f"JSON抽出失敗: {text[:120]}")
+        data = json.loads(m.group(0))
     # tagsを許可リストで矯正（8分類外を弾く）
     data["tags"] = [t for t in data.get("tags",[]) if t in TAGS][:3]
     return data
@@ -120,9 +129,14 @@ def main():
             summary = summarize(client, model, rec, gist)
             out = dict(rec); out["aiSummary"] = summary; out["model"] = model
             done[hid] = out
+        except anthropic.APIError as e:
+            # API側のエラー（認証・残高・モデル名など）は致命的なので即停止
+            print(f"  APIエラー {hid} (model={model}): {type(e).__name__}: {str(e)[:200]}", file=sys.stderr)
+            print("  → モデル名/APIキー/残高を確認してください。処理を中断します。", file=sys.stderr)
+            break
         except Exception as e:
-            print(f"  失敗 {hid}: {type(e).__name__} {str(e)[:80]}", file=sys.stderr)
-            done[hid] = dict(rec, aiSummary=None, summaryError=f"{type(e).__name__}")
+            print(f"  失敗 {hid}: {type(e).__name__} {str(e)[:120]}", file=sys.stderr)
+            done[hid] = dict(rec, aiSummary=None, summaryError=f"{type(e).__name__}: {str(e)[:80]}")
         processed += 1
         if processed % 50 == 0:
             print(f"  ...{processed}件 / 累計{len(done)}", file=sys.stderr)
