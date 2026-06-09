@@ -1,0 +1,608 @@
+[
+  {
+    "hanreiId": "24925",
+    "detailType": "2",
+    "caseNumber": "平成14(行ヒ)96",
+    "caseName": "公務外認定処分取消請求事件",
+    "date": "平成18年3月3日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄差戻",
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-24925.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/24925/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "津野修",
+        "presiding": true,
+        "judgeId": "ret_津野修"
+      },
+      {
+        "name": "滝井繁男",
+        "presiding": false,
+        "judgeId": "ret_滝井繁男"
+      },
+      {
+        "name": "今井功",
+        "presiding": false,
+        "judgeId": "ret_今井功"
+      },
+      {
+        "name": "中川了滋",
+        "presiding": false,
+        "judgeId": "ret_中川了滋"
+      },
+      {
+        "name": "古田佑紀",
+        "presiding": false,
+        "judgeId": "ret_古田佑紀"
+      }
+    ],
+    "hasActiveJudge": false,
+    "pdfTextLength": 4718,
+    "aiSummary": {
+      "summary": "公務員の死亡が公務中か公務外かが争われた事件で、最高裁は原審が心臓疾患の増悪程度を十分に審理しないまま因果関係を否定したのは法令違反だと判断し、福岡高裁に差し戻した。",
+      "summaryEasy": "公務員がバレーボール試合中に亡くなった場合、その死亡が職務に関連するかどうかが問題になりました。最高裁は、その人の心臓病がどの程度悪化していたかをしっかり調べないまま『仕事とは関係ない』と判断したのはおかしいと指摘し、やり直すよう求めました。",
+      "legalPoint": "公務外認定処分における相当因子関係の判断には、故人の基礎疾患の状態を十分に審理する必要があり、疾患の増悪程度を十分に検討しないまま相当因果関係を否定することは、判決に影響を及ぼす法令違反となる。",
+      "dissent": "",
+      "tags": [
+        "社会保障"
+      ]
+    },
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "hanreiId": "24926",
+    "detailType": "2",
+    "caseNumber": "平成12(行ツ)62",
+    "caseName": "国民健康保険料賦課処分取消等請求事件",
+    "date": "平成18年3月1日",
+    "court": "最高裁判所",
+    "division": "大法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "札幌高等裁判所",
+    "genshinCaseNumber": "平成10(行コ)8",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-24926.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/24926/detail2/index.html",
+    "needsReview": true,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "町田顯",
+        "presiding": true,
+        "judgeId": "ret_町田顯"
+      },
+      {
+        "name": "濱田邦夫",
+        "presiding": false,
+        "judgeId": "ret_濱田邦夫"
+      },
+      {
+        "name": "横尾和子",
+        "presiding": false,
+        "judgeId": "ret_横尾和子"
+      },
+      {
+        "name": "上田豊三",
+        "presiding": false,
+        "judgeId": "ret_上田豊三"
+      },
+      {
+        "name": "滝井繁男",
+        "presiding": false,
+        "judgeId": "ret_滝井繁男"
+      },
+      {
+        "name": "藤田宙靖",
+        "presiding": false,
+        "judgeId": "ret_藤田宙靖"
+      },
+      {
+        "name": "甲斐中辰夫",
+        "presiding": false,
+        "judgeId": "ret_甲斐中辰夫"
+      },
+      {
+        "name": "泉徳治",
+        "presiding": false,
+        "judgeId": "ret_泉徳治"
+      },
+      {
+        "name": "島田仁郎",
+        "presiding": false,
+        "judgeId": "ret_島田仁郎"
+      },
+      {
+        "name": "才口千晴",
+        "presiding": false,
+        "judgeId": "ret_才口千晴"
+      },
+      {
+        "name": "津野修",
+        "presiding": false,
+        "judgeId": "ret_津野修"
+      },
+      {
+        "name": "今井功",
+        "presiding": false,
+        "judgeId": "ret_今井功"
+      },
+      {
+        "name": "中川了滋",
+        "presiding": false,
+        "judgeId": "ret_中川了滋"
+      },
+      {
+        "name": "堀籠幸男",
+        "presiding": false,
+        "judgeId": "ret_堀籠幸男"
+      },
+      {
+        "name": "古田佑紀",
+        "presiding": false,
+        "judgeId": "ret_古田佑紀"
+      }
+    ],
+    "hasActiveJudge": false,
+    "pdfTextLength": 12253,
+    "aiSummary": {
+      "summary": "国民健康保険料の賦課処分取消を求めた事件で、最高裁は上告人の請求をほぼ棄却した。平成7年度分に関する部分を除き、上告人の主張は法的根拠がないと判断された。",
+      "summaryEasy": "国民健康保険の保険料について、納める金額が高すぎると文句をつけた人が、その決定をやめてほしいと訴えました。最高裁は、この人の訴えはほぼ理由がないと判断し、請求を認めませんでした。",
+      "legalPoint": "国民健康保険料の賦課処分および減免非該当処分の適法性が争点となったが、最高裁は上告人の主張が上告受理の基準を満たさないものと判断し、実質的審理に入らず上告を棄却した。",
+      "dissent": "",
+      "tags": [
+        "社会保障"
+      ]
+    },
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "hanreiId": "32770",
+    "detailType": "2",
+    "caseNumber": "平成17(あ)2035",
+    "caseName": "危険運転致傷,道路交通法違反,傷害被告事件",
+    "date": "平成18年3月14日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "札幌高等裁判所",
+    "genshinCaseNumber": "平成17(う)139",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-32770.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/32770/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "古田佑紀",
+        "presiding": true,
+        "judgeId": "ret_古田佑紀"
+      },
+      {
+        "name": "滝井繁男",
+        "presiding": false,
+        "judgeId": "ret_滝井繁男"
+      },
+      {
+        "name": "津野修",
+        "presiding": false,
+        "judgeId": "ret_津野修"
+      },
+      {
+        "name": "今井功",
+        "presiding": false,
+        "judgeId": "ret_今井功"
+      },
+      {
+        "name": "中川了滋",
+        "presiding": false,
+        "judgeId": "ret_中川了滋"
+      }
+    ],
+    "hasActiveJudge": false,
+    "pdfTextLength": 1365,
+    "aiSummary": {
+      "summary": "危険運転致傷罪などに問われた被告人の上告が最高裁第二小法廷で棄却された。原審の有罪判決が確定し、未決勾留日数20日が刑に算入されることになった。",
+      "summaryEasy": "車を危険な運転で他人にけがをさせた人が、最高裁に判決をやり直してほしいと申し立てましたが、認められませんでした。下の裁判所の判決が正しいと判断されたわけです。その間、刑務所に入っていた日数のうち20日分は、これからの刑期から差し引かれることになります。",
+      "legalPoint": "危険運転致傷罪の成立と刑罰についての上告が最高裁で棄却され、原判決の有罪判決が確定した。未決勾留期間の算入については当審で調整が加えられた。",
+      "dissent": "",
+      "tags": [
+        "損害賠償・交通"
+      ]
+    },
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "hanreiId": "32786",
+    "detailType": "2",
+    "caseNumber": "平成13(行ヒ)289",
+    "caseName": "個人情報非訂正決定処分取消請求事件",
+    "date": "平成18年3月10日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": "大阪高等裁判所",
+    "genshinCaseNumber": "平成13(行コ)10",
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-32786.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/32786/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "津野修",
+        "presiding": true,
+        "judgeId": "ret_津野修"
+      },
+      {
+        "name": "滝井繁男",
+        "presiding": false,
+        "judgeId": "ret_滝井繁男"
+      },
+      {
+        "name": "今井功",
+        "presiding": false,
+        "judgeId": "ret_今井功"
+      },
+      {
+        "name": "中川了滋",
+        "presiding": false,
+        "judgeId": "ret_中川了滋"
+      },
+      {
+        "name": "古田佑紀",
+        "presiding": false,
+        "judgeId": "ret_古田佑紀"
+      }
+    ],
+    "hasActiveJudge": false,
+    "pdfTextLength": 5490,
+    "aiSummary": {
+      "summary": "個人情報の非訂正決定の取消を求めた事件で、最高裁は原審の判断に法令違反があるとして原判決を破棄し、第1審判決を取り消した。被上告人の請求は棄却された。",
+      "summaryEasy": "ある人が自分の個人情報を訂正してほしいと申し立てたが、役所がそれを認めない決定をしました。この決定が正しいかどうかが争われました。最高裁は、この決定は法律に違反していないと判断し、訂正を求めた人の訴えは認めませんでした。",
+      "legalPoint": "個人情報保護制度における非訂正決定の適法性が問われた事件。最高裁は、原審が法令に違反する判断をしたとして破棄し、非訂正決定を違法とはしないと判断した。",
+      "dissent": "",
+      "tags": []
+    },
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "hanreiId": "32789",
+    "detailType": "2",
+    "caseNumber": "平成17(受)76",
+    "caseName": "損害賠償請求事件",
+    "date": "平成18年3月13日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄差戻",
+    "genshinCourt": "高松高等裁判所",
+    "genshinCaseNumber": "平成15(ネ)341",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-32789.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/32789/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "中川了滋",
+        "presiding": true,
+        "judgeId": "ret_中川了滋"
+      },
+      {
+        "name": "滝井繁男",
+        "presiding": false,
+        "judgeId": "ret_滝井繁男"
+      },
+      {
+        "name": "津野修",
+        "presiding": false,
+        "judgeId": "ret_津野修"
+      },
+      {
+        "name": "今井功",
+        "presiding": false,
+        "judgeId": "ret_今井功"
+      },
+      {
+        "name": "古田佑紀",
+        "presiding": false,
+        "judgeId": "ret_古田佑紀"
+      }
+    ],
+    "hasActiveJudge": false,
+    "pdfTextLength": 5247,
+    "aiSummary": {
+      "summary": "損害賠償請求事件で、最高裁判所第二小法廷は被上告人らに関する原判決を破棄し、高松高等裁判所に差し戻した。事件の法的判断に誤りがあったと判断された。",
+      "summaryEasy": "ある人たちが損害賠償を求めた裁判で、最高裁が「下の裁判所の判断は間違っている」と判断しました。そのため、もう一度高松高等裁判所で改めて判断し直すことになりました。",
+      "legalPoint": "被上告人らに関する原判決の法的判断が破棄される理由について、最高裁は統一的な判断基準に基づき差戻を命じた。事件の具体的な争点については判決文の要点から特定できない。",
+      "dissent": "",
+      "tags": [
+        "損害賠償・交通"
+      ]
+    },
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "hanreiId": "32794",
+    "detailType": "2",
+    "caseNumber": "平成17(受)1751",
+    "caseName": "損害賠償等請求事件",
+    "date": "平成18年3月28日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-32794.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/32794/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "藤田宙靖",
+        "presiding": true,
+        "judgeId": "ret_藤田宙靖"
+      },
+      {
+        "name": "濱田邦夫",
+        "presiding": false,
+        "judgeId": "ret_濱田邦夫"
+      },
+      {
+        "name": "上田豊三",
+        "presiding": false,
+        "judgeId": "ret_上田豊三"
+      },
+      {
+        "name": "堀籠幸男",
+        "presiding": false,
+        "judgeId": "ret_堀籠幸男"
+      }
+    ],
+    "hasActiveJudge": false,
+    "pdfTextLength": 2945,
+    "aiSummary": {
+      "summary": "損害賠償等請求事件について、最高裁判所第三小法廷は上告を棄却した。下級審の判断が維持される。",
+      "summaryEasy": "損害賠償の請求をめぐる裁判で、最高裁が上告（さらに上の裁判所に訴えること）を受け入れず、前の裁判の判決で終わりになりました。",
+      "legalPoint": "最高裁が上告を棄却したことにより、損害賠償請求に関する下級審の判断が確定した。",
+      "dissent": "",
+      "tags": [
+        "損害賠償・交通"
+      ]
+    },
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "hanreiId": "32811",
+    "detailType": "2",
+    "caseNumber": "平成15(受)1099",
+    "caseName": "解雇無効確認等請求事件",
+    "date": "平成18年3月28日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": "福岡高等裁判所",
+    "genshinCaseNumber": "平成14(ネ)372",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-32811.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/32811/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "堀籠幸男",
+        "presiding": true,
+        "judgeId": "ret_堀籠幸男"
+      },
+      {
+        "name": "濱田邦夫",
+        "presiding": false,
+        "judgeId": "ret_濱田邦夫"
+      },
+      {
+        "name": "上田豊三",
+        "presiding": false,
+        "judgeId": "ret_上田豊三"
+      },
+      {
+        "name": "藤田宙靖",
+        "presiding": false,
+        "judgeId": "ret_藤田宙靖"
+      }
+    ],
+    "hasActiveJudge": false,
+    "pdfTextLength": 5799,
+    "aiSummary": {
+      "summary": "",
+      "summaryEasy": "",
+      "legalPoint": "",
+      "dissent": "",
+      "tags": []
+    },
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "hanreiId": "32812",
+    "detailType": "2",
+    "caseNumber": "平成15(行ツ)202",
+    "caseName": "滞納処分取消請求事件",
+    "date": "平成18年3月28日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "行政",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-32812.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/32812/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "藤田宙靖",
+        "presiding": true,
+        "judgeId": "ret_藤田宙靖"
+      },
+      {
+        "name": "濱田邦夫",
+        "presiding": false,
+        "judgeId": "ret_濱田邦夫"
+      },
+      {
+        "name": "上田豊三",
+        "presiding": false,
+        "judgeId": "ret_上田豊三"
+      },
+      {
+        "name": "堀籠幸男",
+        "presiding": false,
+        "judgeId": "ret_堀籠幸男"
+      }
+    ],
+    "hasActiveJudge": false,
+    "pdfTextLength": 1194,
+    "aiSummary": {
+      "summary": "滞納処分の取消を求めた訴訟について、最高裁判所第三小法廷は上告を棄却した。滞納処分の適法性に関する判断が確定した。",
+      "summaryEasy": "税金などを支払わない人に対して役所が行う差し押さえなどの処分について、その処分をやめてほしいという訴えが起こされました。最高裁判所がこの訴えを認めず、判断を確定させました。",
+      "legalPoint": "滞納処分取消請求事件において、下級審の判断が妥当であると判断され、上告棄却となった。具体的な滞納処分の適法性の論点については判決文の要点では明示されていない。",
+      "dissent": "",
+      "tags": [
+        "税務"
+      ]
+    },
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "hanreiId": "32813",
+    "detailType": "2",
+    "caseNumber": "平成16(オ)1365",
+    "caseName": "損害賠償請求事件",
+    "date": "平成18年3月28日",
+    "court": "最高裁判所",
+    "division": "第三小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "札幌高等裁判所",
+    "genshinCaseNumber": "平成15(ネ)468",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-32813.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/32813/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "濱田邦夫",
+        "presiding": true,
+        "judgeId": "ret_濱田邦夫"
+      },
+      {
+        "name": "上田豊三",
+        "presiding": false,
+        "judgeId": "ret_上田豊三"
+      },
+      {
+        "name": "藤田宙靖",
+        "presiding": false,
+        "judgeId": "ret_藤田宙靖"
+      },
+      {
+        "name": "堀籠幸男",
+        "presiding": false,
+        "judgeId": "ret_堀籠幸男"
+      }
+    ],
+    "hasActiveJudge": false,
+    "pdfTextLength": 2743,
+    "aiSummary": {
+      "summary": "損害賠償請求事件について、最高裁判所第三小法廷は上告を棄却した。原審の判断が維持され、請求者の主張は認められなかった。",
+      "summaryEasy": "ある人が損害賠償を求めて裁判を起こしましたが、最高裁判所がこの訴えを退けました。下級裁判所の判断が正しいと判断されたということです。",
+      "legalPoint": "本件は損害賠償請求の適否が争点であり、最高裁は原審判決を是認して上告を棄却することにより、請求者の主張を採用しなかった。",
+      "dissent": "",
+      "tags": [
+        "損害賠償・交通"
+      ]
+    },
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "hanreiId": "32814",
+    "detailType": "2",
+    "caseNumber": "平成17(あ)2091",
+    "caseName": "暴行,逮捕監禁致死被告事件",
+    "date": "平成18年3月27日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "決定",
+    "outcome": "棄却",
+    "genshinCourt": "大阪高等裁判所",
+    "genshinCaseNumber": "平成17(う)207",
+    "field": "刑事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-32814.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/32814/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "甲斐中辰夫",
+        "presiding": true,
+        "judgeId": "ret_甲斐中辰夫"
+      },
+      {
+        "name": "横尾和子",
+        "presiding": false,
+        "judgeId": "ret_横尾和子"
+      },
+      {
+        "name": "泉徳治",
+        "presiding": false,
+        "judgeId": "ret_泉徳治"
+      },
+      {
+        "name": "島田仁郎",
+        "presiding": false,
+        "judgeId": "ret_島田仁郎"
+      },
+      {
+        "name": "才口千晴",
+        "presiding": false,
+        "judgeId": "ret_才口千晴"
+      }
+    ],
+    "hasActiveJudge": false,
+    "pdfTextLength": 1155,
+    "aiSummary": {
+      "summary": "暴行と逮捕監禁致死罪に問われた被告人の上告を最高裁が棄却した。決定にあたり、未決勾留日数70日を本刑に算入することを命じた。",
+      "summaryEasy": "暴行と逮捕監禁により人が亡くなった事件で、被告人が最高裁に訴えましたが、最高裁は訴えを認めませんでした。ただし、裁判前に留置されていた70日間は、科された刑から差し引くことになりました。",
+      "legalPoint": "上告が棄却された事件において、公訴提起前の未決勾留日数について、刑事訴訟法21条に基づき本刑算入の決定がなされた。",
+      "dissent": "",
+      "tags": [
+        "損害賠償・交通"
+      ]
+    },
+    "model": "claude-haiku-4-5-20251001"
+  }
+]
