@@ -95,16 +95,32 @@ def summarize(client, model, rec, gist):
     text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text).strip()
     if not text:
         raise ValueError("空応答（モデル名/残高/権限を確認）")
+    review = False
     try:
         data = json.loads(text)
     except json.JSONDecodeError:
         # JSON以外が返った場合、最初の{...}を救出
         m = re.search(r"\{.*\}", text, re.S)
-        if not m:
-            raise ValueError(f"JSON抽出失敗: {text[:120]}")
-        data = json.loads(m.group(0))
+        if m:
+            try:
+                data = json.loads(m.group(0))
+                review = True  # 救出できたが応答が崩れていた → 要チェック
+            except json.JSONDecodeError:
+                # 救出も失敗 → 生テキストを保持して要チェック
+                return {"summary":"","summaryEasy":"","legalPoint":"","dissent":"",
+                        "tags":[], "raw": text[:500], "needsSummaryReview": True}
+        else:
+            return {"summary":"","summaryEasy":"","legalPoint":"","dissent":"",
+                    "tags":[], "raw": text[:500], "needsSummaryReview": True}
     # tagsを許可リストで矯正（8分類外を弾く）
     data["tags"] = [t for t in data.get("tags",[]) if t in TAGS][:3]
+    # 必須キーの欠落チェック
+    for k in ("summary","summaryEasy","legalPoint","dissent"):
+        if k not in data:
+            data[k] = ""
+            review = True
+    if review:
+        data["needsSummaryReview"] = True
     return data
 
 def main():
@@ -128,6 +144,8 @@ def main():
             gist = extract_gist(extract_text(io.BytesIO(r.content)))
             summary = summarize(client, model, rec, gist)
             out = dict(rec); out["aiSummary"] = summary; out["model"] = model
+            if summary.get("needsSummaryReview"):
+                out["needsSummaryReview"] = True
             done[hid] = out
         except anthropic.APIError as e:
             # API側のエラー（認証・残高・モデル名など）は致命的なので即停止
@@ -136,7 +154,9 @@ def main():
             break
         except Exception as e:
             print(f"  失敗 {hid}: {type(e).__name__} {str(e)[:120]}", file=sys.stderr)
-            done[hid] = dict(rec, aiSummary=None, summaryError=f"{type(e).__name__}: {str(e)[:80]}")
+            done[hid] = dict(rec, aiSummary=None,
+                             needsSummaryReview=True,
+                             summaryError=f"{type(e).__name__}: {str(e)[:80]}")
         processed += 1
         if processed % 50 == 0:
             print(f"  ...{processed}件 / 累計{len(done)}", file=sys.stderr)
