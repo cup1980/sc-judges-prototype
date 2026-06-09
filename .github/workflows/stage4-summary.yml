@@ -1,0 +1,52 @@
+name: stage4-summary
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: "1回に処理する件数（既定500）"
+        required: false
+        default: "500"
+      sleep:
+        description: "各APIの間隔秒（既定0.2）"
+        required: false
+        default: "0.2"
+
+permissions:
+  contents: write
+
+jobs:
+  stage4:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install anthropic requests pdfminer.six
+
+      - name: Run stage4 (AI summary)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PDF_BASE: "https://cup1980.xsrv.jp/pdf/"
+          BATCH: ${{ inputs.batch }}
+          SLEEP: ${{ inputs.sleep }}
+        run: python scripts/scraper_stage4_full.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/opinions_summary.json
+          if git diff --staged --quiet; then
+            echo "変更なし。"
+          else
+            git commit -m "chore: stage4 AI summary (batch) [skip ci]"
+            git push
+          fi
