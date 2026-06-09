@@ -604,5 +604,295 @@
       ]
     },
     "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "hanreiId": "32815",
+    "detailType": "2",
+    "caseNumber": "平成17(受)1628",
+    "caseName": "損害賠償請求事件",
+    "date": "平成18年3月30日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "仙台高等裁判所",
+    "genshinCaseNumber": "平成17(ネ)79",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-32815.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/32815/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "横尾和子",
+        "presiding": true,
+        "judgeId": "ret_横尾和子"
+      },
+      {
+        "name": "甲斐中辰夫",
+        "presiding": false,
+        "judgeId": "ret_甲斐中辰夫"
+      },
+      {
+        "name": "泉徳治",
+        "presiding": false,
+        "judgeId": "ret_泉徳治"
+      },
+      {
+        "name": "島田仁郎",
+        "presiding": false,
+        "judgeId": "ret_島田仁郎"
+      },
+      {
+        "name": "才口千晴",
+        "presiding": false,
+        "judgeId": "ret_才口千晴"
+      }
+    ],
+    "hasActiveJudge": false,
+    "pdfTextLength": 1794,
+    "aiSummary": {
+      "summary": "損害賠償請求事件で、最高裁判所第一小法廷は上告を棄却した。原審の判断が維持され、請求者の主張は認められなかった。",
+      "summaryEasy": "誰かが誰かに対して損害賠償を求めて裁判をしました。下の裁判所の判断に不服で最高裁に上告しましたが、最高裁は上告を認めず、元の判断のままとなりました。",
+      "legalPoint": "損害賠償請求事件において、最高裁は原審の判断を是認し、上告理由が不十分として上告を棄却した。",
+      "dissent": "",
+      "tags": [
+        "損害賠償・交通"
+      ]
+    },
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "hanreiId": "32819",
+    "detailType": "2",
+    "caseNumber": "平成17(受)364",
+    "caseName": "建築物撤去等請求事件",
+    "date": "平成18年3月30日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": "棄却",
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "平成15(ネ)478",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-32819.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/32819/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "甲斐中辰夫",
+        "presiding": true,
+        "judgeId": "ret_甲斐中辰夫"
+      },
+      {
+        "name": "横尾和子",
+        "presiding": false,
+        "judgeId": "ret_横尾和子"
+      },
+      {
+        "name": "泉徳治",
+        "presiding": false,
+        "judgeId": "ret_泉徳治"
+      },
+      {
+        "name": "島田仁郎",
+        "presiding": false,
+        "judgeId": "ret_島田仁郎"
+      },
+      {
+        "name": "才口千晴",
+        "presiding": false,
+        "judgeId": "ret_才口千晴"
+      }
+    ],
+    "hasActiveJudge": false,
+    "pdfTextLength": 9970,
+    "aiSummary": {
+      "summary": "建築物の撤去を求めた訴訟について、最高裁第一小法廷は上告を棄却した。下級審の判断が維持される。",
+      "summaryEasy": "建物を壊してほしいという訴えが裁判で争われました。最高裁が判断した結果、訴えは認められませんでした。下の裁判所の判断が正しいということになります。",
+      "legalPoint": "建築物撤去請求の可否について、最高裁は上告を棄却することで下級審の判断を支持した。具体的な法的争点の判断内容は主文では明らかでない。",
+      "dissent": "",
+      "tags": [
+        "不動産・借地借家"
+      ]
+    },
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "hanreiId": "32832",
+    "detailType": "2",
+    "caseNumber": "平成17(受)1208",
+    "caseName": "通行権確認等請求及び承継参加事件",
+    "date": "平成18年3月16日",
+    "court": "最高裁判所",
+    "division": "第一小法廷",
+    "judgeKind": "判決",
+    "outcome": null,
+    "genshinCourt": "東京高等裁判所",
+    "genshinCaseNumber": "平成15(ネ)6340",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-32832.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/32832/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "甲斐中辰夫",
+        "presiding": true,
+        "judgeId": "ret_甲斐中辰夫"
+      },
+      {
+        "name": "横尾和子",
+        "presiding": false,
+        "judgeId": "ret_横尾和子"
+      },
+      {
+        "name": "泉徳治",
+        "presiding": false,
+        "judgeId": "ret_泉徳治"
+      },
+      {
+        "name": "島田仁郎",
+        "presiding": false,
+        "judgeId": "ret_島田仁郎"
+      },
+      {
+        "name": "才口千晴",
+        "presiding": false,
+        "judgeId": "ret_才口千晴"
+      }
+    ],
+    "hasActiveJudge": false,
+    "pdfTextLength": 6322,
+    "aiSummary": {
+      "summary": "分割によって生じた土地について、自動車通行を前提とした民法210条通行権の成立を否定した原審の判断は法令違反であると最高裁が判断し、差し戻しを決定した。土地分割に伴う通行権の成立可能性を見直す必要があるとされた。",
+      "summaryEasy": "土地が分割された際に、自動車が通れる道として使える権利（通行権）があるかどうかが争われました。裁判所は『分割で生じた土地には通行権がある可能性があるのに、その可能性を考えずに権利がないと判断したのは間違い』と指摘し、もう一度詳しく調べ直すよう高等裁判所に差し戻しました。",
+      "legalPoint": "土地分割により新たに生じた土地について、民法213条通行権の成立を前提としつつ、民法210条に基づく自動車通行を前提とした通行権の成立可能性を判断する際、土地分割という事情を考慮すべき点を指摘した。",
+      "dissent": "",
+      "tags": [
+        "不動産・借地借家"
+      ]
+    },
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "hanreiId": "32834",
+    "detailType": "2",
+    "caseNumber": "平成16(受)1968",
+    "caseName": "地位確認等請求事件",
+    "date": "平成18年3月17日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": null,
+    "genshinCourt": null,
+    "genshinCaseNumber": null,
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-32834.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/32834/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "津野修",
+        "presiding": true,
+        "judgeId": "ret_津野修"
+      },
+      {
+        "name": "滝井繁男",
+        "presiding": false,
+        "judgeId": "ret_滝井繁男"
+      },
+      {
+        "name": "今井功",
+        "presiding": false,
+        "judgeId": "ret_今井功"
+      },
+      {
+        "name": "中川了滋",
+        "presiding": false,
+        "judgeId": "ret_中川了滋"
+      },
+      {
+        "name": "古田佑紀",
+        "presiding": false,
+        "judgeId": "ret_古田佑紀"
+      }
+    ],
+    "hasActiveJudge": false,
+    "pdfTextLength": 10768,
+    "aiSummary": {
+      "summary": "地位確認等請求事件で、最高裁は上告人X1及びX2に関する部分について原判決を破棄し、福岡高等裁判所に差し戻した。その他の上告人らの上告は棄却された。",
+      "summaryEasy": "雇用や身分に関する地位の確認を求めた裁判で、最高裁は一部の申し立てについては判断をやり直すため高等裁判所に送り返しました。残りの申し立ては退けられました。",
+      "legalPoint": "地位確認請求事件において、上告人X1及びX2に関する部分は審理不尽または判断の誤りがあるとして差し戻し対象とされ、その他の上告人については上告理由が認められないと判断された。",
+      "dissent": "",
+      "tags": [
+        "労働"
+      ]
+    },
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "hanreiId": "32853",
+    "detailType": "2",
+    "caseNumber": "平成17(テ)21",
+    "caseName": "貸金等請求事件",
+    "date": "平成18年3月17日",
+    "court": "最高裁判所",
+    "division": "第二小法廷",
+    "judgeKind": "判決",
+    "outcome": "破棄自判",
+    "genshinCourt": "大阪高等裁判所",
+    "genshinCaseNumber": "平成17(ツ)5",
+    "field": "民事",
+    "fullTextPdf": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-32853.pdf",
+    "detailUrl": "https://www.courts.go.jp/hanrei/32853/detail2/index.html",
+    "needsReview": false,
+    "unanimous": true,
+    "individualOpinions": [],
+    "panel": [
+      {
+        "name": "津野修",
+        "presiding": true,
+        "judgeId": "ret_津野修"
+      },
+      {
+        "name": "滝井繁男",
+        "presiding": false,
+        "judgeId": "ret_滝井繁男"
+      },
+      {
+        "name": "今井功",
+        "presiding": false,
+        "judgeId": "ret_今井功"
+      },
+      {
+        "name": "中川了滋",
+        "presiding": false,
+        "judgeId": "ret_中川了滋"
+      },
+      {
+        "name": "古田佑紀",
+        "presiding": false,
+        "judgeId": "ret_古田佑紀"
+      }
+    ],
+    "hasActiveJudge": false,
+    "pdfTextLength": 4173,
+    "aiSummary": {
+      "summary": "貸金等請求事件について、最高裁は原判決と原々判決を破棄し、事件を神戸地方裁判所に差し戻した。判断の具体的内容については、提供されたテキストでは示されていない。",
+      "summaryEasy": "お金の貸し借りに関する裁判で、最高裁が前の二つの裁判所の判断を認めず、神戸地方裁判所でもう一度判断し直すよう指示しました。",
+      "legalPoint": "原判決および原々判決の判断に誤りがあると判断され、事件全体の再審理が必要と判断された。",
+      "dissent": "",
+      "tags": [
+        "倒産・債権"
+      ]
+    },
+    "model": "claude-haiku-4-5-20251001"
   }
 ]
