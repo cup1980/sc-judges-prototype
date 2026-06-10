@@ -22,6 +22,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # rebase に履歴が必要なため浅いcloneにしない
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -42,14 +44,36 @@ jobs:
       - name: Make review list
         run: python scripts/make_review_list.py
 
+      # ★ 保険: push の成否に関わらず、要約結果を必ず artifact として残す。
+      #   push がコケても Actions 画面からダウンロードして回収できる。
+      - name: Upload result as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: stage4-result
+          path: |
+            public/data/opinions_summary.json
+            public/data/review_list.csv
+          retention-days: 14
+
       - name: Commit & push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/data/opinions_summary.json public/data/review_list.csv
           if git diff --staged --quiet; then
-            echo "変更なし。"
-          else
-            git commit -m "chore: stage4 AI summary + review list (batch) [skip ci]"
-            git push
+            echo "変更なし。コミットしません。"
+            exit 0
           fi
+          git commit -m "chore: stage4 AI summary + review list (batch) [skip ci]"
+          # 実行中に main が進んでいても取り込んでから push（最大5回リトライ）
+          for i in $(seq 1 5); do
+            if git pull --rebase origin main && git push origin main; then
+              echo "push 成功（試行 $i 回目）"
+              exit 0
+            fi
+            echo "push 失敗。リモートを取り込んで再試行します（$i/5）..."
+            sleep 10
+          done
+          echo "::error::5回試行しても push できませんでした。artifact から結果を回収してください。"
+          exit 1
