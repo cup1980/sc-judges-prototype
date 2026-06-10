@@ -1,25 +1,19 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-最高裁判例DB scraper 第1段（一覧クロール）
-- courts.go.jp の最高裁タブ(search2, courtCaseType=1)を日付範囲×offsetで総当たり
-- 各判例の: 判例ID/事件番号/事件名/裁判年月日/法廷/裁判種別/結果/原審/分野/全文PDF を抽出
-- 正規化JSONを出力（後でDBに移せる形）
-※ courts.go.jp は要ネットワーク接続。手元PCかGitHub Actionsで実行。
-   実行前: pip install requests beautifulsoup4
+事件番号 ↔ 事件名 の分離 + 符号からの分野(field)判定（共通モジュール）。
+
+これから取得するデータ（scraper_stage1.py）と、既存データのパッチ修正の
+両方からこのモジュールを import して使う（ロジックを一箇所に集約）。
+
+主な対応:
+- 「新」付き表記（昭和24前後の旧→新刑訴移行期）。符号の前後どちらでも許容。
+  例: 「昭和24新(れ)519」「昭和24(れ)新519」
+- get_text 由来の改行・連続空白の混入を吸収。
+- 明治〜令和、「年」「第」「号」「等」の有無を許容。
 """
+import re
 
-import requests, time, json, re, sys
-from bs4 import BeautifulSoup
-from urllib.parse import urlencode
-
-BASE = "https://www.courts.go.jp/hanrei/search2/index.html"
-HEADERS = {
-    # 連絡先を入れておくと運営側に親切（任意で書き換え）
-    "User-Agent": "Mozilla/5.0 (SupremeCourtWatch research bot; contact: example@example.com)"
-}
-
-# ------- 事件符号 → 分野(field) 一次分類（最高裁分） -------
+# 事件符号 → 分野(field) 一次分類（最高裁分）
 CODE_TO_FIELD = {
     # 民事系
     "オ": "民事", "受": "民事", "許": "民事", "ク": "民事", "テ": "民事",
@@ -33,163 +27,70 @@ CODE_TO_FIELD = {
     "れ": "刑事", "医へ": "刑事", "ひ": "刑事",
 }
 
-# 事件番号から符号を取り出す: 例「平成30(受)1874」→「受」, 「令和2(行ヒ)102」→「行ヒ」
-CASE_NO_RE = re.compile(r"(?:平成|令和|昭和)\d+\(([^)]+)\)\d+")
+_GENGO = r"(?:明治|大正|昭和|平成|令和)"
 
-COURT_DIV_RE = re.compile(r"(大法廷|第一小法廷|第二小法廷|第三小法廷)")
-JUDGE_KIND_RE = re.compile(r"(判決|決定)")
-# 結果語（よく出るもの。必要に応じ追加）
-RESULT_RE = re.compile(
-    r"(破棄差戻|破棄自判|破棄移送|上告棄却|上告却下|棄却|却下|認容|変更|"
-    r"原判決破棄|差戻|移送|取消)"
-)
-# 原審: 「○○高等裁判所 平成27(ネ)19」など（裁判所名＋事件番号）
-GENSHIN_RE = re.compile(
-    r"((?:[^\s]+?(?:高等裁判所|地方裁判所|家庭裁判所|簡易裁判所))[^\s]*)\s*"
-    r"((?:平成|令和|昭和)\d+\([^)]+\)\d+(?:等)?)"
+# 事件番号フル: 元号+年(+新)+(符号)(+新)+番号
+# 「新」は符号の前(昭和24新(れ)519)・後(昭和24(れ)新519)どちらも許容
+CASE_NO_FULL = re.compile(
+    _GENGO + r"(?:\d+|元)年?\s*"   # 元号 + 年（"元年"も）
+    r"(?:新)?\s*"                  # 符号前の「新」
+    r"\([^)]+\)\s*"               # 符号 (れ) (受) (行ツ) など
+    r"(?:新)?\s*第?\s*\d+\s*号?(?:等)?"  # 符号後の「新」+ 番号
 )
 
-
-def build_url(g_from, y_from, m_from, d_from, g_to, y_to, m_to, d_to, offset=0):
-    params = {
-        "courtCaseType": "1",  # 最高裁のみ
-        "filter[judgeDateMode]": "2",  # 期間指定
-        "filter[judgeGengoFrom]": g_from, "filter[judgeYearFrom]": y_from,
-        "filter[judgeMonthFrom]": m_from, "filter[judgeDayFrom]": d_from,
-        "filter[judgeGengoTo]": g_to, "filter[judgeYearTo]": y_to,
-        "filter[judgeMonthTo]": m_to, "filter[judgeDayTo]": d_to,
-        "sort": "1",  # 裁判年月日降順
-        "offset": offset,
-    }
-    return BASE + "?" + urlencode(params) + "#searched"
-
-
-def parse_total(soup):
-    m = re.search(r"([\d,]+)\s*件中", soup.get_text())
-    return int(m.group(1).replace(",", "")) if m else 0
+# field 判定用に符号だけを取り出す
+CODE_RE = re.compile(
+    _GENGO + r"(?:\d+|元)年?\s*(?:新)?\s*\(([^)]+)\)"
+)
 
 
 def split_case_number_name(line1):
-    """『平成30(受)1874 請求異議事件』→ (case_number, case_name)"""
-    m = re.match(r"((?:平成|令和|昭和)\d+\([^)]+\)\d+(?:等)?)\s*(.*)", line1)
+    """『平成30(受)1874 請求異議事件』→ ('平成30(受)1874', '請求異議事件')
+
+    改行・連続空白を畳んでから事件番号を切り出す。マッチしない場合は
+    行全体を caseNumber、caseName を空で返す（従来挙動を踏襲）。
+    """
+    line1 = re.sub(r"\s+", " ", line1 or "").strip()
+    m = CASE_NO_FULL.match(line1)
     if m:
-        return m.group(1), m.group(2).strip()
+        case_number = re.sub(r"\s+", "", m.group(0))  # 事件番号内の空白除去
+        case_name = line1[m.end():].strip()
+        return case_number, case_name
     return line1, ""
 
 
 def field_from_case_number(case_number):
-    m = CASE_NO_RE.search(case_number)
+    """事件番号の符号から分野を一次判定。未知符号・抽出失敗は None。"""
+    m = CODE_RE.search(case_number or "")
     if not m:
         return None
-    code = m.group(1)
-    return CODE_TO_FIELD.get(code)
+    return CODE_TO_FIELD.get(m.group(1).strip())
 
 
-def parse_date_court_line(line2):
-    """2段目を分解: 裁判年月日/法廷/裁判種別/結果/原審裁判所/原審事件番号"""
-    out = {"date": None, "court": None, "division": None,
-           "judgeKind": None, "outcome": None,
-           "genshinCourt": None, "genshinCaseNumber": None}
-    # 裁判年月日（令和元年9月13日 / 令和2年3月31日 / 平成30年...）
-    md = re.search(r"((?:平成|令和|昭和)(?:\d+|元)年\d+月\d+日)", line2)
-    if md:
-        out["date"] = md.group(1)
-    if "最高裁判所" in line2:
-        out["court"] = "最高裁判所"
-    dv = COURT_DIV_RE.search(line2)
-    if dv:
-        out["division"] = dv.group(1)
-    jk = JUDGE_KIND_RE.search(line2)
-    if jk:
-        out["judgeKind"] = jk.group(1)
-    rs = RESULT_RE.search(line2)
-    if rs:
-        out["outcome"] = rs.group(1)
-    gen = GENSHIN_RE.search(line2)
-    if gen:
-        out["genshinCourt"] = gen.group(1)
-        out["genshinCaseNumber"] = gen.group(2)
-    return out
+def repair_record(rec):
+    """既存レコードのパッチ用。caseName が空 or caseNumber に事件名が
+    巻き込まれている場合に、caseNumber/caseName/field を整える。
+    変更があったら True を返す（再処理対象の判定に使える）。
+    """
+    changed = False
+    raw = rec.get("caseNumber", "") or ""
+    name = rec.get("caseName", "") or ""
 
+    # caseNumber に空白/改行混入、または caseName が空のとき分離を試みる
+    if (not name) or re.search(r"\s", raw):
+        cn, nm = split_case_number_name(raw if not name else f"{raw} {name}")
+        if cn != raw:
+            rec["caseNumber"] = cn
+            changed = True
+        if nm and nm != name:
+            rec["caseName"] = nm
+            changed = True
 
-def parse_rows(soup):
-    rows = []
-    for tr in soup.select("table.search-result-table tbody tr"):
-        a = tr.select_one("th a")
-        if not a:
-            continue
-        href = a.get("href", "")
-        m = re.search(r"/(\d+)/detail(\d+)/", href)
-        if not m:
-            continue
-        hanrei_id, detail_type = m.group(1), m.group(2)
-        ps = tr.select("td p")
-        line1 = ps[0].get_text(" ", strip=True) if len(ps) > 0 else ""
-        line2 = ps[1].get_text(" ", strip=True) if len(ps) > 1 else ""
-        case_number, case_name = split_case_number_name(line1)
-        dc = parse_date_court_line(line2)
-        pdf_a = tr.select_one("td.file-col a")
-        pdf_url = None
-        if pdf_a and pdf_a.get("href"):
-            pdf_url = "https://www.courts.go.jp/" + pdf_a["href"].lstrip("./")
-        rows.append({
-            "hanreiId": hanrei_id,            # 安定ID（detailリンク/PDF名と一致）
-            "detailType": detail_type,        # 最高裁は "2"
-            "caseNumber": case_number,
-            "caseName": case_name,
-            "date": dc["date"],
-            "court": dc["court"],
-            "division": dc["division"],       # 大法廷/小法廷
-            "judgeKind": dc["judgeKind"],     # 判決/決定
-            "outcome": dc["outcome"],         # 結果
-            "genshinCourt": dc["genshinCourt"],
-            "genshinCaseNumber": dc["genshinCaseNumber"],
-            "field": field_from_case_number(case_number),  # 符号からの一次分類
-            "fullTextPdf": pdf_url,
-            "detailUrl": "https://www.courts.go.jp/hanrei/" + href.lstrip("./"),
-            "needsReview": False,
-        })
-    return rows
+    # field が空なら符号から補完
+    if not rec.get("field"):
+        f = field_from_case_number(rec.get("caseNumber", ""))
+        if f:
+            rec["field"] = f
+            changed = True
 
-
-def crawl(g_from, y_from, m_from, d_from, g_to, y_to, m_to, d_to, sleep=1.5):
-    results, offset = [], 0
-    first = requests.get(
-        build_url(g_from, y_from, m_from, d_from, g_to, y_to, m_to, d_to, 0),
-        headers=HEADERS, timeout=30)
-    first.raise_for_status()
-    soup = BeautifulSoup(first.text, "html.parser")
-    total = parse_total(soup)
-    print(f"総件数: {total}", file=sys.stderr)
-    results.extend([r for r in parse_rows(soup) if r["detailType"] == "2"])
-    offset = 30
-    while offset < total:
-        url = build_url(g_from, y_from, m_from, d_from, g_to, y_to, m_to, d_to, offset)
-        r = requests.get(url, headers=HEADERS, timeout=30)
-        r.raise_for_status()
-        s = BeautifulSoup(r.text, "html.parser")
-        page = [x for x in parse_rows(s) if x["detailType"] == "2"]
-        results.extend(page)
-        print(f"offset={offset}: +{len(page)} (計{len(results)})", file=sys.stderr)
-        offset += 30
-        time.sleep(sleep)  # サーバー負荷配慮
-    return results
-
-
-if __name__ == "__main__":
-    import os
-    # 期間は環境変数で指定（未指定なら全期間 昭和1/1/1〜令和8/5/31）
-    g_from = os.environ.get("GENGO_FROM", "昭和")
-    y_from = int(os.environ.get("YEAR_FROM", "1"))
-    m_from = int(os.environ.get("MONTH_FROM", "1"))
-    d_from = int(os.environ.get("DAY_FROM", "1"))
-    g_to = os.environ.get("GENGO_TO", "令和")
-    y_to = int(os.environ.get("YEAR_TO", "8"))
-    m_to = int(os.environ.get("MONTH_TO", "5"))
-    d_to = int(os.environ.get("DAY_TO", "31"))
-    out = os.environ.get("OUT_JSON", "opinions_list_stage1.json")
-    print(f"期間: {g_from}{y_from}/{m_from}/{d_from} 〜 {g_to}{y_to}/{m_to}/{d_to}", file=sys.stderr)
-    data = crawl(g_from, y_from, m_from, d_from, g_to, y_to, m_to, d_to)
-    with open(out, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"{len(data)} 件を {out} に保存しました")
+    return changed
