@@ -1,0 +1,52 @@
+name: patch-casenum
+
+# 既存データ(stage1/detail/summary)の事件名・分野を casenum.py でそろえる。
+# まず dry_run=true（下見）で件数を確認し、問題なければ dry_run=false で保存。
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "下見のみ（true）か、実際に修正して保存（false）か"
+        required: true
+        type: choice
+        default: "true"
+        options:
+          - "true"
+          - "false"
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run patch (casenum)
+        env:
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: python scripts/patch_casenum.py
+
+      - name: Commit & push if changed
+        if: ${{ inputs.dry_run == 'false' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/opinions_list_stage1.json \
+                  public/data/opinions_detail.json \
+                  public/data/opinions_summary.json \
+                  public/data/recheck_after_patch.json
+          if git diff --staged --quiet; then
+            echo "変更なし。コミットしません。"
+          else
+            git commit -m "fix: patch caseNumber/caseName/field via casenum [skip ci]"
+            git push
+          fi
