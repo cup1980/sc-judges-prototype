@@ -24,10 +24,15 @@ LIST_JSON = "public/data/opinions_list_stage1.json"
 JUDGES_JSON = "public/data/judges.json"
 OUT_JSON = "public/data/opinions_detail.json"
 
+# v2: 全角カンマ「，」/スペース/読点列挙/名前内の改行に対応
+# 名前は \s を許容（PDFで「宮川光\n\n治」のように改行分割される）→ 比較時に norm_name で正規化
 HEADING_RE = re.compile(
-    r"裁判官([^\sの、。]+?)の(追加反対意見|追加補足意見|反対意見|補足意見|意見)は、次のとおりである。")
+    r"裁判官([^の、。，]+?)の(追加反対意見|追加補足意見|反対意見|補足意見|意見)"
+    r"は[、，]\s*次のとおりである[。．]")
+# 末尾形「…意見がある」だけでなく、列挙形「…意見，裁判官…」の前者も拾う（lookahead）
 SUMMARY_MENTION_RE = re.compile(
-    r"裁判官([^\sの、。]+?)の(追加反対意見|追加補足意見|反対意見|補足意見|意見)が(?:ある|あった)")
+    r"裁判官([^の、。，]+?)の(追加反対意見|追加補足意見|反対意見|補足意見|意見)"
+    r"(?=[、，]\s*裁判官|\s*が\s*(?:ある|あった))")
 UNANIMOUS_RE = re.compile(r"裁判官全員一致の意見")
 PANEL_RE = re.compile(r"[（(]\s*裁\s*判\s*長\s*裁\s*判\s*官(.+?)[）)]", re.S)
 
@@ -37,15 +42,15 @@ def normalize(text):
     return re.sub(r"-\s*\d+\s*-", "", text)
 
 def norm_name(name):
-    n = (name or "").replace(" ", "").replace("　", "")
+    n = re.sub(r"\s+", "", name or "")   # 半角/全角スペース・改行をすべて除去
     return n.translate(ITAIJI)
 
 def extract_opinions(text):
     text = normalize(text)
-    summary_mentions = [{"judge": m.group(1), "type": m.group(2)}
+    summary_mentions = [{"judge": norm_name(m.group(1)), "type": m.group(2)}
                         for m in SUMMARY_MENTION_RE.finditer(text)]
     unanimous = bool(UNANIMOUS_RE.search(text))
-    headings = [(m.start(), m.group(1), m.group(2)) for m in HEADING_RE.finditer(text)]
+    headings = [(m.start(), norm_name(m.group(1)), m.group(2)) for m in HEADING_RE.finditer(text)]
     panel_m = PANEL_RE.search(text)
     panel_pos = panel_m.start() if panel_m else len(text)
     opinions = []
