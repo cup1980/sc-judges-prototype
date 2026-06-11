@@ -1,13 +1,22 @@
 name: stage4-submit
 
-# 未処理を Batch API に投入する（投げるだけ）。1時間ほど置いて stage4-collect を実行。
+# 未処理を Batch API に投入。reset_resummary=true のときだけ、先に再要約対象を
+# summary から削除してから投入する（3-B用）。投入後1時間ほどで stage4-collect。
 on:
   workflow_dispatch:
     inputs:
       test_limit:
-        description: "投入する最大件数（0=未処理全部。まず試すなら 50）"
+        description: "投入する最大件数（0=未処理全部。3-Bでは 0）"
         required: true
-        default: "50"
+        default: "0"
+      reset_resummary:
+        description: "再要約対象を削除してから投入するか（通常 false。3-B実行時のみ true）"
+        required: true
+        type: choice
+        default: "false"
+        options:
+          - "false"
+          - "true"
 
 permissions:
   contents: write
@@ -24,6 +33,11 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install anthropic requests pdfminer.six
+
+      - name: Reset summary for re-summarize (3-B only)
+        if: ${{ inputs.reset_resummary == 'true' }}
+        run: python scripts/reset_summary.py
+
       - name: Submit batch
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -31,15 +45,16 @@ jobs:
           MODE: submit
           TEST_LIMIT: ${{ inputs.test_limit }}
         run: python scripts/scraper_stage4_batch.py
-      - name: Commit batch_state
+
+      - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/batch_state.json
+          git add public/data/batch_state.json public/data/opinions_summary.json
           if git diff --staged --quiet; then
-            echo "変更なし"
+            echo "変更なし。"
           else
-            git commit -m "chore: stage4 batch submit [skip ci]"
+            git commit -m "chore: stage4 batch submit (resummary) [skip ci]"
             for i in $(seq 1 5); do
               git pull --rebase origin main && git push origin main && exit 0
               echo "retry $i/5..."; sleep 10
