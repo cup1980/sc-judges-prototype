@@ -1,0 +1,54 @@
+name: stage4-collect
+
+# 投入したバッチの結果を取得して summary にマージ。
+# まだ処理中なら何もせず終了するので、時間を置いて再実行すればよい。
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install anthropic requests pdfminer.six
+      - name: Collect batch results
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PDF_BASE: "https://cup1980.xsrv.jp/pdf/"
+          MODE: collect
+        run: python scripts/scraper_stage4_batch.py
+      - name: Make review list
+        run: python scripts/make_review_list.py
+      - name: Upload result as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: stage4-batch-result
+          path: |
+            public/data/opinions_summary.json
+            public/data/review_list.csv
+          retention-days: 14
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/opinions_summary.json public/data/review_list.csv
+          if git diff --staged --quiet; then
+            echo "変更なし"
+          else
+            git commit -m "chore: stage4 batch collect [skip ci]"
+            for i in $(seq 1 5); do
+              git pull --rebase origin main && git push origin main && exit 0
+              echo "retry $i/5..."; sleep 10
+            done
+            exit 1
+          fi

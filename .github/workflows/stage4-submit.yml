@@ -1,0 +1,48 @@
+name: stage4-submit
+
+# 未処理を Batch API に投入する（投げるだけ）。1時間ほど置いて stage4-collect を実行。
+on:
+  workflow_dispatch:
+    inputs:
+      test_limit:
+        description: "投入する最大件数（0=未処理全部。まず試すなら 50）"
+        required: true
+        default: "50"
+
+permissions:
+  contents: write
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install anthropic requests pdfminer.six
+      - name: Submit batch
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PDF_BASE: "https://cup1980.xsrv.jp/pdf/"
+          MODE: submit
+          TEST_LIMIT: ${{ inputs.test_limit }}
+        run: python scripts/scraper_stage4_batch.py
+      - name: Commit batch_state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/batch_state.json
+          if git diff --staged --quiet; then
+            echo "変更なし"
+          else
+            git commit -m "chore: stage4 batch submit [skip ci]"
+            for i in $(seq 1 5); do
+              git pull --rebase origin main && git push origin main && exit 0
+              echo "retry $i/5..."; sleep 10
+            done
+            exit 1
+          fi
