@@ -1,8 +1,7 @@
 name: stage3-opinions
 
-# 第3段：XserverのPDFから個別意見を抽出。
-# 分割実行: 1回 BATCH 件ずつ。既処理はスキップして続きから。
-# 全件終わるまで手動で複数回 or schedule で回す。
+# 第3段：XserverのPDFから個別意見を抽出。1回 BATCH 件ずつ。既処理はスキップ。
+# reset_needs_review=true のときだけ、先に needsReview=true を削除して再抽出する（3-2-A用）。
 on:
   workflow_dispatch:
     inputs:
@@ -14,6 +13,14 @@ on:
         description: "各PDF取得の間隔秒（既定0.5）"
         required: false
         default: "0.5"
+      reset_needs_review:
+        description: "needsReview=true を削除して再抽出するか（通常 false。3-2-A実行時のみ true）"
+        required: true
+        type: choice
+        default: "false"
+        options:
+          - "false"
+          - "true"
 
 permissions:
   contents: write
@@ -23,16 +30,17 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 350
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - run: pip install requests pdfminer.six
 
-      - name: Install dependencies
-        run: pip install requests pdfminer.six
+      - name: Reset needsReview (3-2-A only)
+        if: ${{ inputs.reset_needs_review == 'true' }}
+        run: python scripts/reset_needsreview.py
 
       - name: Run stage3 (extract opinions)
         env:
@@ -41,14 +49,28 @@ jobs:
           SLEEP: ${{ inputs.sleep }}
         run: python scripts/scraper_stage3_full.py
 
+      - name: Upload result as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: stage3-result
+          path: |
+            public/data/opinions_detail.json
+            public/data/recheck_after_patch.json
+          retention-days: 14
+
       - name: Commit & push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/opinions_detail.json
+          git add public/data/opinions_detail.json public/data/recheck_after_patch.json
           if git diff --staged --quiet; then
             echo "変更なし。"
           else
             git commit -m "chore: stage3 opinions (batch) [skip ci]"
-            git push
+            for i in $(seq 1 5); do
+              git pull --rebase origin main && git push origin main && exit 0
+              echo "retry $i/5..."; sleep 10
+            done
+            exit 1
           fi
