@@ -70,7 +70,7 @@ def normalize(t):
 def extract_gist(text, max_chars=1800):
     text = normalize(text)
     cut = re.search(
-        r"裁判官[^\sの、。]+?の(?:追加)?(?:反対意見|補足意見|意見)は、次のとおりである。", text)
+        r"裁判官[^の、。，]+?の(?:追加)?(?:反対意見|補足意見|意見)は[、，]\s*次のとおりである[。．]", text)
     main = text[:cut.start()] if cut else text
 
     shubun = ""
@@ -78,12 +78,12 @@ def extract_gist(text, max_chars=1800):
     if ms:
         shubun = re.sub(r"\s+", " ", ms.group(1)).strip()
 
-    mj = re.search(r"(本件は、.{20,400}?事案である。)", main, re.S)
+    mj = re.search(r"(本件は[、，].{20,400}?事案である[。．])", main, re.S)
     jian = mj.group(1) if mj else ""
 
     mc = re.search(
-        r"((?:以上によれば|よって、).{10,500}?"
-        r"(?:主文のとおり[^。]*。|破棄を免れない。|棄却すべきである。))", main, re.S)
+        r"((?:以上によれば|よって[、，]).{10,500}?"
+        r"(?:主文のとおり[^。．]*[。．]|破棄を免れない[。．]|棄却すべきである[。．]))", main, re.S)
     concl = mc.group(1) if mc else ""
 
     g = "\n".join(filter(None, [
@@ -91,6 +91,12 @@ def extract_gist(text, max_chars=1800):
         ("【事案】" + jian)   if jian   else "",
         ("【結論】" + concl)  if concl  else "",
     ]))
+    # フォールバック: 定型句が拾えず gist が短い（古い様式・事件名空など）ときは
+    # 本文先頭をそのまま渡す。これで「内容が無い」とAIに誤判定されるのを防ぐ。
+    if len(g) < 100:
+        body = re.sub(r"\s+", " ", main).strip()
+        excerpt = "【本文抜粋】" + body[:1500]
+        g = (g + "\n" + excerpt).strip() if g else excerpt
     return g[:max_chars]
 
 
