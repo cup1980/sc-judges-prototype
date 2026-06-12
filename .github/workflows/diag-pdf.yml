@@ -1,0 +1,28 @@
+name: diag-pdf
+
+# Actionsランナーから Xserver のPDFに繋がるか診断する（データは変更しない）。
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show runner IP
+        run: |
+          echo "このランナーのグローバルIP:"
+          curl -sS --max-time 15 https://api.ipify.org || echo "(IP取得失敗)"
+          echo
+      - name: Curl Xserver PDFs
+        run: |
+          for id in 24926 32811 32920; do
+            echo "=== hanrei-pdf-$id.pdf ==="
+            curl -sS -o /dev/null \
+              -w "http_code=%{http_code} connect=%{time_connect}s total=%{time_total}s\n" \
+              --max-time 30 -A "Mozilla/5.0" \
+              "https://cup1980.xsrv.jp/pdf/hanrei-pdf-$id.pdf" \
+              || echo "FAILED (exit=$?) ＝ 接続できていない"
+          done
