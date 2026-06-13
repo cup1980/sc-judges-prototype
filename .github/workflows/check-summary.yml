@@ -1,0 +1,46 @@
+name: check-summary
+
+# 要約（opinions_summary.json）の健全性を確認する手動ワークフロー。
+# Actions 画面から「Run workflow」で実行 → ログに件数と summaryError の中身が出る。
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: count summary
+        run: |
+          python - << 'EOF'
+          import json
+          d = json.load(open('public/data/opinions_summary.json', encoding='utf-8'))
+
+          def s(r):
+              return r.get('aiSummary') or {}
+
+          def has_summary(r):
+              return bool((s(r).get('summary') or '').strip())
+
+          def has_error(r):
+              return bool(r.get('summaryError') or s(r).get('summaryError'))
+
+          def needs_review(r):
+              return bool(r.get('needsSummaryReview') or s(r).get('needsSummaryReview'))
+
+          err = [r for r in d if has_error(r)]
+          empty = [r for r in d if not has_summary(r)]
+          rev = [r for r in d if needs_review(r)]
+          print('=========================================')
+          print('全件                :', len(d))
+          print('要約あり            :', sum(1 for r in d if has_summary(r)))
+          print('summaryError        :', len(err))
+          print('要約が空            :', len(empty))
+          print('needsSummaryReview  :', len(rev))
+          print('=========================================')
+          for r in (err + empty)[:30]:
+              e = r.get('summaryError') or s(r).get('summaryError') or '(空要約)'
+              print(r.get('hanreiId'), str(e)[:160])
+          if len(err) + len(empty) > 30:
+              print('... 他', len(err) + len(empty) - 30, '件')
+          EOF
