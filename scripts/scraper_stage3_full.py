@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-第3段（v5）：XserverのPDFから個別意見＋裁判官名簿を抽出する。
+第3段（v6）：XserverのPDFから個別意見＋裁判官名簿を抽出する。
 v4からの変更点（残150件の3パターン対応）:
   - P5 連名の見出し：本文見出し「裁判官A、同B〔、同C〕の…意見は、次のとおりである」
       を連名対応にし、列挙された全員ぶんを本文集合に展開。
@@ -12,6 +12,8 @@ v4からの変更点（残150件の3パターン対応）:
       本文中の「○○裁判官にも，同旨の補足意見がある」等を結語と誤認しない。
       あわせて名前妥当性チェック（ひらがな/カタカナのみ・1文字を除外）を追加。
   - 連名見出しの個別意見は各裁判官ぶんのエントリを作り、jointWith に共著者を付す。
+v6: PDF取得を自動リトライ化（ConnectTimeout等のXserver一時不調で落ちないように、
+    指数バックオフで最大RETRIES回再試行。最終失敗時のみ extractError 記録）。
 （v4までの確定事項）
   - needsReview = 結語が予告した集合 − 本文見出し集合 − 同調集合 が空でないとき true。
   - NAME_FIX で字形ずれ補正（泉治→泉徳治）。ITAIJI 変換。concurrences 出力。
@@ -28,6 +30,7 @@ PDF_BASE = os.environ.get("PDF_BASE", "https://cup1980.xsrv.jp/pdf/")
 BATCH = int(os.environ.get("BATCH", "2000"))
 SLEEP = float(os.environ.get("SLEEP", "0.1"))
 HEADERS = {"User-Agent": "Mozilla/5.0 (SupremeCourtWatch; +github-actions)"}
+RETRIES = int(os.environ.get("RETRIES", "4"))
 
 LIST_JSON = "public/data/opinions_list_stage1.json"
 JUDGES_JSON = "public/data/judges.json"
@@ -179,6 +182,20 @@ def link_ids(items, jmap):
             o["withJudgeId"] = jmap.get(norm_name(o.get("withJudge")))
     return items
 
+def fetch_pdf(url):
+    # Xserverの一時不調（ConnectTimeout等）に備え指数バックオフで再試行
+    last = None
+    for i in range(RETRIES):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=60)
+            r.raise_for_status()
+            return r.content
+        except Exception as e:
+            last = e
+            if i + 1 < RETRIES:
+                time.sleep(3 * (i + 1))
+    raise last
+
 def main():
     src = json.load(open(LIST_JSON, encoding="utf-8"))
     jmap, active_ids = load_judges()
@@ -195,9 +212,8 @@ def main():
         hid = rec["hanreiId"]
         url = f"{PDF_BASE}hanrei-pdf-{hid}.pdf"
         try:
-            r = requests.get(url, headers=HEADERS, timeout=60)
-            r.raise_for_status()
-            text = extract_text(io.BytesIO(r.content))
+            content = fetch_pdf(url)
+            text = extract_text(io.BytesIO(content))
             result = extract_opinions(text)
             link_ids(result["individualOpinions"], jmap)
             link_ids(result["concurrences"], jmap)
