@@ -1,0 +1,30 @@
+name: check-review
+
+# needsReview の残件数を確認するだけのワークフロー。
+# Actions 画面から「Run workflow」で手動実行 → ログに件数が出る。
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: count needsReview
+        run: |
+          python - << 'EOF'
+          import json
+          d = json.load(open('public/data/opinions_detail.json', encoding='utf-8'))
+          nr = [r for r in d if r.get('needsReview')]
+          print('=========================================')
+          print('全件               :', len(d))
+          print('needsReview 残     :', len(nr))
+          print('concurrences 付与  :', sum(1 for r in d if r.get('concurrences')))
+          print('extractError 件    :', sum(1 for r in d if r.get('extractError')))
+          print('=========================================')
+          # 残っている場合は先頭20件の理由を表示（次の調査用）
+          for x in nr[:20]:
+              print(x['hanreiId'], x.get('reviewReason'), x.get('extractError', ''))
+          if len(nr) > 20:
+              print('... 他', len(nr) - 20, '件')
+          EOF
