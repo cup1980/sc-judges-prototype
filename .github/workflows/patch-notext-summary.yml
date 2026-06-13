@@ -1,0 +1,69 @@
+name: patch-notext-summary
+
+# PDFが画像のみ等でテキストがほとんど取れない判例（pdfTextLength が極端に小さい）について、
+# 要約を「抽出不可」と明示した確定値に置き換え、summaryError を解消する。
+# これにより reset_summary が毎回この件を再要約対象として拾い続けるループを止める。
+# 手動実行（workflow_dispatch）。本文が取れている判例には一切触らない。
+on:
+  workflow_dispatch:
+    inputs:
+      max_len:
+        description: "この文字数未満を「抽出不可」とみなす"
+        required: true
+        default: "50"
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: patch no-text summaries
+        env:
+          MAX_LEN: ${{ github.event.inputs.max_len }}
+        run: |
+          python - << 'EOF'
+          import json, os
+          MAX = int(os.environ["MAX_LEN"])
+          SUM = "public/data/opinions_summary.json"
+          DET = "public/data/opinions_detail.json"
+
+          detail = json.load(open(DET, encoding="utf-8"))
+          plen = {str(r.get("hanreiId")): (r.get("pdfTextLength") or 0) for r in detail}
+
+          data = json.load(open(SUM, encoding="utf-8"))
+          SENT = {
+              "summary": "この判例は原文PDFが画像（スキャン）のみで本文テキストを抽出できないため、自動要約を作成していません。原文PDFをご参照ください。",
+              "summaryEasy": "（PDFが画像のみのため自動要約なし）",
+              "legalPoint": "",
+              "dissent": "",
+              "tags": [],
+              "noText": True,
+          }
+          patched = []
+          for r in data:
+              hid = str(r.get("hanreiId"))
+              if plen.get(hid, 9999) < MAX:
+                  r["aiSummary"] = dict(SENT)
+                  r.pop("summaryError", None)
+                  r["needsSummaryReview"] = False
+                  patched.append(hid)
+          json.dump(data, open(SUM, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+          print("抽出不可として確定:", patched if patched else "（該当なし）")
+          # コミット要否を後続ステップへ
+          open("_patched.txt", "w").write("\n".join(patched))
+          EOF
+      - name: commit
+        run: |
+          if [ ! -s _patched.txt ]; then echo "該当なし。コミット不要。"; rm -f _patched.txt; exit 0; fi
+          rm -f _patched.txt
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add public/data/opinions_summary.json
+          git commit -m "fix: mark no-text (image-only)判例 as 抽出不可 in summary" || { echo "変更なし"; exit 0; }
+          git pull --rebase
+          git push
