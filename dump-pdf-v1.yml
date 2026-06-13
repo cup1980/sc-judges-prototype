@@ -1,0 +1,78 @@
+name: dump-pdf
+
+# 指定した hanreiId の PDF を Xserver から取得し、個別意見まわりの
+# 該当箇所（結語・見出し・同調・裁判体）だけをログに出す調査用ワークフロー。
+# PDFをアップロードできない時に、ログをコピペして渡すために使う。
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "対象 hanreiId（カンマ区切り）"
+        required: true
+        default: "34801,36415,50355,50184,50261"
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - name: setup
+        run: pip install requests pdfminer.six
+      - name: dump
+        env:
+          IDS: ${{ github.event.inputs.ids }}
+          PDF_BASE: "https://cup1980.xsrv.jp/pdf/"
+        run: |
+          python - << 'EOF'
+          import os, re, io, requests
+          from pdfminer.high_level import extract_text
+
+          ids = [s.strip() for s in os.environ["IDS"].split(",") if s.strip()]
+          base = os.environ["PDF_BASE"]
+          H = {"User-Agent": "Mozilla/5.0 (SupremeCourtWatch; +github-actions)"}
+
+          def norm(t):
+              return re.sub(r"-\s*\d+\s*-", "", t)
+
+          def ctx(t, kw, before=12, after=45):
+              out = []
+              for m in re.finditer(re.escape(kw), t):
+                  s = max(0, m.start() - before)
+                  e = min(len(t), m.end() + after)
+                  out.append(t[s:e].replace("\n", "⏎"))
+              return out
+
+          for hid in ids:
+              url = f"{base}hanrei-pdf-{hid}.pdf"
+              print("\n" + "=" * 60)
+              print(f"===== {hid} =====")
+              try:
+                  r = requests.get(url, headers=H, timeout=60)
+                  r.raise_for_status()
+                  t = norm(extract_text(io.BytesIO(r.content)))
+              except Exception as e:
+                  print("  取得失敗:", type(e).__name__, str(e)[:80])
+                  continue
+
+              print("  [本文長]", len(t))
+              print("  [左のとおり 有無]", "左のとおり" in t)
+
+              print("  --- 結語まわり（判決する / がある）---")
+              seen = set()
+              for kw in ("判決する", "意見がある", "意見があつた", "意見があった"):
+                  for c in ctx(t, kw, before=70, after=10):
+                      if c not in seen:
+                          seen.add(c); print("   ", repr(c))
+
+              print("  --- 見出し候補（とおりである / とおりとする）---")
+              for m in re.finditer(r"裁判官[^。．]{0,40}?(?:とおりである|とおりとする)[。．]", t):
+                  print("   ", repr(m.group(0).replace("\n", "⏎")))
+
+              print("  --- 同調 ---")
+              for m in re.finditer(r"裁判官[^。．]{0,50}?同調する[。．]", t):
+                  print("   ", repr(m.group(0).replace("\n", "⏎")))
+
+              print("  --- 裁判体（末尾の裁判官一覧）---")
+              m = re.search(r"[（(]\s*裁\s*判\s*長.+?[）)]", t, re.S)
+              if m:
+                  print("   ", repr(re.sub(r"\s+", "", m.group(0))[:200]))
+          EOF
